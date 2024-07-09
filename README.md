@@ -31,36 +31,37 @@ O sistema inclui as seguintes funcionalidades principais:
 ## Instruções de Configuração do Ambiente de Desenvolvimento
 Para configurar o ambiente de desenvolvimento em C++, siga os passos abaixo:
 
-1. **Clone o repositório:**
--git clone https://github.com/brunohrcampos/tppds2-sistema-de-biblioteca.git
--cd tppds2-sistema-de-biblioteca
+#### 1. **Clone o repositório:**
+- git clone https://github.com/brunohrcampos/tppds2-sistema-de-biblioteca.git.
+- cd tppds2-sistema-de-biblioteca.
 
-2. **Compile o programa:**
-g++ -o main main.cpp
+#### 2. **Compile o programa:**
+- g++ -o main main.cpp
 
-3. **Execute o programa:**
-./main
+#### 3. **Execute o programa:**
+- ./main
 
 
 ## Guia de Contribuição
 Se deseja colaborar conosco, siga estes passos:
 
-1. **Fork do repositório** e clone o seu fork.
+#### 1. **Fork do repositório e clone o seu fork.**
 - git clone https://github.com/brunohrcampos/tppds2-sistema-de-biblioteca.git
 - cd tppds2-sistema-de-biblioteca
 
-2. **Crie uma branch** para sua feature ou correção:
+#### 2. **Crie uma branch para sua feature ou correção:**
 - git checkout -b minha-feature
 
 
-3. **Desenvolva** sua funcionalidade ou correção, seguindo as diretrizes de estilo do projeto.
+#### 3. **Desenvolva sua funcionalidade ou correção, seguindo as diretrizes de estilo do projeto.**
 
-4. **Compile e execute** o programa localmente para testar suas alterações.
+#### 4. **Compile e execute o programa localmente para testar suas alterações.**
 
-5. **Commit suas mudanças:**
+#### 5. **Commit suas mudanças:**
+
 - git commit -am 'Adiciona nova funcionalidade'
 
-6. **Push para a branch** que você criou no seu fork:
+#### 6. **Push para a branch que você criou no seu fork:**
 - git push origin minha-feature
 
 
