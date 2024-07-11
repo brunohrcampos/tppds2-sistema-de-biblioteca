@@ -24,9 +24,9 @@ O sistema deve ser capaz de realizar as seguintes operações:
 ## Funcionalidades Implementadas
 O sistema inclui as seguintes funcionalidades principais:
 
-- Gerenciamento de usuários: adição, remoção e consulta.
-- Gerenciamento de livros: adição, remoção e consulta.
-- Empréstimo de livros: registro, verificação de disponibilidade, controle de prazos e aplicação de multas.
+- **Gerenciamento de usuários:** adição, remoção e consulta.
+- **Gerenciamento de livros:** adição, remoção e consulta.
+- **Empréstimo de livros:** registro, verificação de disponibilidade, controle de prazos e aplicação de multas.
 
 ## Instruções de Configuração do Ambiente de Desenvolvimento
 Para configurar o ambiente de desenvolvimento em C++, siga os passos abaixo:
