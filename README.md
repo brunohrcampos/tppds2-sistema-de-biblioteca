@@ -46,11 +46,10 @@ Para configurar o ambiente de desenvolvimento em C++, siga os passos abaixo:
 Se deseja colaborar conosco, siga estes passos:
 
 #### 1. **Fork do repositório e clone o seu fork.**
-- git clone https://github.com/brunohrcampos/tppds2-sistema-de-biblioteca.git
 - cd tppds2-sistema-de-biblioteca
 
 #### 2. **Crie uma branch para sua feature ou correção:**
-- git checkout -b minha-feature
+- git checkout -b minha-branch
 
 
 #### 3. **Desenvolva sua funcionalidade ou correção, seguindo as diretrizes de estilo do projeto.**
