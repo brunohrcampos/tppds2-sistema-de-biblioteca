@@ -56,3 +56,17 @@ public:
         this->multa = multa;
     }
 };
+
+public:
+    void registrarEmprestimo(const Emprestimo &emprestimo){
+        emprestimos.push_back(emprestimo);
+    }
+
+    void verificarDisponibilidade(const Livro &livro){
+        if(livro.isDisponivel()){
+            cout << "O livro está disponivel para empréstimo." << endl;
+        } 
+        else{
+            cout << "O livro não está disponivel para empréstimo." << endl;
+        }
+    }
