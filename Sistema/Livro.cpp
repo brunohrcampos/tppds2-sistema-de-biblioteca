@@ -47,3 +47,14 @@ Livro* GerenciamentoLivros::consultarLivro(int id) {
     std::cout << "Livro com ID " << id << " não encontrado." << std::endl;
     return nullptr;
 }
+
+void GerenciamentoLivros::verificarDisponibilidade(int id) {
+    Livro* livro = consultarLivro(id);
+    if (livro != nullptr) {
+        if (livro->isDisponivel()) {
+            std::cout << "O livro '" << livro->getTitulo() << "' está disponível." << std::endl;
+        } else {
+            std::cout << "O livro '" << livro->getTitulo() << "' não está disponível." << std::endl;
+        }
+    }
+}
