@@ -37,3 +37,13 @@ void GerenciamentoLivros::removerLivro(int id) {
     }
     std::cout << "Livro com ID " << id << " não encontrado." << std::endl;
 }
+
+Livro* GerenciamentoLivros::consultarLivro(int id) {
+    for (auto &livro : livros) {
+        if (livro.getId() == id) {
+            return &livro;
+        }
+    }
+    std::cout << "Livro com ID " << id << " não encontrado." << std::endl;
+    return nullptr;
+}
