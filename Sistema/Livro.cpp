@@ -27,3 +27,13 @@ bool Livro::isDisponivel() const {
 void GerenciamentoLivros::adicionarLivro(const Livro &livro) {
     livros.push_back(livro);
 }
+
+void GerenciamentoLivros::removerLivro(int id) {
+    for (auto it = livros.begin(); it != livros.end(); ++it) {
+        if (it->getId() == id) {
+            livros.erase(it);
+            return;
+        }
+    }
+    std::cout << "Livro com ID " << id << " não encontrado." << std::endl;
+}
