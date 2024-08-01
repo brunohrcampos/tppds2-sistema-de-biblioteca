@@ -24,3 +24,6 @@ bool Livro::isDisponivel() const {
     return disponivel;
 }
 
+void GerenciamentoLivros::adicionarLivro(const Livro &livro) {
+    livros.push_back(livro);
+}
