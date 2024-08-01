@@ -47,3 +47,12 @@ public:
     double getMulta() const{
         return multa;
     }
+
+    void setDataDevolucao(const string &dataDevolucao){
+        this->dataDevolucao = dataDevolucao;
+    }
+    
+    void setMulta(double multa){
+        this->multa = multa;
+    }
+};
