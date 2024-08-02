@@ -70,6 +70,7 @@ public:
             cout << "O livro não está disponivel para empréstimo." << endl;
         }
     }
+
     void aplicarMulta(int id, double valor){
             for(auto &emprestimo : emprestimos){
                 if(emprestimo.getId() == id){
