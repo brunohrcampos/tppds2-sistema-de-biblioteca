@@ -70,3 +70,19 @@ public:
             cout << "O livro não está disponivel para empréstimo." << endl;
         }
     }
+    void aplicarMulta(int id, double valor){
+            for(auto &emprestimo : emprestimos){
+                if(emprestimo.getId() == id){
+                    emprestimo.setMulta(valor);
+                }
+            }
+        }
+    
+    void controlarPrazoDevolucao(int id, const string &novaData){
+        for(auto &emprestimo : emprestimos){
+            if(emprestimo.getId() == id){
+                emprestimo.setDataDevolucao(novaData);
+            }
+        }
+    }
+};
