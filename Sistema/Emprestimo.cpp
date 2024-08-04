@@ -70,10 +70,10 @@ public:
 
     void verificarDisponibilidade(const Livro &livro){
         if(livro.isDisponivel()){
-            cout << "O livro está disponivel para empréstimo." << endl;
+            cout << "O livro está disponível para empréstimo." << endl;
         } 
         else{
-            cout << "O livro não está disponivel para empréstimo." << endl;
+            cout << "O livro não está disponível para empréstimo." << endl;
         }
     }
 
