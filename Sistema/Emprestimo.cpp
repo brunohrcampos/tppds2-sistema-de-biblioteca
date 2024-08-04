@@ -2,6 +2,7 @@
 #include "Usuario.h"
 #include <vector>
 #include <string>
+#include <iostream>
 
 using namespace std;
 
@@ -21,8 +22,8 @@ public:
         this->livro = livro;
         this->dataEmprestimo = dataEmprestimo;
         this->dataDevolucao = dataDevolucao;
-        this->multa = 0;
-    }
+        this->multa = 0.0;
+   }
 
     int getId() const{
         return id;
@@ -56,6 +57,11 @@ public:
         this->multa = multa;
     }
 };
+
+class EmprestimoLivros {
+
+private:
+    vector<Emprestimo> emprestimos;
 
 public:
     void registrarEmprestimo(const Emprestimo &emprestimo){
