@@ -16,14 +16,8 @@ private:
     double multa;
 
 public:
-    Emprestimo(int id, const Usuario &usuario, const Livro &livro, const string &dataEmprestimo, const string &dataDevolucao){
-        this->id = id;
-        this->usuario = usuario;
-        this->livro = livro;
-        this->dataEmprestimo = dataEmprestimo;
-        this->dataDevolucao = dataDevolucao;
-        this->multa = 0.0;
-   }
+    Emprestimo(int id, const Usuario &usuario, const Livro &livro, const string &dataEmprestimo, const string &dataDevolucao): id(id), usuario(usuario), livro(livro), dataEmprestimo(dataEmprestimo), dataDevolucao(dataDevolucao), multa(0){      
+}
 
     int getId() const{
         return id;
