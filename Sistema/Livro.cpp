@@ -24,6 +24,10 @@ bool Livro::isDisponivel() const {
     return disponivel;
 }
 
+void Livro::setDisponivel(bool disponivel) {
+    this->disponivel = disponivel;
+}
+
 void GerenciamentoLivros::adicionarLivro(const Livro &livro) {
     livros.push_back(livro);
 }
