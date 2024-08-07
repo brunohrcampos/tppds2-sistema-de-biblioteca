@@ -2,6 +2,8 @@
 #include "Livro.h"
 #include "Emprestimo.h"
 #include <iostream>
+#include <limits>  // Para std::numeric_limits limita a numero
+#include <cctype>  // Para std::isdigit limita a palavra
 
 using namespace std;
 
@@ -22,6 +24,43 @@ void exibirMenu() {
     cout << "0. Sair\n" << endl;
 }
 
+bool isStringValid(const string& str) { // le a string
+    for (char ch : str) {
+        if (isdigit(ch) || ispunct(ch)) {
+            return false;
+        }
+    }
+    return true;
+}
+
+int readInt() {//garante inteiro
+    int value;
+    while (!(cin >> value)) {
+        cin.clear();  // Limpa caso o erro
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');  // Ignora a linha
+        cout << "Entrada inválida. Digite um número inteiro: ";
+    }
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');  // Ignora o '\n' deixado pelo cin
+    return value;
+}
+
+double readDouble() {//garante decimal
+    double value;
+    while (!(cin >> value)) {
+        cin.clear();  // Limpa o estado de erro
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');  // Ignora a linha
+        cout << "Entrada inválida. Digite um número decimal: ";
+    }
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');  // Ignora o '\n' deixado pelo cin
+    return value;
+}
+
+string readString() {
+    string str;
+    getline(cin, str);
+    return str;
+}
+
 int main() {
     GerenciamentoUsuario gerenciaUsuario;
     GerenciamentoLivros gerenciaLivros;
@@ -31,20 +70,22 @@ int main() {
     do {
         exibirMenu();
         cout << "Escolha uma opcao: ";
-        cin >> opcao;
-        cin.ignore();  // Ignorar o '\n' deixado pelo cin
+        opcao = readInt();
 
         switch(opcao) {
             case 1: {
                 int id;
                 string nome, telefone;
                 cout << "ID do Usuario: ";
-                cin >> id;
-                cin.ignore();
+                id = readInt();
                 cout << "Nome do Usuario: ";
-                getline(cin, nome);
+                nome = readString();
+                while (!isStringValid(nome)) {
+                    cout << "Nome inválido. Digite novamente: ";
+                    nome = readString();
+                }
                 cout << "Telefone do Usuario: ";
-                getline(cin, telefone);
+                telefone = readString();
                 Usuario novoUsuario(id, nome, telefone);
                 gerenciaUsuario.adicionarUsuario(novoUsuario);
                 cout << "Usuario adicionado com sucesso!" << endl;
@@ -53,7 +94,7 @@ int main() {
             case 2: {
                 int id;
                 cout << "ID do Usuario a ser removido: ";
-                cin >> id;
+                id = readInt();
                 gerenciaUsuario.removerUsuario(id);
                 cout << "Usuario removido com sucesso!" << endl;
                 break;
@@ -61,7 +102,7 @@ int main() {
             case 3: {
                 int id;
                 cout << "ID do Usuario a ser consultado: ";
-                cin >> id;
+                id = readInt();
                 Usuario* usuario = gerenciaUsuario.consultarUsuario(id);
                 if (usuario) {
                     cout << "Usuario encontrado: " << usuario->getNome() << ", Telefone: " << usuario->getTelefone() << endl;
@@ -74,14 +115,25 @@ int main() {
                 int id;
                 string titulo, autor, genero;
                 cout << "ID do Livro: ";
-                cin >> id;
-                cin.ignore();
+                id = readInt();
                 cout << "Título do Livro: ";
-                getline(cin, titulo);
+                titulo = readString();
+                while (!isStringValid(titulo)) {
+                    cout << "Título inválido. Digite novamente: ";
+                    titulo = readString();
+                }
                 cout << "Autor do Livro: ";
-                getline(cin, autor);
+                autor = readString();
+                while (!isStringValid(autor)) {
+                    cout << "Autor inválido. Digite novamente: ";
+                    autor = readString();
+                }
                 cout << "Gênero do Livro: ";
-                getline(cin, genero);
+                genero = readString();
+                while (!isStringValid(genero)) {
+                    cout << "Gênero inválido. Digite novamente: ";
+                    genero = readString();
+                }
                 Livro novoLivro(id, titulo, autor, genero);
                 gerenciaLivros.adicionarLivro(novoLivro);
                 cout << "Livro adicionado com sucesso!" << endl;
@@ -90,7 +142,7 @@ int main() {
             case 5: {
                 int id;
                 cout << "ID do Livro a ser removido: ";
-                cin >> id;
+                id = readInt();
                 gerenciaLivros.removerLivro(id);
                 cout << "Livro removido com sucesso!" << endl;
                 break;
@@ -98,10 +150,10 @@ int main() {
             case 6: {
                 int id;
                 cout << "ID do Livro a ser consultado: ";
-                cin >> id;
+                id = readInt();
                 Livro* livro = gerenciaLivros.consultarLivro(id);
                 if (livro) {
-                    cout << "Livro encontrado: " << livro->getTitulo() << ", Autor: " << livro->getAutor() << "Genero: " << livro ->getGenero() << endl;
+                    cout << "Livro encontrado: " << livro->getTitulo() << ", Autor: " << livro->getAutor() << ", Gênero: " << livro->getGenero() << endl;
                 } else {
                     cout << "Livro nao encontrado." << endl;
                 }
@@ -111,16 +163,16 @@ int main() {
                 int idEmprestimo, idUsuario, idLivro;
                 string dataEmprestimo, dataDevolucao;
                 cout << "ID do Emprestimo: ";
-                cin >> idEmprestimo;
+                idEmprestimo = readInt();
                 cout << "ID do Usuario: ";
-                cin >> idUsuario;
+                idUsuario = readInt();
                 cout << "ID do Livro: ";
-                cin >> idLivro;
+                idLivro = readInt();
                 cin.ignore();
-                cout << "Data do Emprestimo: "; // modelo data 20-08-2024
-                getline(cin, dataEmprestimo);
-                cout << "Data de Devolucao: "; // modelo data 20-08-2024
-                getline(cin, dataDevolucao);
+                cout << "Data do Emprestimo (formato dd-mm-aaaa): ";
+                dataEmprestimo = readString();
+                cout << "Data de Devolucao (formato dd-mm-aaaa): ";
+                dataDevolucao = readString();
                 Usuario* usuario = gerenciaUsuario.consultarUsuario(idUsuario);
                 Livro* livro = gerenciaLivros.consultarLivro(idLivro);
                 if (usuario && livro && livro->isDisponivel()) {
@@ -136,7 +188,7 @@ int main() {
             case 8: {
                 int id;
                 cout << "ID do Livro para verificar disponibilidade: ";
-                cin >> id;
+                id = readInt();
                 gerenciaLivros.verificarDisponibilidade(id);
                 break;
             }
@@ -144,21 +196,26 @@ int main() {
                 int id;
                 double multa;
                 cout << "ID do Emprestimo para aplicar multa: ";
-                cin >> id;
+                id = readInt();
                 cout << "Valor da multa: ";
-                cin >> multa;
-                if (gerenciaEmprestimos.aplicarMulta(id, multa)) {
-                cout << "Multa aplicada com sucesso!" << endl;}
-                break;
+                multa = readDouble();
+                if (multa < 0) {
+                    cout << "Valor da multa não pode ser negativo." << endl;
+                    break;
                 }
+                if (gerenciaEmprestimos.aplicarMulta(id, multa)) {
+                    cout << "Multa aplicada com sucesso!" << endl;
+                }
+                break;
+            }
             case 10: {
                 int id;
                 string novaData;
                 cout << "ID do Emprestimo para controlar prazo: ";
-                cin >> id;
+                id = readInt();
                 cin.ignore();
-                cout << "Nova Data de Devolucao: ";
-                getline(cin, novaData);
+                cout << "Nova Data de Devolucao (formato dd-mm-aaaa): ";
+                novaData = readString();
                 gerenciaEmprestimos.controlarPrazoDevolucao(id, novaData);
                 cout << "Prazo de devolucao atualizado com sucesso!" << endl;
                 break;
@@ -174,4 +231,3 @@ int main() {
 
     return 0;
 }
-
