@@ -1,89 +1,65 @@
-#include "Livro.h"
-#include "Usuario.h"
-#include <vector>
-#include <string>
+#include "Emprestimo.h"
 #include <iostream>
 
-using namespace std;
+// Implementação da classe Emprestimo
+Emprestimo::Emprestimo(int id, const Usuario &usuario, const Livro &livro, const string &dataEmprestimo, const string &dataDevolucao)
+    : id(id), usuario(usuario), livro(livro), dataEmprestimo(dataEmprestimo), dataDevolucao(dataDevolucao), multa(0) {}
 
-class Emprestimo {
-private:
-    int id;
-    Usuario usuario;
-    Livro livro;
-    string dataEmprestimo;
-    string dataDevolucao;
-    double multa;
+// Implementações dos getters
+int Emprestimo::getId() const {
+    return id;
+}
 
-public:
-    Emprestimo(int id, const Usuario &usuario, const Livro &livro, const string &dataEmprestimo, const string &dataDevolucao): id(id), usuario(usuario), livro(livro), dataEmprestimo(dataEmprestimo), dataDevolucao(dataDevolucao), multa(0){      
-    }
+Usuario Emprestimo::getUsuario() const {
+    return usuario;
+}
 
-    int getId() const{
-        return id;
-    }
+Livro Emprestimo::getLivro() const {
+    return livro;
+}
 
-    Usuario getUsuario() const{
-        return usuario;
-    }
+string Emprestimo::getDataEmprestimo() const {
+    return dataEmprestimo;
+}
 
-    Livro getLivro() const{
-        return livro;
-    }
+string Emprestimo::getDataDevolucao() const {
+    return dataDevolucao;
+}
 
-    string getDataEmprestimo() const{
-        return dataEmprestimo;
-    }
+double Emprestimo::getMulta() const {
+    return multa;
+}
 
-    string getDataDevolucao() const{
-        return dataDevolucao;
-    }
+// Implementações dos setters
+void Emprestimo::setDataDevolucao(const string &dataDevolucao) {
+    this->dataDevolucao = dataDevolucao;
+}
 
-    double getMulta() const{
-        return multa;
-    }
+void Emprestimo::setMulta(double multa) {
+    this->multa = multa;
+}
 
-    void setDataDevolucao(const string &dataDevolucao){
-        this->dataDevolucao = dataDevolucao;
-    }
-    
-    void setMulta(double multa){
-        this->multa = multa;
-    }
-};
+// Implementação da classe EmprestimoLivros
+void EmprestimoLivros::registrarEmprestimo(const Emprestimo &emprestimo) {
+    emprestimos.push_back(emprestimo);
+}
 
-class EmprestimoLivros {
-
-private:
-    vector<Emprestimo> emprestimos;
-
-public:
-    void registrarEmprestimo(const Emprestimo &emprestimo){
-        emprestimos.push_back(emprestimo);
-    }
-
-    void verificarDisponibilidade(const Livro &livro){
-        if(livro.isDisponivel()){
-            cout << "O livro está disponível para empréstimo." << endl;
-        } 
-        else{
-            cout << "O livro não está disponível para empréstimo." << endl;
+bool EmprestimoLivros::aplicarMulta(int id, double valor) {
+    for (auto &emprestimo : emprestimos) {
+        if (emprestimo.getId() == id) {
+            emprestimo.setMulta(valor);
+            return true;
         }
     }
+    return false;
+}
 
-    void aplicarMulta(int id, double valor){
-            for(auto &emprestimo : emprestimos){
-                if(emprestimo.getId() == id){
-                    emprestimo.setMulta(valor);
-                }
-            }
+bool EmprestimoLivros::controlarPrazoDevolucao(int id, const string &novaData) {
+    for (auto &emprestimo : emprestimos) {
+        if (emprestimo.getId() == id) {
+            emprestimo.setDataDevolucao(novaData);
+            return true;
         }
-    
-    void controlarPrazoDevolucao(int id, const string &novaData){
-        for(auto &emprestimo : emprestimos){
-            if(emprestimo.getId() == id){
-                emprestimo.setDataDevolucao(novaData);
-            }
-        }
-    } 
-};
+    }
+    return false;
+}
