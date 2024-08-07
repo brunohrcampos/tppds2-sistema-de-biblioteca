@@ -1,10 +1,11 @@
 #ifndef EMPRESTIMO_H
 #define EMPRESTIMO_H
 
-#include "Livro.h"
 #include "Usuario.h"
-#include <vector>
+#include "Livro.h"
 #include <string>
+#include <vector>
+
 using namespace std;
 
 class Emprestimo {
@@ -36,9 +37,8 @@ private:
 
 public:
     void registrarEmprestimo(const Emprestimo &emprestimo);
-    void verificarDisponibilidade(const Livro &livro);
-    void aplicarMulta(int id, double valor);
-    void controlarPrazoDevolucao(int id, const string &novaData);
+    bool aplicarMulta(int id, double valor);
+    bool controlarPrazoDevolucao(int id, const string &novaData);
 };
 
 #endif // EMPRESTIMO_H
