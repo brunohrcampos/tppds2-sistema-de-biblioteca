@@ -182,6 +182,7 @@ int main() {
                 idUsuario = readInt();
                 cout << "ID do Livro: ";
                 idLivro = readInt();
+                cout << "Pressione enter para continuar ... \n";
                 cin.ignore();
                 cout << "Data do Emprestimo (formato dd-mm-aaaa): ";
                 dataEmprestimo = readString();
