@@ -36,13 +36,17 @@ Para configurar o ambiente de desenvolvimento em C++, siga os passos abaixo:
 ```bash
 git clone https://github.com/brunohrcampos/tppds2-sistema-de-biblioteca.git
 ```
+
 #### 2. **Abra o git na pasta "sistema-biblioteca" do projeto:**
+
 #### 3. **Compile o projeto manualmente:**
+
 ```bash
 g++ -Iinclude -o NomeExecutavel src/main.cpp src/Usuario.cpp src/Livro.cpp src/Emprestimo.cpp
 
 ./NomeExecutavel
 ```
-## Estrutura do Projeto
-![image](https://github.com/user-attachments/assets/1ff85a2d-de2e-4dd3-8ea3-cf24592ca52f)
 
+## Estrutura do Projeto
+
+![image](https://github.com/user-attachments/assets/1ff85a2d-de2e-4dd3-8ea3-cf24592ca52f)
