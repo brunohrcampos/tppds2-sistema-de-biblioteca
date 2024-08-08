@@ -34,6 +34,7 @@ public:
     void removerLivro(int id);
     Livro* consultarLivro(int id);
     void verificarDisponibilidade(int id);
+    void exibirRelatorioLivros() const; // Novo método
 };
 
 #endif // LIVRO_H

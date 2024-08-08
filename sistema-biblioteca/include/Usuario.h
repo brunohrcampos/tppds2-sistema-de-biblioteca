@@ -30,7 +30,7 @@ public:
     void adicionarUsuario(const Usuario &usuario);
     void removerUsuario(int id);
     Usuario* consultarUsuario(int id);
+    void exibirRelatorioUsuarios() const; // Novo método
 };
 
-#endif 
-
+#endif // USUARIO_H

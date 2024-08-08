@@ -1,6 +1,8 @@
 #include "Livro.h"
 #include <iostream>
 
+using namespace std;
+
 Livro::Livro(int id, const string &titulo, const string &autor, const string &genero)
     : id(id), titulo(titulo), autor(autor), genero(genero), disponivel(true) {}
 
@@ -36,10 +38,9 @@ void GerenciamentoLivros::removerLivro(int id) {
     for (auto it = livros.begin(); it != livros.end(); ++it) {
         if (it->getId() == id) {
             livros.erase(it);
-            return;
+            break;
         }
     }
-    std::cout << "Livro com ID " << id << " não encontrado." << std::endl;
 }
 
 Livro* GerenciamentoLivros::consultarLivro(int id) {
@@ -48,17 +49,27 @@ Livro* GerenciamentoLivros::consultarLivro(int id) {
             return &livro;
         }
     }
-    std::cout << "Livro com ID " << id << " não encontrado." << std::endl;
     return nullptr;
 }
 
 void GerenciamentoLivros::verificarDisponibilidade(int id) {
     Livro* livro = consultarLivro(id);
-    if (livro != nullptr) {
+    if (livro) {
         if (livro->isDisponivel()) {
-            std::cout << "O livro '" << livro->getTitulo() << "' está disponível." << std::endl;
+            cout << "O livro '" << livro->getTitulo() << "' está disponível." << endl;
         } else {
-            std::cout << "O livro '" << livro->getTitulo() << "' não está disponível." << std::endl;
+            cout << "O livro '" << livro->getTitulo() << "' não está disponível." << endl;
         }
+    }
+}
+
+void GerenciamentoLivros::exibirRelatorioLivros() const {
+    if (livros.empty()) {
+        cout << "Sem livros cadastrados." << endl;
+        return;
+    }
+    cout << "Relatorio de Livros:" << endl;
+    for (const auto& livro : livros) {
+        cout << "ID: " << livro.getId() << ", Titulo: " << livro.getTitulo() << ", Autor: " << livro.getAutor() << ", Genero: " << livro.getGenero() << ", Disponivel: " << (livro.isDisponivel() ? "Sim" : "Nao") << endl;
     }
 }

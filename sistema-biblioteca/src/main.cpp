@@ -2,8 +2,8 @@
 #include "Livro.h"
 #include "Emprestimo.h"
 #include <iostream>
-#include <limits>  // Para std::numeric_limits limita a numero
-#include <cctype>  // Para std::isdigit limita a palavra
+#include <limits>  // Para std::numeric_limits
+#include <cctype>  // Para std::isdigit
 
 using namespace std;
 
@@ -21,10 +21,12 @@ void exibirMenu() {
     cout << "8. Verificar Disponibilidade de Livro" << endl;
     cout << "9. Aplicar Multa" << endl;
     cout << "10.Controlar Prazo de Devolucao" << endl;
+    cout << "11. Relatorio de Usuarios" << endl; 
+    cout << "12. Relatorio de Livros" << endl;    
     cout << "0. Sair\n" << endl;
 }
 
-bool isStringValid(const string& str) { // le a string
+bool isStringValid(const string& str) {
     for (char ch : str) {
         if (isdigit(ch) || ispunct(ch)) {
             return false;
@@ -33,23 +35,23 @@ bool isStringValid(const string& str) { // le a string
     return true;
 }
 
-int readInt() {//garante inteiro
+int readInt() {
     int value;
     while (!(cin >> value)) {
         cin.clear();  // Limpa caso o erro
         cin.ignore(numeric_limits<streamsize>::max(), '\n');  // Ignora a linha
-        cout << "Entrada inválida. Digite um número inteiro: ";
+        cout << "Entrada invalida. Digite um numero inteiro: ";
     }
     cin.ignore(numeric_limits<streamsize>::max(), '\n');  // Ignora o '\n' deixado pelo cin
     return value;
 }
 
-double readDouble() {//garante decimal
+double readDouble() {
     double value;
     while (!(cin >> value)) {
         cin.clear();  // Limpa o estado de erro
         cin.ignore(numeric_limits<streamsize>::max(), '\n');  // Ignora a linha
-        cout << "Entrada inválida. Digite um número decimal: ";
+        cout << "Entrada invalida. Digite um numero decimal: ";
     }
     cin.ignore(numeric_limits<streamsize>::max(), '\n');  // Ignora o '\n' deixado pelo cin
     return value;
@@ -59,6 +61,11 @@ string readString() {
     string str;
     getline(cin, str);
     return str;
+}
+
+void pause() {
+    cout << "Pressione Enter para continuar...";
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
 }
 
 int main() {
@@ -81,7 +88,7 @@ int main() {
                 cout << "Nome do Usuario: ";
                 nome = readString();
                 while (!isStringValid(nome)) {
-                    cout << "Nome inválido. Digite novamente: ";
+                    cout << "Nome invalido. Digite novamente: ";
                     nome = readString();
                 }
                 cout << "Telefone do Usuario: ";
@@ -89,6 +96,7 @@ int main() {
                 Usuario novoUsuario(id, nome, telefone);
                 gerenciaUsuario.adicionarUsuario(novoUsuario);
                 cout << "Usuario adicionado com sucesso!" << endl;
+                pause();
                 break;
             }
             case 2: {
@@ -97,6 +105,7 @@ int main() {
                 id = readInt();
                 gerenciaUsuario.removerUsuario(id);
                 cout << "Usuario removido com sucesso!" << endl;
+                pause();
                 break;
             }
             case 3: {
@@ -109,6 +118,7 @@ int main() {
                 } else {
                     cout << "Usuario nao encontrado." << endl;
                 }
+                pause();
                 break;
             }
             case 4: {
@@ -137,6 +147,7 @@ int main() {
                 Livro novoLivro(id, titulo, autor, genero);
                 gerenciaLivros.adicionarLivro(novoLivro);
                 cout << "Livro adicionado com sucesso!" << endl;
+                pause();
                 break;
             }
             case 5: {
@@ -145,6 +156,7 @@ int main() {
                 id = readInt();
                 gerenciaLivros.removerLivro(id);
                 cout << "Livro removido com sucesso!" << endl;
+                pause();
                 break;
             }
             case 6: {
@@ -157,6 +169,7 @@ int main() {
                 } else {
                     cout << "Livro nao encontrado." << endl;
                 }
+                pause();
                 break;
             }
             case 7: {
@@ -183,6 +196,7 @@ int main() {
                 } else {
                     cout << "Usuario ou Livro invalido, ou Livro nao disponivel." << endl;
                 }
+                pause();
                 break;
             }
             case 8: {
@@ -190,6 +204,7 @@ int main() {
                 cout << "ID do Livro para verificar disponibilidade: ";
                 id = readInt();
                 gerenciaLivros.verificarDisponibilidade(id);
+                pause();
                 break;
             }
             case 9: {
@@ -201,11 +216,13 @@ int main() {
                 multa = readDouble();
                 if (multa < 0) {
                     cout << "Valor da multa não pode ser negativo." << endl;
+                    pause();
                     break;
                 }
                 if (gerenciaEmprestimos.aplicarMulta(id, multa)) {
                     cout << "Multa aplicada com sucesso!" << endl;
                 }
+                pause();
                 break;
             }
             case 10: {
@@ -218,6 +235,17 @@ int main() {
                 novaData = readString();
                 gerenciaEmprestimos.controlarPrazoDevolucao(id, novaData);
                 cout << "Prazo de devolucao atualizado com sucesso!" << endl;
+                pause();
+                break;
+            }
+            case 11: {
+                gerenciaUsuario.exibirRelatorioUsuarios();
+                pause();
+                break;
+            }
+            case 12: {
+                gerenciaLivros.exibirRelatorioLivros();
+                pause();
                 break;
             }
             case 0:
@@ -225,6 +253,7 @@ int main() {
                 break;
             default:
                 cout << "Opcao invalida. Tente novamente." << endl;
+                pause();
         }
 
     } while (opcao != 0);
