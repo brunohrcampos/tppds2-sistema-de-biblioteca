@@ -22,7 +22,8 @@ void exibirMenu() {
     cout << "9. Aplicar Multa" << endl;
     cout << "10.Controlar Prazo de Devolucao" << endl;
     cout << "11. Relatorio de Usuarios" << endl; 
-    cout << "12. Relatorio de Livros" << endl;    
+    cout << "12. Relatorio de Livros" << endl;   
+     cout << "13. Relatorio de Emprestimos" << endl; 
     cout << "0. Sair\n" << endl;
 }
 
@@ -126,22 +127,22 @@ int main() {
                 string titulo, autor, genero;
                 cout << "ID do Livro: ";
                 id = readInt();
-                cout << "Título do Livro: ";
+                cout << "Titulo do Livro: ";
                 titulo = readString();
                 while (!isStringValid(titulo)) {
-                    cout << "Título inválido. Digite novamente: ";
+                    cout << "Titulo invalido. Digite novamente: ";
                     titulo = readString();
                 }
                 cout << "Autor do Livro: ";
                 autor = readString();
                 while (!isStringValid(autor)) {
-                    cout << "Autor inválido. Digite novamente: ";
+                    cout << "Autor invalido. Digite novamente: ";
                     autor = readString();
                 }
-                cout << "Gênero do Livro: ";
+                cout << "Genero do Livro: ";
                 genero = readString();
                 while (!isStringValid(genero)) {
-                    cout << "Gênero inválido. Digite novamente: ";
+                    cout << "Genero invalido. Digite novamente: ";
                     genero = readString();
                 }
                 Livro novoLivro(id, titulo, autor, genero);
@@ -215,7 +216,7 @@ int main() {
                 cout << "Valor da multa: ";
                 multa = readDouble();
                 if (multa < 0) {
-                    cout << "Valor da multa não pode ser negativo." << endl;
+                    cout << "Valor da multa nao pode ser negativo." << endl;
                     pause();
                     break;
                 }
@@ -248,6 +249,11 @@ int main() {
                 pause();
                 break;
             }
+            case 13: {
+                gerenciaEmprestimos.exibirRelatorioEmprestimos();
+                pause();
+                break;
+             }
             case 0:
                 cout << "Saindo do sistema..." << endl;
                 break;

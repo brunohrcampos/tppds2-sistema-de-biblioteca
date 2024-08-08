@@ -63,3 +63,21 @@ bool EmprestimoLivros::controlarPrazoDevolucao(int id, const string &novaData) {
     }
     return false;
 }
+
+void EmprestimoLivros::exibirRelatorioEmprestimos() const {
+    if (emprestimos.empty()) {
+        cout << "Nenhum emprestimo registrado." << endl;
+    } else {
+        cout << "Relatorio de Emprestimos:" << endl;
+        for (const auto& emprestimo : emprestimos) {
+            cout << "ID do Emprestimo: " << emprestimo.getId() << endl;
+            cout << "Usuario: " << emprestimo.getUsuario().getNome() << endl;
+            cout << "Livro: " << emprestimo.getLivro().getTitulo() << endl;
+            cout << "Data do Emprestimo: " << emprestimo.getDataEmprestimo() << endl;
+            cout << "Data de Devolucao: " << emprestimo.getDataDevolucao() << endl;
+            cout << "Multa: " << emprestimo.getMulta() << endl;
+            cout << "-------------------------------" << endl;
+        }
+    }
+}
+

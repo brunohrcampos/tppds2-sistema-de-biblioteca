@@ -39,6 +39,7 @@ public:
     void registrarEmprestimo(const Emprestimo &emprestimo);
     bool aplicarMulta(int id, double valor);
     bool controlarPrazoDevolucao(int id, const string &novaData);
+     void exibirRelatorioEmprestimos() const;
 };
 
 #endif // EMPRESTIMO_H

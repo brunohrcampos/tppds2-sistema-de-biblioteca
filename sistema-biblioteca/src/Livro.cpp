@@ -56,9 +56,9 @@ void GerenciamentoLivros::verificarDisponibilidade(int id) {
     Livro* livro = consultarLivro(id);
     if (livro) {
         if (livro->isDisponivel()) {
-            cout << "O livro '" << livro->getTitulo() << "' está disponível." << endl;
+            cout << "O livro '" << livro->getTitulo() << "' esta disponivel." << endl;
         } else {
-            cout << "O livro '" << livro->getTitulo() << "' não está disponível." << endl;
+            cout << "O livro '" << livro->getTitulo() << "' nao esta disponivel." << endl;
         }
     }
 }
