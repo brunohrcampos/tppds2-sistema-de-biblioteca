@@ -1,0 +1,970 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s6\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs12\cgrid \sbasedon0 \snext0 heading 6;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\*\listtable
+{\list\listtemplateid1
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8662 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid1}
+{\list\listtemplateid2
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid2}
+{\list\listtemplateid3
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid3}
+}
+{\listoverridetable
+{\listoverride\listid1\listoverridecount0\ls1}
+{\listoverride\listid2\listoverridecount0\ls2}
+{\listoverride\listid3\listoverridecount0\ls3}
+}
+{\comment begin body}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refência do Namespace Catch::Benchmark::Detail\par \pard\plain 
+{\tc\tcl2 \v Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail}
+{\bkmkstart AAAAAAABXE}
+{\bkmkend AAAAAAABXE}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b BenchmarkFunction}\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b bootstrap_analysis}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b ChronometerConcept}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b ChronometerModel}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b CompleteInvoker}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b CompleteInvoker< void >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b CompleteType}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b CompleteType< void >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b is_related}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b ObjectStorage}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b repeater}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Definições de Tipos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename T > using {\b CompleteType_t} = typename {\b CompleteType}<T>::type\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename Clock , typename Fun > using {\b run_for_at_least_argument_t} = std::conditional_t<{\b is_callable}<Fun({\b Chronometer})>{\b ::value}, {\b Chronometer}, int>\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+using {\b sample} = std::vector<double>\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funções\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b weighted_average_quantile} (int k, int q, double *first, double *last)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b OutlierClassification} {\b classify_outliers} (double const *first, double const *last)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b mean} (double const *first, double const *last)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b normal_cdf} (double {\b x})\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b erfc_inv} (double {\b x})\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b normal_quantile} (double {\b p})\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Estimate}< double > {\b bootstrap} (double confidence_level, double *first, double *last, {\b sample} const &resample, double(*estimator)(double const *, double const *))\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b bootstrap_analysis} {\b analyse_samples} (double confidence_level, unsigned int n_resamples, double *first, double *last)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename Fun > {\b repeater}< std::decay_t< Fun > > {\b repeat} (Fun &&fun)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename Fun , typename... Args> {\b CompleteType_t}< {\b FunctionReturnType}< Fun, Args... > > {\b complete_invoke} (Fun &&fun, Args &&... args)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename Clock , typename Fun , typename... Args> {\b TimingOf}< Fun, Args... > {\b measure} (Fun &&fun, Args &&... args)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename Clock , typename Fun > {\b TimingOf}< Fun, int > {\b measure_one} (Fun &&fun, int iters, std::false_type)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename Clock , typename Fun > {\b TimingOf}< Fun, {\b Chronometer} > {\b measure_one} (Fun &&fun, int iters, std::true_type)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b throw_optimized_away_error} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename Clock , typename Fun > {\b TimingOf}< Fun, {\b run_for_at_least_argument_t}< Clock, Fun > > {\b run_for_at_least} ({\b IDuration} how_long, const int initial_iterations, Fun &&fun)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename Clock > std::vector< double > {\b resolution} (int k)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename Clock > int {\b warmup} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename Clock > {\b EnvironmentEstimate} {\b estimate_clock_resolution} (int iterations)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename Clock > {\b EnvironmentEstimate} {\b estimate_clock_cost} ({\b FDuration} {\b resolution})\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename Clock > {\b Environment} {\b measure_environment} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SampleAnalysis} {\b analyse} (const {\b IConfig} &cfg, {\b FDuration} *first, {\b FDuration} *last)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Variáveis\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+constexpr auto {\b warmup_iterations} = 10000\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+constexpr auto {\b warmup_time} = std::chrono::milliseconds(100)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+constexpr auto {\b minimum_ticks} = 1000\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+constexpr auto {\b warmup_seed} = 10000\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+constexpr auto {\b clock_resolution_estimation_time} = std::chrono::milliseconds(500)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+constexpr auto {\b clock_cost_estimation_time_limit} = std::chrono::seconds(1)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+constexpr auto {\b clock_cost_estimation_tick_limit} = 100000\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+constexpr auto {\b clock_cost_estimation_time} = std::chrono::milliseconds(10)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+constexpr auto {\b clock_cost_estimation_iterations} = 10000\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Definições dos tipos\par
+\pard\plain 
+{\xe \v CompleteType_t\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:CompleteType_t}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > using {\b Catch::Benchmark::Detail::CompleteType_t} = typename {\b CompleteType}<T>::type}}
+\par
+{\bkmkstart AAAAAAABXF}
+{\bkmkend AAAAAAABXF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v run_for_at_least_argument_t\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:run_for_at_least_argument_t}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Clock , typename Fun > using {\b Catch::Benchmark::Detail::run_for_at_least_argument_t} = std::conditional_t<{\b is_callable}<Fun({\b Chronometer})>{\b ::value}, {\b Chronometer}, int>}}
+\par
+{\bkmkstart AAAAAAABXG}
+{\bkmkend AAAAAAABXG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v sample\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:sample}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+using {\b Catch::Benchmark::Detail::sample} = std::vector<double>}}
+\par
+{\bkmkstart AAAAAAABXH}
+{\bkmkend AAAAAAABXH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funções\par
+\pard\plain 
+{\xe \v analyse\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:analyse}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b SampleAnalysis} Catch::Benchmark::Detail::analyse (const {\b IConfig} & cfg, {\b FDuration} * first, {\b FDuration} * last)}}
+\par
+{\bkmkstart AAAAAAABXI}
+{\bkmkend AAAAAAABXI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v analyse_samples\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:analyse_samples}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b bootstrap_analysis} Catch::Benchmark::Detail::analyse_samples (double confidence_level, unsigned int n_resamples, double * first, double * last)}}
+\par
+{\bkmkstart AAAAAAABXJ}
+{\bkmkend AAAAAAABXJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 501                                                              \{\par
+502                 {\cf17 auto} mean = &Detail::mean;\par
+503                 {\cf17 auto} stddev = &standard_deviation;\par
+504 \par
+505 {\cf21 #if defined(CATCH_CONFIG_USE_ASYNC)}\par
+506                 {\cf17 auto} Estimate = [=](double(*f)({\cf18 double} {\cf17 const}*, {\cf18 double} {\cf17 const}*)) \{\par
+507                     std::random_device rd;\par
+508                     {\cf17 auto} seed = rd();\par
+509                     {\cf19 return} std::async(std::launch::async, [=] \{\par
+510                         SimplePcg32 rng( seed );\par
+511                         {\cf17 auto} resampled = resample(rng, n_resamples, first, last, f);\par
+512                         {\cf19 return} bootstrap(confidence_level, first, last, resampled, f);\par
+513                     \});\par
+514                 \};\par
+515 \par
+516                 {\cf17 auto} mean_future = Estimate(mean);\par
+517                 {\cf17 auto} stddev_future = Estimate(stddev);\par
+518 \par
+519                 {\cf17 auto} mean_estimate = mean_future.get();\par
+520                 {\cf17 auto} stddev_estimate = stddev_future.get();\par
+521 {\cf21 #else}\par
+522                 {\cf17 auto} Estimate = [=](double(*f)({\cf18 double} {\cf17 const}* , {\cf18 double} {\cf17 const}*)) \{\par
+523                     std::random_device rd;\par
+524                     {\cf17 auto} seed = rd();\par
+525                     SimplePcg32 rng( seed );\par
+526                     {\cf17 auto} resampled = resample(rng, n_resamples, first, last, f);\par
+527                     {\cf19 return} bootstrap(confidence_level, first, last, resampled, f);\par
+528                 \};\par
+529 \par
+530                 {\cf17 auto} mean_estimate = Estimate(mean);\par
+531                 {\cf17 auto} stddev_estimate = Estimate(stddev);\par
+532 {\cf21 #endif }{\cf20 // CATCH_USE_ASYNC}\par
+533 \par
+534                 {\cf17 auto} n = {\cf17 static_cast<}{\cf18 int}{\cf17 >}(last - first); {\cf20 // seriously, one can't use integral types without hell in C++}\par
+535                 {\cf18 double} outlier_variance = Detail::outlier_variance(mean_estimate, stddev_estimate, n);\par
+536 \par
+537                 {\cf19 return} \{ mean_estimate, stddev_estimate, outlier_variance \};\par
+538             \}\par
+}
+}
+{\xe \v bootstrap\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:bootstrap}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Estimate}< double > Catch::Benchmark::Detail::bootstrap (double confidence_level, double * first, double * last, {\b sample} const & resample, double(* estimator\~ )(double const *, double const *))}}
+\par
+{\bkmkstart AAAAAAABXK}
+{\bkmkend AAAAAAABXK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 445                                                                                \{\par
+446                 {\cf17 auto} n_samples = last - first;\par
+447 \par
+448                 {\cf18 double} point = estimator( first, last );\par
+449                 {\cf20 // Degenerate case with a single sample}\par
+450                 {\cf19 if} ( n_samples == 1 )\par
+451                     {\cf19 return} \{ point, point, point, confidence_level \};\par
+452 \par
+453                 sample jack = jackknife( estimator, first, last );\par
+454                 {\cf18 double} jack_mean =\par
+455                     mean( jack.data(), jack.data() + jack.size() );\par
+456                 {\cf18 double} sum_squares = 0, sum_cubes = 0;\par
+457                 {\cf19 for} ( {\cf18 double} x : jack ) \{\par
+458                     {\cf17 auto} difference = jack_mean - x;\par
+459                     {\cf17 auto} square = difference * difference;\par
+460                     {\cf17 auto} cube = square * difference;\par
+461                     sum_squares += square;\par
+462                     sum_cubes += cube;\par
+463                 \}\par
+464 \par
+465                 {\cf18 double} accel = sum_cubes / ( 6 * std::pow( sum_squares, 1.5 ) );\par
+466                 {\cf18 long} n = {\cf17 static_cast<}{\cf18 long}{\cf17 >}( resample.size() );\par
+467                 {\cf18 double} prob_n =\par
+468                     std::count_if( resample.begin(),\par
+469                                    resample.end(),\par
+470                                    [point]( {\cf18 double} x ) \{ return x < point; \} ) /\par
+471                     {\cf17 static_cast<}{\cf18 double}{\cf17 >}( n );\par
+472                 {\cf20 // degenerate case with uniform samples}\par
+473                 {\cf19 if} ( Catch::Detail::directCompare( prob_n, 0. ) ) \{\par
+474                     {\cf19 return} \{ point, point, point, confidence_level \};\par
+475                 \}\par
+476 \par
+477                 {\cf18 double} bias = normal_quantile( prob_n );\par
+478                 {\cf18 double} z1 = normal_quantile( ( 1. - confidence_level ) / 2. );\par
+479 \par
+480                 {\cf17 auto} cumn = [n]( {\cf18 double} x ) -> {\cf18 long} \{\par
+481                     {\cf19 return} std::lround( normal_cdf( x ) *\par
+482                                         {\cf17 static_cast<}{\cf18 double}{\cf17 >}( n ) );\par
+483                 \};\par
+484                 {\cf17 auto} a = [bias, accel]( {\cf18 double} b ) \{\par
+485                     {\cf19 return} bias + b / ( 1. - accel * b );\par
+486                 \};\par
+487                 {\cf18 double} b1 = bias + z1;\par
+488                 {\cf18 double} b2 = bias - z1;\par
+489                 {\cf18 double} a1 = a( b1 );\par
+490                 {\cf18 double} a2 = a( b2 );\par
+491                 {\cf17 auto} lo = {\cf17 static_cast<}{\cf18 size_t}{\cf17 >}( (std::max)( cumn( a1 ), 0l ) );\par
+492                 {\cf17 auto} hi =\par
+493                     {\cf17 static_cast<}{\cf18 size_t}{\cf17 >}( (std::min)( cumn( a2 ), n - 1 ) );\par
+494 \par
+495                 {\cf19 return} \{ point, resample[lo], resample[hi], confidence_level \};\par
+496             \}\par
+}
+}
+{\xe \v classify_outliers\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:classify_outliers}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b OutlierClassification} Catch::Benchmark::Detail::classify_outliers (double const * first, double const * last)}}
+\par
+{\bkmkstart AAAAAAABXL}
+{\bkmkend AAAAAAABXL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 378                                                                          \{\par
+379                 std::vector<double> copy( first, last );\par
+380 \par
+381                 {\cf17 auto} q1 = weighted_average_quantile( 1, 4, copy.data(), copy.data() + copy.size() );\par
+382                 {\cf17 auto} q3 = weighted_average_quantile( 3, 4, copy.data(), copy.data() + copy.size() );\par
+383                 {\cf17 auto} iqr = q3 - q1;\par
+384                 {\cf17 auto} los = q1 - ( iqr * 3. );\par
+385                 {\cf17 auto} lom = q1 - ( iqr * 1.5 );\par
+386                 {\cf17 auto} him = q3 + ( iqr * 1.5 );\par
+387                 {\cf17 auto} his = q3 + ( iqr * 3. );\par
+388 \par
+389                 OutlierClassification o;\par
+390                 {\cf19 for} ( ; first != last; ++first ) \{\par
+391                     {\cf17 const} {\cf18 double} t = *first;\par
+392                     {\cf19 if} ( t < los ) \{\par
+393                         ++o.low_severe;\par
+394                     \} {\cf19 else} {\cf19 if} ( t < lom ) \{\par
+395                         ++o.low_mild;\par
+396                     \} {\cf19 else} {\cf19 if} ( t > his ) \{\par
+397                         ++o.high_severe;\par
+398                     \} {\cf19 else} {\cf19 if} ( t > him ) \{\par
+399                         ++o.high_mild;\par
+400                     \}\par
+401                     ++o.samples_seen;\par
+402                 \}\par
+403                 {\cf19 return} o;\par
+404             \}\par
+}
+}
+{\xe \v complete_invoke\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:complete_invoke}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Fun , typename... Args> {\b CompleteType_t}< {\b FunctionReturnType}< Fun, Args... > > Catch::Benchmark::Detail::complete_invoke (Fun && fun, Args &&... args)}}
+\par
+{\bkmkstart AAAAAAABXM}
+{\bkmkend AAAAAAABXM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1738                                                                                                         \{\par
+1739                 {\cf19 return} CompleteInvoker<FunctionReturnType<Fun, Args...>>::invoke(CATCH_FORWARD(fun), CATCH_FORWARD(args)...);\par
+1740             \}\par
+}
+}
+{\xe \v erfc_inv\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:erfc_inv}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double Catch::Benchmark::Detail::erfc_inv (double x)}}
+\par
+{\bkmkstart AAAAAAABXN}
+{\bkmkend AAAAAAABXN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 420                                       \{\par
+421                 {\cf19 return} erf_inv(1.0 - x);\par
+422             \}\par
+}
+}
+{\xe \v estimate_clock_cost\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:estimate_clock_cost}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Clock > {\b EnvironmentEstimate} Catch::Benchmark::Detail::estimate_clock_cost ({\b FDuration} resolution)}}
+\par
+{\bkmkstart AAAAAAABXO}
+{\bkmkend AAAAAAABXO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1990                                                                           \{\par
+1991                 {\cf17 auto} time_limit = (std::min)(\par
+1992                     resolution * clock_cost_estimation_tick_limit,\par
+1993                     FDuration(clock_cost_estimation_time_limit));\par
+1994                 {\cf17 auto} time_clock = []({\cf18 int} k) \{\par
+1995                     {\cf19 return} Detail::measure<Clock>([k] \{\par
+1996                         {\cf19 for} ({\cf18 int} i = 0; i < k; ++i) \{\par
+1997                             {\cf17 volatile} {\cf17 auto} ignored = Clock::now();\par
+1998                             (void)ignored;\par
+1999                         \}\par
+2000                     \}).elapsed;\par
+2001                 \};\par
+2002                 time_clock(1);\par
+2003                 {\cf18 int} iters = clock_cost_estimation_iterations;\par
+2004                 {\cf17 auto}&& r = run_for_at_least<Clock>(clock_cost_estimation_time, iters, time_clock);\par
+2005                 std::vector<double> times;\par
+2006                 {\cf18 int} nsamples = {\cf17 static_cast<}{\cf18 int}{\cf17 >}(std::ceil(time_limit / r.elapsed));\par
+2007                 times.reserve({\cf17 static_cast<}{\cf18 size_t}{\cf17 >}(nsamples));\par
+2008                 {\cf19 for} ( {\cf18 int} s = 0; s < nsamples; ++s ) \{\par
+2009                     times.push_back( {\cf17 static_cast<}{\cf18 double}{\cf17 >}(\par
+2010                         ( time_clock( r.iterations ) / r.iterations )\par
+2011                             .count() ) );\par
+2012                 \}\par
+2013                 {\cf19 return} \{\par
+2014                     FDuration(mean(times.data(), times.data() + times.size())),\par
+2015                     classify_outliers(times.data(), times.data() + times.size()),\par
+2016                 \};\par
+2017             \}\par
+}
+}
+{\xe \v estimate_clock_resolution\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:estimate_clock_resolution}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Clock > {\b EnvironmentEstimate} Catch::Benchmark::Detail::estimate_clock_resolution (int iterations)}}
+\par
+{\bkmkstart AAAAAAABXP}
+{\bkmkend AAAAAAABXP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1981                                                                           \{\par
+1982                 {\cf17 auto} r = run_for_at_least<Clock>(clock_resolution_estimation_time, iterations, &resolution<Clock>)\par
+1983                     .result;\par
+1984                 {\cf19 return} \{\par
+1985                     FDuration(mean(r.data(), r.data() + r.size())),\par
+1986                     classify_outliers(r.data(), r.data() + r.size()),\par
+1987                 \};\par
+1988             \}\par
+}
+}
+{\xe \v mean\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:mean}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double Catch::Benchmark::Detail::mean (double const * first, double const * last)}}
+\par
+{\bkmkstart AAAAAAABXQ}
+{\bkmkend AAAAAAABXQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 406                                                                    \{\par
+407                 {\cf17 auto} count = last - first;\par
+408                 {\cf18 double} sum = 0.;\par
+409                 {\cf19 while} (first != last) \{\par
+410                     sum += *first;\par
+411                     ++first;\par
+412                 \}\par
+413                 {\cf19 return} sum / {\cf17 static_cast<}{\cf18 double}{\cf17 >}(count);\par
+414             \}\par
+}
+}
+{\xe \v measure\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:measure}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Clock , typename Fun , typename... Args> {\b TimingOf}< Fun, Args... > Catch::Benchmark::Detail::measure (Fun && fun, Args &&... args)}}
+\par
+{\bkmkstart AAAAAAABXR}
+{\bkmkend AAAAAAABXR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1781                                                                       \{\par
+1782                 {\cf17 auto} start = Clock::now();\par
+1783                 {\cf17 auto}&& r = Detail::complete_invoke(fun, CATCH_FORWARD(args)...);\par
+1784                 {\cf17 auto} end = Clock::now();\par
+1785                 {\cf17 auto} delta = end - start;\par
+1786                 {\cf19 return} \{ delta, CATCH_FORWARD(r), 1 \};\par
+1787             \}\par
+}
+}
+{\xe \v measure_environment\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:measure_environment}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Clock > {\b Environment} Catch::Benchmark::Detail::measure_environment ()}}
+\par
+{\bkmkstart AAAAAAABXS}
+{\bkmkend AAAAAAABXS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 2020                                               \{\par
+2021 {\cf21 #if defined(__clang__)}\par
+2022 {\cf21 #    pragma clang diagnostic push}\par
+2023 {\cf21 #    pragma clang diagnostic ignored "-Wexit-time-destructors"}\par
+2024 {\cf21 #endif}\par
+2025                 {\cf17 static} Catch::Detail::unique_ptr<Environment> env;\par
+2026 {\cf21 #if defined(__clang__)}\par
+2027 {\cf21 #    pragma clang diagnostic pop}\par
+2028 {\cf21 #endif}\par
+2029                 {\cf19 if} (env) \{\par
+2030                     {\cf19 return} *env;\par
+2031                 \}\par
+2032 \par
+2033                 {\cf17 auto} iters = Detail::warmup<Clock>();\par
+2034                 {\cf17 auto} resolution = Detail::estimate_clock_resolution<Clock>(iters);\par
+2035                 {\cf17 auto} cost = Detail::estimate_clock_cost<Clock>(resolution.mean);\par
+2036 \par
+2037                 env = Catch::Detail::make_unique<Environment>( Environment\{resolution, cost\} );\par
+2038                 {\cf19 return} *env;\par
+2039             \}\par
+}
+}
+{\xe \v measure_one\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:measure_one}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Clock , typename Fun > {\b TimingOf}< Fun, int > Catch::Benchmark::Detail::measure_one (Fun && fun, int iters, std::false_type )}}
+\par
+{\bkmkstart AAAAAAABXT}
+{\bkmkend AAAAAAABXT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1800                                                                                 \{\par
+1801                 {\cf19 return} Detail::measure<Clock>(fun, iters);\par
+1802             \}\par
+}
+}
+{\xe \v measure_one\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:measure_one}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Clock , typename Fun > {\b TimingOf}< Fun, {\b Chronometer} > Catch::Benchmark::Detail::measure_one (Fun && fun, int iters, std::true_type )}}
+\par
+{\bkmkstart AAAAAAABXU}
+{\bkmkend AAAAAAABXU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1804                                                                                        \{\par
+1805                 Detail::ChronometerModel<Clock> meter;\par
+1806                 {\cf17 auto}&& result = Detail::complete_invoke(fun, Chronometer(meter, iters));\par
+1807 \par
+1808                 {\cf19 return} \{ meter.elapsed(), CATCH_MOVE(result), iters \};\par
+1809             \}\par
+}
+}
+{\xe \v normal_cdf\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:normal_cdf}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double Catch::Benchmark::Detail::normal_cdf (double x)}}
+\par
+{\bkmkstart AAAAAAABXV}
+{\bkmkend AAAAAAABXV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 416                                           \{\par
+417                 {\cf19 return} std::erfc( -x / std::sqrt( 2.0 ) ) / 2.0;\par
+418             \}\par
+}
+}
+{\xe \v normal_quantile\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:normal_quantile}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double Catch::Benchmark::Detail::normal_quantile (double p)}}
+\par
+{\bkmkstart AAAAAAABXW}
+{\bkmkend AAAAAAABXW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 424                                              \{\par
+425                 {\cf17 static} {\cf17 const} {\cf18 double} ROOT_TWO = std::sqrt(2.0);\par
+426 \par
+427                 {\cf18 double} result = 0.0;\par
+428                 assert(p >= 0 && p <= 1);\par
+429                 {\cf19 if} (p < 0 || p > 1) \{\par
+430                     {\cf19 return} result;\par
+431                 \}\par
+432 \par
+433                 result = -erfc_inv(2.0 * p);\par
+434                 {\cf20 // result *= normal distribution standard deviation (1.0) * sqrt(2)}\par
+435                 result *= {\cf20 /*sd * */} ROOT_TWO;\par
+436                 {\cf20 // result += normal disttribution mean (0)}\par
+437                 {\cf19 return} result;\par
+438             \}\par
+}
+}
+{\xe \v repeat\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:repeat}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Fun > {\b repeater}< std::decay_t< Fun > > Catch::Benchmark::Detail::repeat (Fun && fun)}}
+\par
+{\bkmkstart AAAAAAABXX}
+{\bkmkend AAAAAAABXX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1679                                                         \{\par
+1680                 {\cf19 return} \{ CATCH_FORWARD(fun) \};\par
+1681             \}\par
+}
+}
+{\xe \v resolution\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:resolution}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Clock > std::vector< double > Catch::Benchmark::Detail::resolution (int k)}}
+\par
+{\bkmkstart AAAAAAABXY}
+{\bkmkend AAAAAAABXY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1948                                                 \{\par
+1949                 std::vector<TimePoint<Clock>> times;\par
+1950                 times.reserve({\cf17 static_cast<}{\cf18 size_t}{\cf17 >}(k + 1));\par
+1951                 {\cf19 for} ( {\cf18 int} i = 0; i < k + 1; ++i ) \{\par
+1952                     times.push_back( Clock::now() );\par
+1953                 \}\par
+1954 \par
+1955                 std::vector<double> deltas;\par
+1956                 deltas.reserve({\cf17 static_cast<}{\cf18 size_t}{\cf17 >}(k));\par
+1957                 {\cf19 for} ( {\cf18 size_t} idx = 1; idx < times.size(); ++idx ) \{\par
+1958                     deltas.push_back( {\cf17 static_cast<}{\cf18 double}{\cf17 >}(\par
+1959                         ( times[idx] - times[idx - 1] ).count() ) );\par
+1960                 \}\par
+1961 \par
+1962                 {\cf19 return} deltas;\par
+1963             \}\par
+}
+}
+{\xe \v run_for_at_least\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:run_for_at_least}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Clock , typename Fun > {\b TimingOf}< Fun, {\b run_for_at_least_argument_t}< Clock, Fun > > Catch::Benchmark::Detail::run_for_at_least ({\b IDuration} how_long, const int initial_iterations, Fun && fun)}}
+\par
+{\bkmkstart AAAAAAABXZ}
+{\bkmkend AAAAAAABXZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1822                                             \{\par
+1823                 {\cf17 auto} iters = initial_iterations;\par
+1824                 {\cf19 while} (iters < (1 << 30)) \{\par
+1825                     {\cf17 auto}&& Timing = measure_one<Clock>(fun, iters, is_callable<Fun(Chronometer)>());\par
+1826 \par
+1827                     {\cf19 if} (Timing.elapsed >= how_long) \{\par
+1828                         {\cf19 return} \{ Timing.elapsed, CATCH_MOVE(Timing.result), iters \};\par
+1829                     \}\par
+1830                     iters *= 2;\par
+1831                 \}\par
+1832                 throw_optimized_away_error();\par
+1833             \}\par
+}
+}
+{\xe \v throw_optimized_away_error\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:throw_optimized_away_error}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::Benchmark::Detail::throw_optimized_away_error ()}}
+\par
+{\bkmkstart AAAAAAABYA}
+{\bkmkend AAAAAAABYA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v warmup\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:warmup}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Clock > int Catch::Benchmark::Detail::warmup ()}}
+\par
+{\bkmkstart AAAAAAABYB}
+{\bkmkend AAAAAAABYB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1976                          \{\par
+1977                 {\cf19 return} run_for_at_least<Clock>(warmup_time, warmup_seed, &resolution<Clock>)\par
+1978                     .iterations;\par
+1979             \}\par
+}
+}
+{\xe \v weighted_average_quantile\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:weighted_average_quantile}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double Catch::Benchmark::Detail::weighted_average_quantile (int k, int q, double * first, double * last)}}
+\par
+{\bkmkstart AAAAAAABYC}
+{\bkmkend AAAAAAABYC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 362                                                              \{\par
+363                 {\cf17 auto} count = last - first;\par
+364                 {\cf18 double} idx = (count - 1) * k / {\cf17 static_cast<}{\cf18 double}{\cf17 >}(q);\par
+365                 {\cf18 int} j = {\cf17 static_cast<}{\cf18 int}{\cf17 >}(idx);\par
+366                 {\cf18 double} g = idx - j;\par
+367                 std::nth_element(first, first + j, last);\par
+368                 {\cf17 auto} xj = first[j];\par
+369                 {\cf19 if} ( Catch::Detail::directCompare( g, 0 ) ) \{\par
+370                     {\cf19 return} xj;\par
+371                 \}\par
+372 \par
+373                 {\cf17 auto} xj1 = *std::min_element(first + (j + 1), last);\par
+374                 {\cf19 return} xj + g * (xj1 - xj);\par
+375             \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Variáveis\par
+\pard\plain 
+{\xe \v clock_cost_estimation_iterations\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:clock_cost_estimation_iterations}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+auto Catch::Benchmark::Detail::clock_cost_estimation_iterations = 10000{\f2 [constexpr]}}}
+\par
+{\bkmkstart AAAAAAABYD}
+{\bkmkend AAAAAAABYD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v clock_cost_estimation_tick_limit\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:clock_cost_estimation_tick_limit}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+auto Catch::Benchmark::Detail::clock_cost_estimation_tick_limit = 100000{\f2 [constexpr]}}}
+\par
+{\bkmkstart AAAAAAABYE}
+{\bkmkend AAAAAAABYE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v clock_cost_estimation_time\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:clock_cost_estimation_time}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+auto Catch::Benchmark::Detail::clock_cost_estimation_time = std::chrono::milliseconds(10){\f2 [constexpr]}}}
+\par
+{\bkmkstart AAAAAAABYF}
+{\bkmkend AAAAAAABYF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v clock_cost_estimation_time_limit\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:clock_cost_estimation_time_limit}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+auto Catch::Benchmark::Detail::clock_cost_estimation_time_limit = std::chrono::seconds(1){\f2 [constexpr]}}}
+\par
+{\bkmkstart AAAAAAABYG}
+{\bkmkend AAAAAAABYG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v clock_resolution_estimation_time\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:clock_resolution_estimation_time}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+auto Catch::Benchmark::Detail::clock_resolution_estimation_time = std::chrono::milliseconds(500){\f2 [constexpr]}}}
+\par
+{\bkmkstart AAAAAAABYH}
+{\bkmkend AAAAAAABYH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v minimum_ticks\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:minimum_ticks}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+auto Catch::Benchmark::Detail::minimum_ticks = 1000{\f2 [constexpr]}}}
+\par
+{\bkmkstart AAAAAAABYI}
+{\bkmkend AAAAAAABYI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v warmup_iterations\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:warmup_iterations}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+auto Catch::Benchmark::Detail::warmup_iterations = 10000{\f2 [constexpr]}}}
+\par
+{\bkmkstart AAAAAAABYJ}
+{\bkmkend AAAAAAABYJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v warmup_seed\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:warmup_seed}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+auto Catch::Benchmark::Detail::warmup_seed = 10000{\f2 [constexpr]}}}
+\par
+{\bkmkstart AAAAAAABYK}
+{\bkmkend AAAAAAABYK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v warmup_time\:Catch::Benchmark::Detail}
+{\xe \v Catch::Benchmark::Detail\:warmup_time}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+auto Catch::Benchmark::Detail::warmup_time = std::chrono::milliseconds(100){\f2 [constexpr]}}}
+\par
+{\bkmkstart AAAAAAABYL}
+{\bkmkend AAAAAAABYL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+}

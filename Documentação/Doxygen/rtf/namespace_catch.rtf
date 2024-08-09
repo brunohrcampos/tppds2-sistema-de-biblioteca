@@ -1,0 +1,3601 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s6\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs12\cgrid \sbasedon0 \snext0 heading 6;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\*\listtable
+{\list\listtemplateid1
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8662 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid1}
+{\list\listtemplateid2
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid2}
+{\list\listtemplateid3
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid3}
+}
+{\listoverridetable
+{\listoverride\listid1\listoverridecount0\ls1}
+{\listoverride\listid2\listoverridecount0\ls2}
+{\listoverride\listid3\listoverridecount0\ls3}
+}
+{\comment begin body}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refência do Namespace Catch\par \pard\plain 
+{\tc\tcl2 \v Catch}
+{\xe \v Catch}
+{\bkmkstart AAAAAAAAPR}
+{\bkmkend AAAAAAAAPR}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Benchmark}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Clara}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Detail}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Generators}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b literals}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Matchers}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b TestCaseTracking}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b TextFlow}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b always_false}\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Approx}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b AssertionHandler}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b AssertionInfo}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b AssertionReaction}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b AssertionResult}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b AssertionResultData}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b AutoReg}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b BenchmarkInfo}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b BenchmarkStats}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b BinaryExpr}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b capture_by_value}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Capturer}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b ColumnInfo}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Config}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b ConfigData}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Context}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b Counts}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b Decomposer}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b ExceptionTranslatorRegistrar}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b ExprLhs}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b GeneratorException}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b IConfig}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b IExceptionTranslator}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b IExceptionTranslatorRegistry}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b IGeneratorTracker}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b IMutableEnumValuesRegistry}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b IMutableRegistryHub}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b IRegistryHub}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b IResultCapture}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b is_callable}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b is_callable< Fun(Args...)>}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b is_callable_tester}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b is_range}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b ITestInvoker}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b ITransientExpression}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LazyExpression}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b MessageBuilder}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b MessageInfo}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b MessageStream}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b NameAndTags}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Optional}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b ProcessedReporterSpec}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b ratio_string}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b ratio_string< std::atto >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b ratio_string< std::femto >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b ratio_string< std::micro >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b ratio_string< std::milli >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b ratio_string< std::nano >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b ratio_string< std::pico >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b RegistrarForTagAliases}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b ReporterSpec}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b ResultDisposition}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b ResultWas}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b ReusableStringStream}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b ScopedMessage}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Section}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b SectionEndInfo}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b SectionInfo}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Session}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b SignalDefs}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b SimplePcg32}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b SourceLineInfo}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StreamEndStop}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< bool >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< Catch::Approx >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< char * >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< char >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< char const * >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< char[SZ]>}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< double >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< float >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< int >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< long >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< long long >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< R C::* >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< R, std::enable_if_t< is_range< R >::value &&!::Catch::Detail::IsStreamInsertable< R >::value > >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< signed char >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< signed char[SZ]>}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< std::chrono::duration< Value, Ratio > >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< std::chrono::duration< Value, std::ratio< 1 > > >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< std::chrono::duration< Value, std::ratio< 3600 > > >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< std::chrono::duration< Value, std::ratio< 60 > > >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< std::chrono::time_point< Clock, Duration > >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< std::chrono::time_point< std::chrono::system_clock, Duration > >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< std::nullptr_t >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< std::string >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< std::wstring >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< T * >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< T[SZ]>}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< unsigned char >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< unsigned char[SZ]>}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< unsigned int >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< unsigned long >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< unsigned long long >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< wchar_t * >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringMaker< wchar_t const * >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b StringRef}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b StringStreams}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TablePrinter}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b Tag}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b TagAlias}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TestCaseHandle}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b TestCaseInfo}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b TestFailureException}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Used to signal that an assertion macro failed. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TestInvokerAsMethod}\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b TestSkipException}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Used to signal that the remainder of a test should be skipped. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TestSpec}\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Timer}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b Totals}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b true_given}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b UnaryExpr}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b Version}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b WaitForKeypress}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b WarnAbout}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b WildcardPattern}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Definições de Tipos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+using {\b RegistryHubSingleton} = Singleton<RegistryHub, {\b IRegistryHub}, {\b IMutableRegistryHub}>\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+using {\b IReporterFactoryPtr} = {\b Detail::unique_ptr}<IReporterFactory>\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename Func , typename... U> using {\b FunctionReturnType} = std::remove_reference_t<std::remove_cv_t<std::result_of_t<Func(U...)>>>\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+using {\b exceptionTranslateFunction} = std::string(*)()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+using {\b ExceptionTranslators} = std::vector<{\b Detail::unique_ptr}<{\b IExceptionTranslator} const>>\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumerações\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum class {\b Justification} \{ {\b Left}
+, {\b Right}
+ \}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum class {\b Verbosity} \{ {\b Quiet} = 0
+, {\b Normal}
+, {\b High}
+ \}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum class {\b ShowDurations} \{ {\b DefaultForReporter}
+, {\b Always}
+, {\b Never}
+ \}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum class {\b TestRunOrder} \{ {\b Declared}
+, {\b LexicographicallySorted}
+, {\b Randomized}
+ \}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum class {\b ColourMode} : std::uint8_t \{ {\b PlatformDefault}
+, {\b ANSI}
+, {\b Win32}
+, {\b None}
+ \}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum class {\b CaseSensitive} \{ {\b Yes}
+, {\b No}
+ \}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum class {\b GenerateFrom} \{ {\b Time}
+, {\b RandomDevice}
+, {\b Default}
+ \}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum class {\b TestCaseProperties} : uint8_t \{ {\b None} = 0
+, {\b IsHidden} = 1 << 1
+, {\b ShouldFail} = 1 << 2
+, {\b MayFail} = 1 << 3
+, {\b Throws} = 1 << 4
+, {\b NonPortable} = 1 << 5
+, {\b Benchmark} = 1 << 6
+ \}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funções\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b operator==} ({\b ProcessedReporterSpec} const &lhs, {\b ProcessedReporterSpec} const &rhs)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::uint32_t {\b getSeed} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns Catch2's current RNG seed. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b IRegistryHub} const & {\b getRegistryHub} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b IMutableRegistryHub} & {\b getMutableRegistryHub} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b cleanUp} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::string {\b translateActiveException} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b operator<} ({\b Tag} const &lhs, {\b Tag} const &rhs)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b operator==} ({\b Tag} const &lhs, {\b Tag} const &rhs)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Detail::unique_ptr}< {\b TestCaseInfo} > {\b makeTestCaseInfo} ({\b StringRef} _className, {\b NameAndTags} const &nameAndTags, {\b SourceLineInfo} const &_lineInfo)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b operator<} ({\b TestCaseInfo} const &lhs, {\b TestCaseInfo} const &rhs)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::ostream & {\b operator<<} (std::ostream &os, {\b Version} const &version)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Version} const & {\b libraryVersion} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b handleExceptionMatchExpr} ({\b AssertionHandler} &handler, std::string const &str)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Clara::Parser} {\b makeCommandLineParser} ({\b ConfigData} &config)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Detail::unique_ptr}< ColourImpl > {\b makeColourImpl} ({\b ColourMode} colourSelection, IStream *stream)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b isColourImplAvailable} ({\b ColourMode} colourSelection)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b cleanUpContext} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Context} & {\b getCurrentMutableContext} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SimplePcg32} & {\b sharedRng} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b writeToDebugConsole} (std::string const &text)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b isDebuggerActive} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b formatReconstructedExpression} (std::ostream &os, std::string const &lhs, {\b StringRef} op, std::string const &rhs)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b throw_exception} (std::exception const &e)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b throw_logic_error} (std::string const &msg)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b throw_domain_error} (std::string const &msg)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b throw_runtime_error} (std::string const &msg)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+auto {\b makeStream} (std::string const &filename) -> {\b Detail::unique_ptr}< IStream >\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+auto {\b operator<<} (std::ostream &os, {\b LazyExpression} const &lazyExpr) -> std::ostream &\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b list} (IEventListener &reporter, {\b Config} const &config)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Optional}< unsigned int > {\b parseUInt} (std::string const &input, int base)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b isnan} (float f)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b isnan} (double d)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b nextafter} (float {\b x}, float y)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b nextafter} (double {\b x}, double y)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b operator==} ({\b SimplePcg32} const &lhs, {\b SimplePcg32} const &rhs)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b operator!=} ({\b SimplePcg32} const &lhs, {\b SimplePcg32} const &rhs)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::uint32_t {\b generateRandomSeed} ({\b GenerateFrom} from)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b operator==} ({\b ReporterSpec} const &lhs, {\b ReporterSpec} const &rhs)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Optional}< {\b ReporterSpec} > {\b parseReporterSpec} ({\b StringRef} reporterSpec)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b isOk} ({\b ResultWas::OfType} resultType)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b isJustInfo} (int flags)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ResultDisposition::Flags} {\b operator|} ({\b ResultDisposition::Flags} lhs, {\b ResultDisposition::Flags} rhs)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b shouldContinueOnFailure} (int flags)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b shouldSuppressFailure} (int flags)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b IResultCapture} & {\b getResultCapture} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b seedRng} ({\b IConfig} const &config)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+unsigned int {\b rngSeed} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b addSingleton} (ISingleton *singleton)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b cleanupSingletons} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::ostream & {\b operator<<} (std::ostream &os, {\b SourceLineInfo} const &info)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::ostream & {\b cout} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::ostream & {\b cerr} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::ostream & {\b clog} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b startsWith} (std::string const &s, std::string const &prefix)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b startsWith} ({\b StringRef} s, char prefix)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b endsWith} (std::string const &s, std::string const &suffix)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b endsWith} (std::string const &s, char suffix)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b contains} (std::string const &s, std::string const &infix)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b toLowerInPlace} (std::string &s)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::string {\b toLower} (std::string const &s)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+char {\b toLower} (char c)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::string {\b trim} (std::string const &str)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b StringRef} {\b trim} ({\b StringRef} ref)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b replaceInPlace} (std::string &str, std::string const &replaceThis, std::string const &withThis)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::vector< {\b StringRef} > {\b splitStringRef} ({\b StringRef} str, char delimiter)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::ostream & {\b operator<<} (std::ostream &os, pluralise const &pluraliser)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+auto {\b operator<<} (std::ostream &os, {\b StringRef} str) -> std::ostream &\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::string {\b operator+} ({\b StringRef} lhs, {\b StringRef} rhs)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+auto {\b operator+=} (std::string &lhs, {\b StringRef} rhs) -> std::string &\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::vector< {\b TestCaseHandle} > {\b sortTests} ({\b IConfig} const &config, std::vector< {\b TestCaseHandle} > const &unsortedTestCases)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b isThrowSafe} ({\b TestCaseHandle} const &testCase, {\b IConfig} const &config)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::vector< {\b TestCaseHandle} > {\b filterTests} (std::vector< {\b TestCaseHandle} > const &testCases, {\b TestSpec} const &testSpec, {\b IConfig} const &config)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::vector< {\b TestCaseHandle} > const & {\b getAllTestCasesSorted} ({\b IConfig} const &config)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b throw_test_failure_exception} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b throw_test_skip_exception} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Detail::unique_ptr}< {\b ITestInvoker} > {\b makeTestInvoker} (void(*testAsFunction)())\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b uncaught_exceptions} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+XmlFormatting {\b operator|} (XmlFormatting lhs, XmlFormatting rhs)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+XmlFormatting {\b operator&} (XmlFormatting lhs, XmlFormatting rhs)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::ostream & {\b operator<<} (std::ostream &os, XmlEncode const &xmlEncode)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b handleExceptionMatchExpr} ({\b AssertionHandler} &handler, StringMatcher const &matcher)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::string {\b getFormattedDuration} (double duration)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b shouldShowDuration} ({\b IConfig} const &config, double duration)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::string {\b serializeFilters} (std::vector< std::string > const &filters)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::ostream & {\b operator<<} (std::ostream &out, lineOfChars {\b value})\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b defaultListReporters} (std::ostream &out, std::vector< ReporterDescription > const &descriptions, {\b Verbosity} verbosity)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b defaultListListeners} (std::ostream &out, std::vector< ListenerDescription > const &descriptions)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b defaultListTags} (std::ostream &out, std::vector< TagInfo > const &tags, bool isFiltered)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b defaultListTests} (std::ostream &out, ColourImpl *streamColour, std::vector< {\b TestCaseHandle} > const &tests, bool isFiltered, {\b Verbosity} verbosity)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b printTestRunTotals} (std::ostream &stream, ColourImpl &streamColour, {\b Totals} const &totals)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Context} const & {\b getCurrentContext} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+constexpr auto {\b operator""_sr} (char const *rawChars, std::size_t size) noexcept -> {\b StringRef}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b isFalseTest} (int flags)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename Range > std::string {\b rangeToString} (Range const &range)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename Allocator > std::string {\b rangeToString} (std::vector< bool, Allocator > const &v)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename C > {\b Detail::unique_ptr}< {\b ITestInvoker} > {\b makeTestInvoker} (void(C::*testAsMethod)())\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Definições dos tipos\par
+\pard\plain 
+{\xe \v exceptionTranslateFunction\:Catch}
+{\xe \v Catch\:exceptionTranslateFunction}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+using {\b Catch::exceptionTranslateFunction} = std::string(*)()}}
+\par
+{\bkmkstart AAAAAAAAPS}
+{\bkmkend AAAAAAAAPS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v ExceptionTranslators\:Catch}
+{\xe \v Catch\:ExceptionTranslators}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+using {\b Catch::ExceptionTranslators} = std::vector<{\b Detail::unique_ptr}<{\b IExceptionTranslator} const>>}}
+\par
+{\bkmkstart AAAAAAAAPT}
+{\bkmkend AAAAAAAAPT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v FunctionReturnType\:Catch}
+{\xe \v Catch\:FunctionReturnType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Func , typename... U> using {\b Catch::FunctionReturnType} = std::remove_reference_t<std::remove_cv_t<std::result_of_t<Func(U...)>>>}}
+\par
+{\bkmkstart AAAAAAAAPU}
+{\bkmkend AAAAAAAAPU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v IReporterFactoryPtr\:Catch}
+{\xe \v Catch\:IReporterFactoryPtr}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+using {\b Catch::IReporterFactoryPtr} = {\b Detail::unique_ptr}<IReporterFactory>}}
+\par
+{\bkmkstart AAAAAAAAPV}
+{\bkmkend AAAAAAAAPV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v RegistryHubSingleton\:Catch}
+{\xe \v Catch\:RegistryHubSingleton}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+using {\b Catch::RegistryHubSingleton} = Singleton<RegistryHub, {\b IRegistryHub}, {\b IMutableRegistryHub}>}}
+\par
+{\bkmkstart AAAAAAAAPW}
+{\bkmkend AAAAAAAAPW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumerações\par
+\pard\plain 
+{\xe \v CaseSensitive\:Catch}
+{\xe \v Catch\:CaseSensitive}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum class {\b Catch::CaseSensitive}{\f2 [strong]}}}
+\par
+{\bkmkstart AAAAAAAAPX}
+{\bkmkend AAAAAAAAPX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Enumeradores:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v Yes\:Catch}
+{\xe \v Catch\:Yes}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Yes{\bkmkstart AAAAAAAAPY}
+{\bkmkend AAAAAAAAPY}
+\cell }{\cell }{\row }
+{\xe \v No\:Catch}
+{\xe \v Catch\:No}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid No{\bkmkstart AAAAAAAAPZ}
+{\bkmkend AAAAAAAAPZ}
+\cell }{\cell }{\row }
+}
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3375 \{ Yes, No \};\par
+}
+}
+{\xe \v ColourMode\:Catch}
+{\xe \v Catch\:ColourMode}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum class {\b Catch::ColourMode} : std::uint8_t{\f2 [strong]}}}
+\par
+{\bkmkstart AAAAAAAAQA}
+{\bkmkend AAAAAAAAQA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Enumeradores:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v PlatformDefault\:Catch}
+{\xe \v Catch\:PlatformDefault}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid PlatformDefault{\bkmkstart AAAAAAAAQB}
+{\bkmkend AAAAAAAAQB}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Let Catch2 pick implementation based on platform detection. \par
+}\cell }{\row }
+{\xe \v ANSI\:Catch}
+{\xe \v Catch\:ANSI}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid ANSI{\bkmkstart AAAAAAAAQC}
+{\bkmkend AAAAAAAAQC}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Use ANSI colour code escapes. \par
+}\cell }{\row }
+{\xe \v Win32\:Catch}
+{\xe \v Catch\:Win32}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Win32{\bkmkstart AAAAAAAAQD}
+{\bkmkend AAAAAAAAQD}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Use Win32 console colour API. \par
+}\cell }{\row }
+{\xe \v None\:Catch}
+{\xe \v Catch\:None}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid None{\bkmkstart AAAAAAAAQE}
+{\bkmkend AAAAAAAAQE}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Don't use any colour. \par
+}\cell }{\row }
+}
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1148                           : std::uint8_t \{\par
+1150         PlatformDefault,\par
+1152         ANSI,\par
+1154         Win32,\par
+1156         None\par
+1157     \};\par
+}
+}
+{\xe \v GenerateFrom\:Catch}
+{\xe \v Catch\:GenerateFrom}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum class {\b Catch::GenerateFrom}{\f2 [strong]}}}
+\par
+{\bkmkstart AAAAAAAAQF}
+{\bkmkend AAAAAAAAQF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Enumeradores:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v Time\:Catch}
+{\xe \v Catch\:Time}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Time{\bkmkstart AAAAAAAAQG}
+{\bkmkend AAAAAAAAQG}
+\cell }{\cell }{\row }
+{\xe \v RandomDevice\:Catch}
+{\xe \v Catch\:RandomDevice}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid RandomDevice{\bkmkstart AAAAAAAAQH}
+{\bkmkend AAAAAAAAQH}
+\cell }{\cell }{\row }
+{\xe \v Default\:Catch}
+{\xe \v Catch\:Default}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Default{\bkmkstart AAAAAAAAQI}
+{\bkmkend AAAAAAAAQI}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Currently equivalent to RandomDevice, but can change at any point. \par
+}\cell }{\row }
+}
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3629                             \{\par
+3630         Time,\par
+3631         RandomDevice,\par
+3633         Default\par
+3634     \};\par
+}
+}
+{\xe \v Justification\:Catch}
+{\xe \v Catch\:Justification}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum class {\b Catch::Justification}{\f2 [strong]}}}
+\par
+{\bkmkstart AAAAAAAAQJ}
+{\bkmkend AAAAAAAAQJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Enumeradores:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v Left\:Catch}
+{\xe \v Catch\:Left}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Left{\bkmkstart AAAAAAAAQK}
+{\bkmkend AAAAAAAAQK}
+\cell }{\cell }{\row }
+{\xe \v Right\:Catch}
+{\xe \v Catch\:Right}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Right{\bkmkstart AAAAAAAAQL}
+{\bkmkend AAAAAAAAQL}
+\cell }{\cell }{\row }
+}
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 9010 \{ Left, Right \};\par
+}
+}
+{\xe \v ShowDurations\:Catch}
+{\xe \v Catch\:ShowDurations}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum class {\b Catch::ShowDurations}{\f2 [strong]}}}
+\par
+{\bkmkstart AAAAAAAAQM}
+{\bkmkend AAAAAAAAQM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Enumeradores:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v DefaultForReporter\:Catch}
+{\xe \v Catch\:DefaultForReporter}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid DefaultForReporter{\bkmkstart AAAAAAAAQN}
+{\bkmkend AAAAAAAAQN}
+\cell }{\cell }{\row }
+{\xe \v Always\:Catch}
+{\xe \v Catch\:Always}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Always{\bkmkstart AAAAAAAAQO}
+{\bkmkend AAAAAAAAQO}
+\cell }{\cell }{\row }
+{\xe \v Never\:Catch}
+{\xe \v Catch\:Never}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Never{\bkmkstart AAAAAAAAQP}
+{\bkmkend AAAAAAAAQP}
+\cell }{\cell }{\row }
+}
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1138                              \{\par
+1139         DefaultForReporter,\par
+1140         Always,\par
+1141         Never\par
+1142     \};\par
+}
+}
+{\xe \v TestCaseProperties\:Catch}
+{\xe \v Catch\:TestCaseProperties}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum class {\b Catch::TestCaseProperties} : uint8_t{\f2 [strong]}}}
+\par
+{\bkmkstart AAAAAAAAQQ}
+{\bkmkend AAAAAAAAQQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Enumeradores:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v None\:Catch}
+{\xe \v Catch\:None}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid None{\bkmkstart AAAAAAAAQR}
+{\bkmkend AAAAAAAAQR}
+\cell }{\cell }{\row }
+{\xe \v IsHidden\:Catch}
+{\xe \v Catch\:IsHidden}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid IsHidden{\bkmkstart AAAAAAAAQS}
+{\bkmkend AAAAAAAAQS}
+\cell }{\cell }{\row }
+{\xe \v ShouldFail\:Catch}
+{\xe \v Catch\:ShouldFail}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid ShouldFail{\bkmkstart AAAAAAAAQT}
+{\bkmkend AAAAAAAAQT}
+\cell }{\cell }{\row }
+{\xe \v MayFail\:Catch}
+{\xe \v Catch\:MayFail}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid MayFail{\bkmkstart AAAAAAAAQU}
+{\bkmkend AAAAAAAAQU}
+\cell }{\cell }{\row }
+{\xe \v Throws\:Catch}
+{\xe \v Catch\:Throws}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Throws{\bkmkstart AAAAAAAAQV}
+{\bkmkend AAAAAAAAQV}
+\cell }{\cell }{\row }
+{\xe \v NonPortable\:Catch}
+{\xe \v Catch\:NonPortable}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid NonPortable{\bkmkstart AAAAAAAAQW}
+{\bkmkend AAAAAAAAQW}
+\cell }{\cell }{\row }
+{\xe \v Benchmark\:Catch}
+{\xe \v Catch\:Benchmark}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Benchmark{\bkmkstart AAAAAAAAQX}
+{\bkmkend AAAAAAAAQX}
+\cell }{\cell }{\row }
+}
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 7040                                   : uint8_t \{\par
+7041         None = 0,\par
+7042         IsHidden = 1 << 1,\par
+7043         ShouldFail = 1 << 2,\par
+7044         MayFail = 1 << 3,\par
+7045         Throws = 1 << 4,\par
+7046         NonPortable = 1 << 5,\par
+7047         Benchmark = 1 << 6\par
+7048     \};\par
+}
+}
+{\xe \v TestRunOrder\:Catch}
+{\xe \v Catch\:TestRunOrder}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum class {\b Catch::TestRunOrder}{\f2 [strong]}}}
+\par
+{\bkmkstart AAAAAAAAQY}
+{\bkmkend AAAAAAAAQY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Enumeradores:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v Declared\:Catch}
+{\xe \v Catch\:Declared}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Declared{\bkmkstart AAAAAAAAQZ}
+{\bkmkend AAAAAAAAQZ}
+\cell }{\cell }{\row }
+{\xe \v LexicographicallySorted\:Catch}
+{\xe \v Catch\:LexicographicallySorted}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid LexicographicallySorted{\bkmkstart AAAAAAAARA}
+{\bkmkend AAAAAAAARA}
+\cell }{\cell }{\row }
+{\xe \v Randomized\:Catch}
+{\xe \v Catch\:Randomized}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Randomized{\bkmkstart AAAAAAAARB}
+{\bkmkend AAAAAAAARB}
+\cell }{\cell }{\row }
+}
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1143                             \{\par
+1144         Declared,\par
+1145         LexicographicallySorted,\par
+1146         Randomized\par
+1147     \};\par
+}
+}
+{\xe \v Verbosity\:Catch}
+{\xe \v Catch\:Verbosity}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum class {\b Catch::Verbosity}{\f2 [strong]}}}
+\par
+{\bkmkstart AAAAAAAARC}
+{\bkmkend AAAAAAAARC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Enumeradores:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v Quiet\:Catch}
+{\xe \v Catch\:Quiet}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Quiet{\bkmkstart AAAAAAAARD}
+{\bkmkend AAAAAAAARD}
+\cell }{\cell }{\row }
+{\xe \v Normal\:Catch}
+{\xe \v Catch\:Normal}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Normal{\bkmkstart AAAAAAAARE}
+{\bkmkend AAAAAAAARE}
+\cell }{\cell }{\row }
+{\xe \v High\:Catch}
+{\xe \v Catch\:High}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid High{\bkmkstart AAAAAAAARF}
+{\bkmkend AAAAAAAARF}
+\cell }{\cell }{\row }
+}
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1124                          \{\par
+1125         Quiet = 0,\par
+1126         Normal,\par
+1127         High\par
+1128     \};\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funções\par
+\pard\plain 
+{\xe \v addSingleton\:Catch}
+{\xe \v Catch\:addSingleton}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::addSingleton (ISingleton * singleton)}}
+\par
+{\bkmkstart AAAAAAAARG}
+{\bkmkend AAAAAAAARG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6180                                               \{\par
+6181         getSingletons()->push_back( singleton );\par
+6182     \}\par
+}
+}
+{\xe \v cerr\:Catch}
+{\xe \v Catch\:cerr}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::ostream & Catch::cerr ()}}
+\par
+{\bkmkstart AAAAAAAARH}
+{\bkmkend AAAAAAAARH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6252 \{ {\cf19 return} std::cerr; \}\par
+}
+}
+{\xe \v cleanUp\:Catch}
+{\xe \v Catch\:cleanUp}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::cleanUp ()}}
+\par
+{\bkmkstart AAAAAAAARI}
+{\bkmkend AAAAAAAARI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1144                    \{\par
+1145         cleanupSingletons();\par
+1146         cleanUpContext();\par
+1147     \}\par
+}
+}
+{\xe \v cleanUpContext\:Catch}
+{\xe \v Catch\:cleanUpContext}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::cleanUpContext ()}}
+\par
+{\bkmkstart AAAAAAAARJ}
+{\bkmkend AAAAAAAARJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3638                           \{\par
+3639         {\cf17 delete} Context::currentContext;\par
+3640         Context::currentContext = {\cf17 nullptr};\par
+3641     \}\par
+}
+}
+{\xe \v cleanupSingletons\:Catch}
+{\xe \v Catch\:cleanupSingletons}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::cleanupSingletons ()}}
+\par
+{\bkmkstart AAAAAAAARK}
+{\bkmkend AAAAAAAARK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6183                              \{\par
+6184         {\cf17 auto}& singletons = getSingletons();\par
+6185         {\cf19 for}( {\cf17 auto} singleton : *singletons )\par
+6186             {\cf17 delete} singleton;\par
+6187         {\cf17 delete} singletons;\par
+6188         singletons = {\cf17 nullptr};\par
+6189     \}\par
+}
+}
+{\xe \v clog\:Catch}
+{\xe \v Catch\:clog}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::ostream & Catch::clog ()}}
+\par
+{\bkmkstart AAAAAAAARL}
+{\bkmkend AAAAAAAARL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6253 \{ {\cf19 return} std::clog; \}\par
+}
+}
+{\xe \v contains\:Catch}
+{\xe \v Catch\:contains}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::contains (std::string const & s, std::string const & infix)}}
+\par
+{\bkmkstart AAAAAAAARM}
+{\bkmkend AAAAAAAARM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6279                                                                 \{\par
+6280         {\cf19 return} s.find( infix ) != std::string::npos;\par
+6281     \}\par
+}
+}
+{\xe \v cout\:Catch}
+{\xe \v Catch\:cout}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::ostream & Catch::cout ()}}
+\par
+{\bkmkstart AAAAAAAARN}
+{\bkmkend AAAAAAAARN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6251 \{ {\cf19 return} std::cout; \}\par
+}
+}
+{\xe \v defaultListListeners\:Catch}
+{\xe \v Catch\:defaultListListeners}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::defaultListListeners (std::ostream & out, std::vector< ListenerDescription > const & descriptions)}}
+\par
+{\bkmkstart AAAAAAAARO}
+{\bkmkend AAAAAAAARO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 9701                                                                                     \{\par
+9702         out << {\cf22 "Registered listeners:\\n"};\par
+9703 \par
+9704         {\cf19 if}(descriptions.empty()) \{\par
+9705             {\cf19 return};\par
+9706         \}\par
+9707 \par
+9708         {\cf17 const} {\cf17 auto} maxNameLen =\par
+9709             std::max_element( descriptions.begin(),\par
+9710                               descriptions.end(),\par
+9711                               []( ListenerDescription {\cf17 const}& lhs,\par
+9712                                   ListenerDescription {\cf17 const}& rhs ) \{\par
+9713                                   return lhs.name.size() < rhs.name.size();\par
+9714                               \} )\par
+9715                 ->name.size();\par
+9716 \par
+9717         {\cf19 for} ( {\cf17 auto} {\cf17 const}& desc : descriptions ) \{\par
+9718             out << TextFlow::Column( static_cast<std::string>( desc.name ) +\par
+9719                                      {\cf23 ':'} )\par
+9720                            .indent( 2 )\par
+9721                            .width( maxNameLen + 5 ) +\par
+9722                        TextFlow::Column( desc.description )\par
+9723                            .initialIndent( 0 )\par
+9724                            .indent( 2 )\par
+9725                            .width( CATCH_CONFIG_CONSOLE_WIDTH - maxNameLen - 8 )\par
+9726                 << {\cf23 '\\n'};\par
+9727         \}\par
+9728 \par
+9729         out << {\cf23 '\\n'} << std::flush;\par
+9730     \}\par
+}
+}
+{\xe \v defaultListReporters\:Catch}
+{\xe \v Catch\:defaultListReporters}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::defaultListReporters (std::ostream & out, std::vector< ReporterDescription > const & descriptions, {\b Verbosity} verbosity)}}
+\par
+{\bkmkstart AAAAAAAARP}
+{\bkmkend AAAAAAAARP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 9669                                                 \{\par
+9670         out << {\cf22 "Available reporters:\\n"};\par
+9671         {\cf17 const} {\cf17 auto} maxNameLen =\par
+9672             std::max_element( descriptions.begin(),\par
+9673                               descriptions.end(),\par
+9674                               []( ReporterDescription {\cf17 const}& lhs,\par
+9675                                   ReporterDescription {\cf17 const}& rhs ) \{\par
+9676                                   return lhs.name.size() < rhs.name.size();\par
+9677                               \} )\par
+9678                 ->name.size();\par
+9679 \par
+9680         {\cf19 for} ( {\cf17 auto} {\cf17 const}& desc : descriptions ) \{\par
+9681             {\cf19 if} ( verbosity == Verbosity::Quiet ) \{\par
+9682                 out << TextFlow::Column( desc.name )\par
+9683                            .indent( 2 )\par
+9684                            .width( 5 + maxNameLen )\par
+9685                     << {\cf23 '\\n'};\par
+9686             \} {\cf19 else} \{\par
+9687                 out << TextFlow::Column( desc.name + {\cf23 ':'} )\par
+9688                                .indent( 2 )\par
+9689                                .width( 5 + maxNameLen ) +\par
+9690                            TextFlow::Column( desc.description )\par
+9691                                .initialIndent( 0 )\par
+9692                                .indent( 2 )\par
+9693                                .width( CATCH_CONFIG_CONSOLE_WIDTH - maxNameLen - 8 )\par
+9694                     << {\cf23 '\\n'};\par
+9695             \}\par
+9696         \}\par
+9697         out << {\cf23 '\\n'} << std::flush;\par
+9698     \}\par
+}
+}
+{\xe \v defaultListTags\:Catch}
+{\xe \v Catch\:defaultListTags}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::defaultListTags (std::ostream & out, std::vector< TagInfo > const & tags, bool isFiltered)}}
+\par
+{\bkmkstart AAAAAAAARQ}
+{\bkmkend AAAAAAAARQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 9734                                             \{\par
+9735         {\cf19 if} ( isFiltered ) \{\par
+9736             out << {\cf22 "Tags for matching test cases:\\n"};\par
+9737         \} {\cf19 else} \{\par
+9738             out << {\cf22 "All available tags:\\n"};\par
+9739         \}\par
+9740 \par
+9741         {\cf19 for} ( {\cf17 auto} {\cf17 const}& tagCount : tags ) \{\par
+9742             ReusableStringStream rss;\par
+9743             rss << {\cf22 "  "} << std::setw( 2 ) << tagCount.count << {\cf22 "  "};\par
+9744             {\cf17 auto} str = rss.str();\par
+9745             {\cf17 auto} wrapper = TextFlow::Column( tagCount.all() )\par
+9746                                .initialIndent( 0 )\par
+9747                                .indent( str.size() )\par
+9748                                .width( CATCH_CONFIG_CONSOLE_WIDTH - 10 );\par
+9749             out << str << wrapper << {\cf23 '\\n'};\par
+9750         \}\par
+9751         out << pluralise(tags.size(), {\cf22 "tag"}_sr) << {\cf22 "\\n\\n"} << std::flush;\par
+9752     \}\par
+}
+}
+{\xe \v defaultListTests\:Catch}
+{\xe \v Catch\:defaultListTests}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::defaultListTests (std::ostream & out, ColourImpl * streamColour, std::vector< {\b TestCaseHandle} > const & tests, bool isFiltered, {\b Verbosity} verbosity)}}
+\par
+{\bkmkstart AAAAAAAARR}
+{\bkmkend AAAAAAAARR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 9754                                                                                                                                                    \{\par
+9755         {\cf20 // We special case this to provide the equivalent of old}\par
+9756         {\cf20 // `--list-test-names-only`, which could then be used by the}\par
+9757         {\cf20 // `--input-file` option.}\par
+9758         {\cf19 if} (verbosity == Verbosity::Quiet) \{\par
+9759             listTestNamesOnly(out, tests);\par
+9760             {\cf19 return};\par
+9761         \}\par
+9762 \par
+9763         {\cf19 if} (isFiltered) \{\par
+9764             out << {\cf22 "Matching test cases:\\n"};\par
+9765         \} {\cf19 else} \{\par
+9766             out << {\cf22 "All available test cases:\\n"};\par
+9767         \}\par
+9768 \par
+9769         {\cf19 for} ({\cf17 auto} {\cf17 const}& test : tests) \{\par
+9770             {\cf17 auto} {\cf17 const}& testCaseInfo = test.getTestCaseInfo();\par
+9771             Colour::Code colour = testCaseInfo.isHidden()\par
+9772                 ? Colour::SecondaryText\par
+9773                 : Colour::None;\par
+9774             {\cf17 auto} colourGuard = streamColour->guardColour( colour ).engage( out );\par
+9775 \par
+9776             out << TextFlow::Column(testCaseInfo.name).indent(2) << {\cf23 '\\n'};\par
+9777             {\cf19 if} (verbosity >= Verbosity::High) \{\par
+9778                 out << TextFlow::Column(Catch::Detail::stringify(testCaseInfo.lineInfo)).indent(4) << {\cf23 '\\n'};\par
+9779             \}\par
+9780             {\cf19 if} (!testCaseInfo.tags.empty() &&\par
+9781                 verbosity > Verbosity::Quiet) \{\par
+9782                 out << TextFlow::Column(testCaseInfo.tagsAsString()).indent(6) << {\cf23 '\\n'};\par
+9783             \}\par
+9784         \}\par
+9785 \par
+9786         {\cf19 if} (isFiltered) \{\par
+9787             out << pluralise(tests.size(), {\cf22 "matching test case"}_sr);\par
+9788         \} {\cf19 else} \{\par
+9789             out << pluralise(tests.size(), {\cf22 "test case"}_sr);\par
+9790         \}\par
+9791         out << {\cf22 "\\n\\n"} << std::flush;\par
+9792     \}\par
+}
+}
+{\xe \v endsWith\:Catch}
+{\xe \v Catch\:endsWith}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::endsWith (std::string const & s, char suffix)}}
+\par
+{\bkmkstart AAAAAAAARS}
+{\bkmkend AAAAAAAARS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6276                                                      \{\par
+6277         {\cf19 return} !s.empty() && s[s.size()-1] == suffix;\par
+6278     \}\par
+}
+}
+{\xe \v endsWith\:Catch}
+{\xe \v Catch\:endsWith}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::endsWith (std::string const & s, std::string const & suffix)}}
+\par
+{\bkmkstart AAAAAAAART}
+{\bkmkend AAAAAAAART}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6273                                                                  \{\par
+6274         {\cf19 return} s.size() >= suffix.size() && std::equal(suffix.rbegin(), suffix.rend(), s.rbegin());\par
+6275     \}\par
+}
+}
+{\xe \v filterTests\:Catch}
+{\xe \v Catch\:filterTests}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::vector< {\b TestCaseHandle} > Catch::filterTests (std::vector< {\b TestCaseHandle} > const & testCases, {\b TestSpec} const & testSpec, {\b IConfig} const & config)}}
+\par
+{\bkmkstart AAAAAAAARU}
+{\bkmkend AAAAAAAARU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6598                                                                                                                                          \{\par
+6599         std::vector<TestCaseHandle> filtered;\par
+6600         filtered.reserve( testCases.size() );\par
+6601         {\cf19 for} ({\cf17 auto} {\cf17 const}& testCase : testCases) \{\par
+6602             {\cf19 if} ((!testSpec.hasFilters() && !testCase.getTestCaseInfo().isHidden()) ||\par
+6603                 (testSpec.hasFilters() && matchTest(testCase, testSpec, config))) \{\par
+6604                 filtered.push_back(testCase);\par
+6605             \}\par
+6606         \}\par
+6607         {\cf19 return} createShard(filtered, config.shardCount(), config.shardIndex());\par
+6608     \}\par
+}
+}
+{\xe \v formatReconstructedExpression\:Catch}
+{\xe \v Catch\:formatReconstructedExpression}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::formatReconstructedExpression (std::ostream & os, std::string const & lhs, {\b StringRef} op, std::string const & rhs)}}
+\par
+{\bkmkstart AAAAAAAARV}
+{\bkmkend AAAAAAAARV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3822                                                                                                                    \{\par
+3823         {\cf19 if}( lhs.size() + rhs.size() < 40 &&\par
+3824                 lhs.find({\cf23 '\\n'}) == std::string::npos &&\par
+3825                 rhs.find({\cf23 '\\n'}) == std::string::npos )\par
+3826             os << lhs << {\cf23 ' '} << op << {\cf23 ' '} << rhs;\par
+3827         {\cf19 else}\par
+3828             os << lhs << {\cf23 '\\n'} << op << {\cf23 '\\n'} << rhs;\par
+3829     \}\par
+}
+}
+{\xe \v generateRandomSeed\:Catch}
+{\xe \v Catch\:generateRandomSeed}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::uint32_t Catch::generateRandomSeed ({\b GenerateFrom} from)}}
+\par
+{\bkmkstart AAAAAAAARW}
+{\bkmkend AAAAAAAARW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 5096                                                         \{\par
+5097         {\cf19 switch} ( from ) \{\par
+5098         {\cf19 case} GenerateFrom::Time:\par
+5099             {\cf19 return} {\cf17 static_cast<}std::uint32_t{\cf17 >}( std::time( {\cf17 nullptr} ) );\par
+5100 \par
+5101         {\cf19 case} GenerateFrom::Default:\par
+5102         {\cf19 case} GenerateFrom::RandomDevice: \{\par
+5103             std::random_device rd;\par
+5104             {\cf19 return} Detail::fillBitsFrom<std::uint32_t>( rd );\par
+5105         \}\par
+5106 \par
+5107         {\cf19 default}:\par
+5108             CATCH_ERROR({\cf22 "Unknown generation method"});\par
+5109         \}\par
+5110     \}\par
+}
+}
+{\xe \v getAllTestCasesSorted\:Catch}
+{\xe \v Catch\:getAllTestCasesSorted}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::vector< {\b TestCaseHandle} > const  & Catch::getAllTestCasesSorted ({\b IConfig} const & config)}}
+\par
+{\bkmkstart AAAAAAAARX}
+{\bkmkend AAAAAAAARX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6609                                                                                     \{\par
+6610         {\cf19 return} getRegistryHub().getTestCaseRegistry().getAllTestsSorted( config );\par
+6611     \}\par
+}
+}
+{\xe \v getCurrentContext\:Catch}
+{\xe \v Catch\:getCurrentContext}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Context} const  & Catch::getCurrentContext (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAARY}
+{\bkmkend AAAAAAAARY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 566                                               \{\par
+567         {\cf20 // We duplicate the logic from `getCurrentMutableContext` here,}\par
+568         {\cf20 // to avoid paying the call overhead in debug mode.}\par
+569         {\cf19 if} ( !Context::currentContext ) \{ Context::createContext(); \}\par
+570         {\cf20 // NOLINTNEXTLINE(clang-analyzer-core.uninitialized.UndefReturn)}\par
+571         {\cf19 return} *Context::currentContext;\par
+572     \}\par
+}
+}
+{\xe \v getCurrentMutableContext\:Catch}
+{\xe \v Catch\:getCurrentMutableContext}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Context} & Catch::getCurrentMutableContext ()}}
+\par
+{\bkmkstart AAAAAAAARZ}
+{\bkmkend AAAAAAAARZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3646                                         \{\par
+3647         {\cf19 if} ( !Context::currentContext ) \{ Context::createContext(); \}\par
+3648         {\cf20 // NOLINTNEXTLINE(clang-analyzer-core.uninitialized.UndefReturn)}\par
+3649         {\cf19 return} *Context::currentContext;\par
+3650     \}\par
+}
+}
+{\xe \v getFormattedDuration\:Catch}
+{\xe \v Catch\:getFormattedDuration}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::string Catch::getFormattedDuration (double duration)}}
+\par
+{\bkmkstart AAAAAAAASA}
+{\bkmkend AAAAAAAASA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 9606                                                       \{\par
+9607         {\cf20 // Max exponent + 1 is required to represent the whole part}\par
+9608         {\cf20 // + 1 for decimal point}\par
+9609         {\cf20 // + 3 for the 3 decimal places}\par
+9610         {\cf20 // + 1 for null terminator}\par
+9611         {\cf17 const} std::size_t maxDoubleSize = DBL_MAX_10_EXP + 1 + 1 + 3 + 1;\par
+9612         {\cf18 char} buffer[maxDoubleSize];\par
+9613 \par
+9614         {\cf20 // Save previous errno, to prevent sprintf from overwriting it}\par
+9615         ErrnoGuard guard;\par
+9616 {\cf21 #ifdef _MSC_VER}\par
+9617         {\cf18 size_t} printedLength = {\cf17 static_cast<}{\cf18 size_t}{\cf17 >}(\par
+9618             sprintf_s( buffer, {\cf22 "%.3f"}, duration ) );\par
+9619 {\cf21 #else}\par
+9620         {\cf18 size_t} printedLength = {\cf17 static_cast<}{\cf18 size_t}{\cf17 >}(\par
+9621             std::snprintf( buffer, maxDoubleSize, {\cf22 "%.3f"}, duration ) );\par
+9622 {\cf21 #endif}\par
+9623         {\cf19 return} std::string( buffer, printedLength );\par
+9624     \}\par
+}
+}
+{\xe \v getMutableRegistryHub\:Catch}
+{\xe \v Catch\:getMutableRegistryHub}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b IMutableRegistryHub} & Catch::getMutableRegistryHub ()}}
+\par
+{\bkmkstart AAAAAAAASB}
+{\bkmkend AAAAAAAASB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1141                                                  \{\par
+1142         {\cf19 return} RegistryHubSingleton::getMutable();\par
+1143     \}\par
+}
+}
+{\xe \v getRegistryHub\:Catch}
+{\xe \v Catch\:getRegistryHub}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b IRegistryHub} const  & Catch::getRegistryHub ()}}
+\par
+{\bkmkstart AAAAAAAASC}
+{\bkmkend AAAAAAAASC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1138                                          \{\par
+1139         {\cf19 return} RegistryHubSingleton::get();\par
+1140     \}\par
+}
+}
+{\xe \v getResultCapture\:Catch}
+{\xe \v Catch\:getResultCapture}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b IResultCapture} & Catch::getResultCapture ()}}
+\par
+{\bkmkstart AAAAAAAASD}
+{\bkmkend AAAAAAAASD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6095                                        \{\par
+6096         {\cf19 if} ({\cf17 auto}* capture = getCurrentContext().getResultCapture())\par
+6097             {\cf19 return} *capture;\par
+6098         {\cf19 else}\par
+6099             CATCH_INTERNAL_ERROR({\cf22 "No result capture instance"});\par
+6100     \}\par
+}
+}
+{\xe \v getSeed\:Catch}
+{\xe \v Catch\:getSeed}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::uint32_t Catch::getSeed ()}}
+\par
+{\bkmkstart AAAAAAAASE}
+{\bkmkend AAAAAAAASE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns Catch2's current RNG seed. }}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 956                           \{\par
+957         {\cf19 return} getCurrentContext().getConfig()->rngSeed();\par
+958     \}\par
+}
+}
+{\xe \v handleExceptionMatchExpr\:Catch}
+{\xe \v Catch\:handleExceptionMatchExpr}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::handleExceptionMatchExpr ({\b AssertionHandler} & handler, std::string const & str)}}
+\par
+{\bkmkstart AAAAAAAASF}
+{\bkmkend AAAAAAAASF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 2579                                                                                      \{\par
+2580         handleExceptionMatchExpr( handler, Matchers::Equals( str ) );\par
+2581     \}\par
+}
+}
+{\xe \v handleExceptionMatchExpr\:Catch}
+{\xe \v Catch\:handleExceptionMatchExpr}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::handleExceptionMatchExpr ({\b AssertionHandler} & handler, StringMatcher const & matcher)}}
+\par
+{\bkmkstart AAAAAAAASG}
+{\bkmkend AAAAAAAASG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 8424                                                                                              \{\par
+8425         std::string exceptionMessage = Catch::translateActiveException();\par
+8426         MatchExpr<std::string, StringMatcher const&> expr( CATCH_MOVE(exceptionMessage), matcher );\par
+8427         handler.handleExpr( expr );\par
+8428     \}\par
+}
+}
+{\xe \v isColourImplAvailable\:Catch}
+{\xe \v Catch\:isColourImplAvailable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::isColourImplAvailable ({\b ColourMode} colourSelection)}}
+\par
+{\bkmkstart AAAAAAAASH}
+{\bkmkend AAAAAAAASH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3610                                                              \{\par
+3611         {\cf19 switch} ( colourSelection ) \{\par
+3612 {\cf21 #if defined( CATCH_CONFIG_COLOUR_WIN32 )}\par
+3613         {\cf19 case} ColourMode::Win32:\par
+3614 {\cf21 #endif}\par
+3615         {\cf19 case} ColourMode::ANSI:\par
+3616         {\cf19 case} ColourMode::None:\par
+3617         {\cf19 case} ColourMode::PlatformDefault:\par
+3618             {\cf19 return} {\cf17 true};\par
+3619         {\cf19 default}:\par
+3620             {\cf19 return} {\cf17 false};\par
+3621         \}\par
+3622     \}\par
+}
+}
+{\xe \v isDebuggerActive\:Catch}
+{\xe \v Catch\:isDebuggerActive}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::isDebuggerActive ()}}
+\par
+{\bkmkstart AAAAAAAASI}
+{\bkmkend AAAAAAAASI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3806 \{ {\cf19 return} {\cf17 false}; \}\par
+}
+}
+{\xe \v isFalseTest\:Catch}
+{\xe \v Catch\:isFalseTest}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::isFalseTest (int flags){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAASJ}
+{\bkmkend AAAAAAAASJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 838 \{ {\cf19 return} ( flags & ResultDisposition::FalseTest ) != 0; \}\par
+}
+}
+{\xe \v isJustInfo\:Catch}
+{\xe \v Catch\:isJustInfo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::isJustInfo (int flags)}}
+\par
+{\bkmkstart AAAAAAAASK}
+{\bkmkend AAAAAAAASK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 5358                                  \{\par
+5359         {\cf19 return} flags == ResultWas::Info;\par
+5360     \}\par
+}
+}
+{\xe \v isnan\:Catch}
+{\xe \v Catch\:isnan}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::isnan (double d)}}
+\par
+{\bkmkstart AAAAAAAASL}
+{\bkmkend AAAAAAAASL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 5000                          \{\par
+5001         {\cf19 return} std::isnan(d);\par
+5002     \}\par
+}
+}
+{\xe \v isnan\:Catch}
+{\xe \v Catch\:isnan}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::isnan (float f)}}
+\par
+{\bkmkstart AAAAAAAASM}
+{\bkmkend AAAAAAAASM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 4997                         \{\par
+4998         {\cf19 return} std::isnan(f);\par
+4999     \}\par
+}
+}
+{\xe \v isOk\:Catch}
+{\xe \v Catch\:isOk}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::isOk ({\b ResultWas::OfType} resultType)}}
+\par
+{\bkmkstart AAAAAAAASN}
+{\bkmkend AAAAAAAASN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 5355                                             \{\par
+5356         {\cf19 return} ( resultType & ResultWas::FailureBit ) == 0;\par
+5357     \}\par
+}
+}
+{\xe \v isThrowSafe\:Catch}
+{\xe \v Catch\:isThrowSafe}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::isThrowSafe ({\b TestCaseHandle} const & testCase, {\b IConfig} const & config)}}
+\par
+{\bkmkstart AAAAAAAASO}
+{\bkmkend AAAAAAAASO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6594                                                                               \{\par
+6595         {\cf19 return} !testCase.getTestCaseInfo().throws() || config.allowThrows();\par
+6596     \}\par
+}
+}
+{\xe \v libraryVersion\:Catch}
+{\xe \v Catch\:libraryVersion}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Version} const  & Catch::libraryVersion ()}}
+\par
+{\bkmkstart AAAAAAAASP}
+{\bkmkend AAAAAAAASP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 2275                                     \{\par
+2276         {\cf17 static} Version version( 3, 6, 0, {\cf22 ""}, 0 );\par
+2277         {\cf19 return} version;\par
+2278     \}\par
+}
+}
+{\xe \v list\:Catch}
+{\xe \v Catch\:list}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::list (IEventListener & reporter, {\b Config} const & config)}}
+\par
+{\bkmkstart AAAAAAAASQ}
+{\bkmkend AAAAAAAASQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 4736                                                                 \{\par
+4737         {\cf18 bool} listed = {\cf17 false};\par
+4738         {\cf19 if} (config.listTests()) \{\par
+4739             listed = {\cf17 true};\par
+4740             listTests(reporter, config);\par
+4741         \}\par
+4742         {\cf19 if} (config.listTags()) \{\par
+4743             listed = {\cf17 true};\par
+4744             listTags(reporter, config);\par
+4745         \}\par
+4746         {\cf19 if} (config.listReporters()) \{\par
+4747             listed = {\cf17 true};\par
+4748             listReporters(reporter);\par
+4749         \}\par
+4750         {\cf19 if} ( config.listListeners() ) \{\par
+4751             listed = {\cf17 true};\par
+4752             listListeners( reporter );\par
+4753         \}\par
+4754         {\cf19 return} listed;\par
+4755     \}\par
+}
+}
+{\xe \v makeColourImpl\:Catch}
+{\xe \v Catch\:makeColourImpl}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Detail::unique_ptr}< ColourImpl > Catch::makeColourImpl ({\b ColourMode} colourSelection, IStream * stream)}}
+\par
+{\bkmkstart AAAAAAAASR}
+{\bkmkend AAAAAAAASR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3582                                                                      \{\par
+3583 {\cf21 #if defined( CATCH_CONFIG_COLOUR_WIN32 )}\par
+3584         {\cf19 if} ( colourSelection == ColourMode::Win32 ) \{\par
+3585             {\cf19 return} Detail::make_unique<Win32ColourImpl>( stream );\par
+3586         \}\par
+3587 {\cf21 #endif}\par
+3588         {\cf19 if} ( colourSelection == ColourMode::ANSI ) \{\par
+3589             {\cf19 return} Detail::make_unique<ANSIColourImpl>( stream );\par
+3590         \}\par
+3591         {\cf19 if} ( colourSelection == ColourMode::None ) \{\par
+3592             {\cf19 return} Detail::make_unique<NoColourImpl>( stream );\par
+3593         \}\par
+3594 \par
+3595         {\cf19 if} ( colourSelection == ColourMode::PlatformDefault) \{\par
+3596 {\cf21 #if defined( CATCH_CONFIG_COLOUR_WIN32 )}\par
+3597             {\cf19 if} ( Win32ColourImpl::useImplementationForStream( *stream ) ) \{\par
+3598                 {\cf19 return} Detail::make_unique<Win32ColourImpl>( stream );\par
+3599             \}\par
+3600 {\cf21 #endif}\par
+3601             {\cf19 if} ( ANSIColourImpl::useImplementationForStream( *stream ) ) \{\par
+3602                 {\cf19 return} Detail::make_unique<ANSIColourImpl>( stream );\par
+3603             \}\par
+3604             {\cf19 return} Detail::make_unique<NoColourImpl>( stream );\par
+3605         \}\par
+3606 \par
+3607         CATCH_ERROR( {\cf22 "Could not create colour impl for selection "} << {\cf17 static_cast<}{\cf18 int}{\cf17 >}(colourSelection) );\par
+3608     \}\par
+}
+}
+{\xe \v makeCommandLineParser\:Catch}
+{\xe \v Catch\:makeCommandLineParser}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Clara::Parser} Catch::makeCommandLineParser ({\b ConfigData} & config)}}
+\par
+{\bkmkstart AAAAAAAASS}
+{\bkmkend AAAAAAAASS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3074                                                             \{\par
+3075 \par
+3076         {\cf17 using namespace }Clara;\par
+3077 \par
+3078         {\cf17 auto} {\cf17 const} setWarning = [&]( std::string {\cf17 const}& warning ) \{\par
+3079             {\cf19 if} ( warning == {\cf22 "NoAssertions"} ) \{\par
+3080                 config.warnings = {\cf17 static_cast<}WarnAbout::What{\cf17 >}(config.warnings | WarnAbout::NoAssertions);\par
+3081                 {\cf19 return} ParserResult::ok( ParseResultType::Matched );\par
+3082             \} {\cf19 else} {\cf19 if} ( warning == {\cf22 "UnmatchedTestSpec"} ) \{\par
+3083                 config.warnings = {\cf17 static_cast<}WarnAbout::What{\cf17 >}(config.warnings | WarnAbout::UnmatchedTestSpec);\par
+3084                 {\cf19 return} ParserResult::ok( ParseResultType::Matched );\par
+3085             \}\par
+3086 \par
+3087             {\cf19 return} ParserResult ::runtimeError(\par
+3088                 {\cf22 "Unrecognised warning option: '"} + warning + {\cf23 '\\''} );\par
+3089         \};\par
+3090         {\cf17 auto} {\cf17 const} loadTestNamesFromFile = [&]( std::string {\cf17 const}& filename ) \{\par
+3091                 std::ifstream f( filename.c_str() );\par
+3092                 {\cf19 if}( !f.is_open() )\par
+3093                     {\cf19 return} ParserResult::runtimeError( {\cf22 "Unable to load input file: '"} + filename + {\cf23 '\\''} );\par
+3094 \par
+3095                 std::string line;\par
+3096                 {\cf19 while}( std::getline( f, line ) ) \{\par
+3097                     line = trim(line);\par
+3098                     {\cf19 if}( !line.empty() && !startsWith( line, {\cf23 '#'} ) ) \{\par
+3099                         {\cf19 if}( !startsWith( line, {\cf23 '"'} ) )\par
+3100                             line = {\cf23 '"'} + CATCH_MOVE(line) + {\cf23 '"'};\par
+3101                         config.testsOrTags.push_back( line );\par
+3102                         config.testsOrTags.emplace_back( {\cf22 ","} );\par
+3103                     \}\par
+3104                 \}\par
+3105                 {\cf20 //Remove comma in the end}\par
+3106                 {\cf19 if}(!config.testsOrTags.empty())\par
+3107                     config.testsOrTags.erase( config.testsOrTags.end()-1 );\par
+3108 \par
+3109                 {\cf19 return} ParserResult::ok( ParseResultType::Matched );\par
+3110             \};\par
+3111         {\cf17 auto} {\cf17 const} setTestOrder = [&]( std::string {\cf17 const}& order ) \{\par
+3112                 {\cf19 if}( startsWith( {\cf22 "declared"}, order ) )\par
+3113                     config.runOrder = TestRunOrder::Declared;\par
+3114                 {\cf19 else} {\cf19 if}( startsWith( {\cf22 "lexical"}, order ) )\par
+3115                     config.runOrder = TestRunOrder::LexicographicallySorted;\par
+3116                 {\cf19 else} {\cf19 if}( startsWith( {\cf22 "random"}, order ) )\par
+3117                     config.runOrder = TestRunOrder::Randomized;\par
+3118                 {\cf19 else}\par
+3119                     {\cf19 return} ParserResult::runtimeError( {\cf22 "Unrecognised ordering: '"} + order + {\cf23 '\\''} );\par
+3120                 {\cf19 return} ParserResult::ok( ParseResultType::Matched );\par
+3121             \};\par
+3122         {\cf17 auto} {\cf17 const} setRngSeed = [&]( std::string {\cf17 const}& seed ) \{\par
+3123                 {\cf19 if}( seed == {\cf22 "time"} ) \{\par
+3124                     config.rngSeed = generateRandomSeed(GenerateFrom::Time);\par
+3125                     {\cf19 return} ParserResult::ok(ParseResultType::Matched);\par
+3126                 \} {\cf19 else} {\cf19 if} (seed == {\cf22 "random-device"}) \{\par
+3127                     config.rngSeed = generateRandomSeed(GenerateFrom::RandomDevice);\par
+3128                     {\cf19 return} ParserResult::ok(ParseResultType::Matched);\par
+3129                 \}\par
+3130 \par
+3131                 {\cf20 // TODO: ideally we should be parsing uint32_t directly}\par
+3132                 {\cf20 //       fix this later when we add new parse overload}\par
+3133                 {\cf17 auto} parsedSeed = parseUInt( seed, 0 );\par
+3134                 {\cf19 if} ( !parsedSeed ) \{\par
+3135                     {\cf19 return} ParserResult::runtimeError( {\cf22 "Could not parse '"} + seed + {\cf22 "' as seed"} );\par
+3136                 \}\par
+3137                 config.rngSeed = *parsedSeed;\par
+3138                 {\cf19 return} ParserResult::ok( ParseResultType::Matched );\par
+3139             \};\par
+3140         {\cf17 auto} {\cf17 const} setDefaultColourMode = [&]( std::string {\cf17 const}& colourMode ) \{\par
+3141             Optional<ColourMode> maybeMode = Catch::Detail::stringToColourMode(toLower( colourMode ));\par
+3142             {\cf19 if} ( !maybeMode ) \{\par
+3143                 {\cf19 return} ParserResult::runtimeError(\par
+3144                     {\cf22 "colour mode must be one of: default, ansi, win32, "}\par
+3145                     {\cf22 "or none. '"} +\par
+3146                     colourMode + {\cf22 "' is not recognised"} );\par
+3147             \}\par
+3148             {\cf17 auto} mode = *maybeMode;\par
+3149             {\cf19 if} ( !isColourImplAvailable( mode ) ) \{\par
+3150                 {\cf19 return} ParserResult::runtimeError(\par
+3151                     {\cf22 "colour mode '"} + colourMode +\par
+3152                     {\cf22 "' is not supported in this binary"} );\par
+3153             \}\par
+3154             config.defaultColourMode = mode;\par
+3155             {\cf19 return} ParserResult::ok( ParseResultType::Matched );\par
+3156         \};\par
+3157         {\cf17 auto} {\cf17 const} setWaitForKeypress = [&]( std::string {\cf17 const}& keypress ) \{\par
+3158                 {\cf17 auto} keypressLc = toLower( keypress );\par
+3159                 {\cf19 if} (keypressLc == {\cf22 "never"})\par
+3160                     config.waitForKeypress = WaitForKeypress::Never;\par
+3161                 {\cf19 else} {\cf19 if}( keypressLc == {\cf22 "start"} )\par
+3162                     config.waitForKeypress = WaitForKeypress::BeforeStart;\par
+3163                 {\cf19 else} {\cf19 if}( keypressLc == {\cf22 "exit"} )\par
+3164                     config.waitForKeypress = WaitForKeypress::BeforeExit;\par
+3165                 {\cf19 else} {\cf19 if}( keypressLc == {\cf22 "both"} )\par
+3166                     config.waitForKeypress = WaitForKeypress::BeforeStartAndExit;\par
+3167                 {\cf19 else}\par
+3168                     {\cf19 return} ParserResult::runtimeError( {\cf22 "keypress argument must be one of: never, start, exit or both. '"} + keypress + {\cf22 "' not recognised"} );\par
+3169             {\cf19 return} ParserResult::ok( ParseResultType::Matched );\par
+3170             \};\par
+3171         {\cf17 auto} {\cf17 const} setVerbosity = [&]( std::string {\cf17 const}& verbosity ) \{\par
+3172             {\cf17 auto} lcVerbosity = toLower( verbosity );\par
+3173             {\cf19 if}( lcVerbosity == {\cf22 "quiet"} )\par
+3174                 config.verbosity = Verbosity::Quiet;\par
+3175             {\cf19 else} {\cf19 if}( lcVerbosity == {\cf22 "normal"} )\par
+3176                 config.verbosity = Verbosity::Normal;\par
+3177             {\cf19 else} {\cf19 if}( lcVerbosity == {\cf22 "high"} )\par
+3178                 config.verbosity = Verbosity::High;\par
+3179             {\cf19 else}\par
+3180                 {\cf19 return} ParserResult::runtimeError( {\cf22 "Unrecognised verbosity, '"} + verbosity + {\cf23 '\\''} );\par
+3181             {\cf19 return} ParserResult::ok( ParseResultType::Matched );\par
+3182         \};\par
+3183         {\cf17 auto} {\cf17 const} setReporter = [&]( std::string {\cf17 const}& userReporterSpec ) \{\par
+3184             {\cf19 if} ( userReporterSpec.empty() ) \{\par
+3185                 {\cf19 return} ParserResult::runtimeError( {\cf22 "Received empty reporter spec."} );\par
+3186             \}\par
+3187 \par
+3188             Optional<ReporterSpec> parsed =\par
+3189                 parseReporterSpec( userReporterSpec );\par
+3190             {\cf19 if} ( !parsed ) \{\par
+3191                 {\cf19 return} ParserResult::runtimeError(\par
+3192                     {\cf22 "Could not parse reporter spec '"} + userReporterSpec +\par
+3193                     {\cf22 "'"} );\par
+3194             \}\par
+3195 \par
+3196             {\cf17 auto} {\cf17 const}& reporterSpec = *parsed;\par
+3197 \par
+3198             {\cf17 auto} {\cf17 const}& factories =\par
+3199                 getRegistryHub().getReporterRegistry().getFactories();\par
+3200             {\cf17 auto} result = factories.find( reporterSpec.name() );\par
+3201 \par
+3202             {\cf19 if} ( result == factories.end() ) \{\par
+3203                 {\cf19 return} ParserResult::runtimeError(\par
+3204                     {\cf22 "Unrecognized reporter, '"} + reporterSpec.name() +\par
+3205                     {\cf22 "'. Check available with --list-reporters"} );\par
+3206             \}\par
+3207 \par
+3208 \par
+3209             {\cf17 const} {\cf18 bool} hadOutputFile = reporterSpec.outputFile().some();\par
+3210             config.reporterSpecifications.push_back( CATCH_MOVE( *parsed ) );\par
+3211             {\cf20 // It would be enough to check this only once at the very end, but}\par
+3212             {\cf20 // there is  not a place where we could call this check, so do it}\par
+3213             {\cf20 // every time it could fail. For valid inputs, this is still called}\par
+3214             {\cf20 // at most once.}\par
+3215             {\cf19 if} (!hadOutputFile) \{\par
+3216                 {\cf18 int} n_reporters_without_file = 0;\par
+3217                 {\cf19 for} ({\cf17 auto} {\cf17 const}& spec : config.reporterSpecifications) \{\par
+3218                     {\cf19 if} (spec.outputFile().none()) \{\par
+3219                         n_reporters_without_file++;\par
+3220                     \}\par
+3221                 \}\par
+3222                 {\cf19 if} (n_reporters_without_file > 1) \{\par
+3223                     {\cf19 return} ParserResult::runtimeError( {\cf22 "Only one reporter may have unspecified output file."} );\par
+3224                 \}\par
+3225             \}\par
+3226 \par
+3227             {\cf19 return} ParserResult::ok( ParseResultType::Matched );\par
+3228         \};\par
+3229         {\cf17 auto} {\cf17 const} setShardCount = [&]( std::string {\cf17 const}& shardCount ) \{\par
+3230             {\cf17 auto} parsedCount = parseUInt( shardCount );\par
+3231             {\cf19 if} ( !parsedCount ) \{\par
+3232                 {\cf19 return} ParserResult::runtimeError(\par
+3233                     {\cf22 "Could not parse '"} + shardCount + {\cf22 "' as shard count"} );\par
+3234             \}\par
+3235             {\cf19 if} ( *parsedCount == 0 ) \{\par
+3236                 {\cf19 return} ParserResult::runtimeError(\par
+3237                     {\cf22 "Shard count must be positive"} );\par
+3238             \}\par
+3239             config.shardCount = *parsedCount;\par
+3240             {\cf19 return} ParserResult::ok( ParseResultType::Matched );\par
+3241         \};\par
+3242 \par
+3243         {\cf17 auto} {\cf17 const} setShardIndex = [&](std::string {\cf17 const}& shardIndex) \{\par
+3244             {\cf17 auto} parsedIndex = parseUInt( shardIndex );\par
+3245             {\cf19 if} ( !parsedIndex ) \{\par
+3246                 {\cf19 return} ParserResult::runtimeError(\par
+3247                     {\cf22 "Could not parse '"} + shardIndex + {\cf22 "' as shard index"} );\par
+3248             \}\par
+3249             config.shardIndex = *parsedIndex;\par
+3250             {\cf19 return} ParserResult::ok( ParseResultType::Matched );\par
+3251         \};\par
+3252 \par
+3253         {\cf17 auto} cli\par
+3254             = ExeName( config.processName )\par
+3255             | Help( config.showHelp )\par
+3256             | Opt( config.showSuccessfulTests )\par
+3257                 [{\cf22 "-s"}][{\cf22 "--success"}]\par
+3258                 ( {\cf22 "include successful tests in output"} )\par
+3259             | Opt( config.shouldDebugBreak )\par
+3260                 [{\cf22 "-b"}][{\cf22 "--break"}]\par
+3261                 ( {\cf22 "break into debugger on failure"} )\par
+3262             | Opt( config.noThrow )\par
+3263                 [{\cf22 "-e"}][{\cf22 "--nothrow"}]\par
+3264                 ( {\cf22 "skip exception tests"} )\par
+3265             | Opt( config.showInvisibles )\par
+3266                 [{\cf22 "-i"}][{\cf22 "--invisibles"}]\par
+3267                 ( {\cf22 "show invisibles (tabs, newlines)"} )\par
+3268             | Opt( config.defaultOutputFilename, {\cf22 "filename"} )\par
+3269                 [{\cf22 "-o"}][{\cf22 "--out"}]\par
+3270                 ( {\cf22 "default output filename"} )\par
+3271             | Opt( accept_many, setReporter, {\cf22 "name[::key=value]*"} )\par
+3272                 [{\cf22 "-r"}][{\cf22 "--reporter"}]\par
+3273                 ( {\cf22 "reporter to use (defaults to console)"} )\par
+3274             | Opt( config.name, {\cf22 "name"} )\par
+3275                 [{\cf22 "-n"}][{\cf22 "--name"}]\par
+3276                 ( {\cf22 "suite name"} )\par
+3277             | Opt( [&]( {\cf18 bool} )\{ config.abortAfter = 1; \} )\par
+3278                 [{\cf22 "-a"}][{\cf22 "--abort"}]\par
+3279                 ( {\cf22 "abort at first failure"} )\par
+3280             | Opt( [&]( {\cf18 int} x )\{ config.abortAfter = x; \}, {\cf22 "no. failures"} )\par
+3281                 [{\cf22 "-x"}][{\cf22 "--abortx"}]\par
+3282                 ( {\cf22 "abort after x failures"} )\par
+3283             | Opt( accept_many, setWarning, {\cf22 "warning name"} )\par
+3284                 [{\cf22 "-w"}][{\cf22 "--warn"}]\par
+3285                 ( {\cf22 "enable warnings"} )\par
+3286             | Opt( [&]( {\cf18 bool} flag ) \{ config.showDurations = flag ? ShowDurations::Always : ShowDurations::Never; \}, {\cf22 "yes|no"} )\par
+3287                 [{\cf22 "-d"}][{\cf22 "--durations"}]\par
+3288                 ( {\cf22 "show test durations"} )\par
+3289             | Opt( config.minDuration, {\cf22 "seconds"} )\par
+3290                 [{\cf22 "-D"}][{\cf22 "--min-duration"}]\par
+3291                 ( {\cf22 "show test durations for tests taking at least the given number of seconds"} )\par
+3292             | Opt( loadTestNamesFromFile, {\cf22 "filename"} )\par
+3293                 [{\cf22 "-f"}][{\cf22 "--input-file"}]\par
+3294                 ( {\cf22 "load test names to run from a file"} )\par
+3295             | Opt( config.filenamesAsTags )\par
+3296                 [{\cf22 "-#"}][{\cf22 "--filenames-as-tags"}]\par
+3297                 ( {\cf22 "adds a tag for the filename"} )\par
+3298             | Opt( config.sectionsToRun, {\cf22 "section name"} )\par
+3299                 [{\cf22 "-c"}][{\cf22 "--section"}]\par
+3300                 ( {\cf22 "specify section to run"} )\par
+3301             | Opt( setVerbosity, {\cf22 "quiet|normal|high"} )\par
+3302                 [{\cf22 "-v"}][{\cf22 "--verbosity"}]\par
+3303                 ( {\cf22 "set output verbosity"} )\par
+3304             | Opt( config.listTests )\par
+3305                 [{\cf22 "--list-tests"}]\par
+3306                 ( {\cf22 "list all/matching test cases"} )\par
+3307             | Opt( config.listTags )\par
+3308                 [{\cf22 "--list-tags"}]\par
+3309                 ( {\cf22 "list all/matching tags"} )\par
+3310             | Opt( config.listReporters )\par
+3311                 [{\cf22 "--list-reporters"}]\par
+3312                 ( {\cf22 "list all available reporters"} )\par
+3313             | Opt( config.listListeners )\par
+3314                 [{\cf22 "--list-listeners"}]\par
+3315                 ( {\cf22 "list all listeners"} )\par
+3316             | Opt( setTestOrder, {\cf22 "decl|lex|rand"} )\par
+3317                 [{\cf22 "--order"}]\par
+3318                 ( {\cf22 "test case order (defaults to decl)"} )\par
+3319             | Opt( setRngSeed, {\cf22 "'time'|'random-device'|number"} )\par
+3320                 [{\cf22 "--rng-seed"}]\par
+3321                 ( {\cf22 "set a specific seed for random numbers"} )\par
+3322             | Opt( setDefaultColourMode, {\cf22 "ansi|win32|none|default"} )\par
+3323                 [{\cf22 "--colour-mode"}]\par
+3324                 ( {\cf22 "what color mode should be used as default"} )\par
+3325             | Opt( config.libIdentify )\par
+3326                 [{\cf22 "--libidentify"}]\par
+3327                 ( {\cf22 "report name and version according to libidentify standard"} )\par
+3328             | Opt( setWaitForKeypress, {\cf22 "never|start|exit|both"} )\par
+3329                 [{\cf22 "--wait-for-keypress"}]\par
+3330                 ( {\cf22 "waits for a keypress before exiting"} )\par
+3331             | Opt( config.skipBenchmarks)\par
+3332                 [{\cf22 "--skip-benchmarks"}]\par
+3333                 ( {\cf22 "disable running benchmarks"})\par
+3334             | Opt( config.benchmarkSamples, {\cf22 "samples"} )\par
+3335                 [{\cf22 "--benchmark-samples"}]\par
+3336                 ( {\cf22 "number of samples to collect (default: 100)"} )\par
+3337             | Opt( config.benchmarkResamples, {\cf22 "resamples"} )\par
+3338                 [{\cf22 "--benchmark-resamples"}]\par
+3339                 ( {\cf22 "number of resamples for the bootstrap (default: 100000)"} )\par
+3340             | Opt( config.benchmarkConfidenceInterval, {\cf22 "confidence interval"} )\par
+3341                 [{\cf22 "--benchmark-confidence-interval"}]\par
+3342                 ( {\cf22 "confidence interval for the bootstrap (between 0 and 1, default: 0.95)"} )\par
+3343             | Opt( config.benchmarkNoAnalysis )\par
+3344                 [{\cf22 "--benchmark-no-analysis"}]\par
+3345                 ( {\cf22 "perform only measurements; do not perform any analysis"} )\par
+3346             | Opt( config.benchmarkWarmupTime, {\cf22 "benchmarkWarmupTime"} )\par
+3347                 [{\cf22 "--benchmark-warmup-time"}]\par
+3348                 ( {\cf22 "amount of time in milliseconds spent on warming up each test (default: 100)"} )\par
+3349             | Opt( setShardCount, {\cf22 "shard count"} )\par
+3350                 [{\cf22 "--shard-count"}]\par
+3351                 ( {\cf22 "split the tests to execute into this many groups"} )\par
+3352             | Opt( setShardIndex, {\cf22 "shard index"} )\par
+3353                 [{\cf22 "--shard-index"}]\par
+3354                 ( {\cf22 "index of the group of tests to execute (see --shard-count)"} )\par
+3355             | Opt( config.allowZeroTests )\par
+3356                 [{\cf22 "--allow-running-no-tests"}]\par
+3357                 ( {\cf22 "Treat 'No tests run' as a success"} )\par
+3358             | Arg( config.testsOrTags, {\cf22 "test name|pattern|tags"} )\par
+3359                 ( {\cf22 "which test or tests to use"} );\par
+3360 \par
+3361         {\cf19 return} cli;\par
+3362     \}\par
+}
+}
+{\xe \v makeStream\:Catch}
+{\xe \v Catch\:makeStream}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+auto Catch::makeStream (std::string const & filename) -> {\b Detail::unique_ptr}<IStream> }}
+\par
+{\bkmkstart AAAAAAAAST}
+{\bkmkend AAAAAAAAST}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 4441                                                                               \{\par
+4442         {\cf19 if} ( filename.empty() || filename == {\cf22 "-"} ) \{\par
+4443             {\cf19 return} Detail::make_unique<Detail::CoutStream>();\par
+4444         \}\par
+4445         {\cf19 if}( filename[0] == {\cf23 '%'} ) \{\par
+4446             {\cf19 if} ( filename == {\cf22 "%debug"} ) \{\par
+4447                 {\cf19 return} Detail::make_unique<Detail::DebugOutStream>();\par
+4448             \} {\cf19 else} {\cf19 if} ( filename == {\cf22 "%stderr"} ) \{\par
+4449                 {\cf19 return} Detail::make_unique<Detail::CerrStream>();\par
+4450             \} {\cf19 else} {\cf19 if} ( filename == {\cf22 "%stdout"} ) \{\par
+4451                 {\cf19 return} Detail::make_unique<Detail::CoutStream>();\par
+4452             \} {\cf19 else} \{\par
+4453                 CATCH_ERROR( {\cf22 "Unrecognised stream: '"} << filename << {\cf23 '\\''} );\par
+4454             \}\par
+4455         \}\par
+4456         {\cf19 return} Detail::make_unique<Detail::FileStream>( filename );\par
+4457     \}\par
+}
+}
+{\xe \v makeTestCaseInfo\:Catch}
+{\xe \v Catch\:makeTestCaseInfo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Detail::unique_ptr}< {\b TestCaseInfo} > Catch::makeTestCaseInfo ({\b StringRef} _className, {\b NameAndTags} const & nameAndTags, {\b SourceLineInfo} const & _lineInfo)}}
+\par
+{\bkmkstart AAAAAAAASU}
+{\bkmkend AAAAAAAASU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1619                                                            \{\par
+1620         {\cf19 return} Detail::make_unique<TestCaseInfo>(_className, nameAndTags, _lineInfo);\par
+1621     \}\par
+}
+}
+{\xe \v makeTestInvoker\:Catch}
+{\xe \v Catch\:makeTestInvoker}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Detail::unique_ptr}< {\b ITestInvoker} > Catch::makeTestInvoker (void(* testAsFunction\~ )())}}
+\par
+{\bkmkstart AAAAAAAASV}
+{\bkmkend AAAAAAAASV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6945                                                                               \{\par
+6946         {\cf19 return} Detail::make_unique<TestInvokerAsFunction>( testAsFunction );\par
+6947     \}\par
+}
+}
+{\xe \v makeTestInvoker\:Catch}
+{\xe \v Catch\:makeTestInvoker}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename C > {\b Detail::unique_ptr}< {\b ITestInvoker} > Catch::makeTestInvoker (void(C::* testAsMethod\~ )())}}
+\par
+{\bkmkstart AAAAAAAASW}
+{\bkmkend AAAAAAAASW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6004                                                                           \{\par
+6005     {\cf19 return} Detail::make_unique<TestInvokerAsMethod<C>>( testAsMethod );\par
+6006 \}\par
+}
+}
+{\xe \v nextafter\:Catch}
+{\xe \v Catch\:nextafter}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double Catch::nextafter (double x, double y)}}
+\par
+{\bkmkstart AAAAAAAASX}
+{\bkmkend AAAAAAAASX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 5018 \{ return ::nextafter( x, y ); \}\par
+}
+}
+{\xe \v nextafter\:Catch}
+{\xe \v Catch\:nextafter}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float Catch::nextafter (float x, float y)}}
+\par
+{\bkmkstart AAAAAAAASY}
+{\bkmkend AAAAAAAASY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 5017 \{ return ::nextafterf( x, y ); \}\par
+}
+}
+{\xe \v operator!=\:Catch}
+{\xe \v Catch\:operator!=}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::operator!= ({\b SimplePcg32} const & lhs, {\b SimplePcg32} const & rhs)}}
+\par
+{\bkmkstart AAAAAAAASZ}
+{\bkmkend AAAAAAAASZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 5082                                                                     \{\par
+5083         {\cf19 return} lhs.m_state != rhs.m_state;\par
+5084     \}\par
+}
+}
+{\xe \v operator""_sr\:Catch}
+{\xe \v Catch\:operator""_sr}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+auto Catch::operator""_sr (char const * rawChars, std::size_t size) -> {\b StringRef} {\f2 [constexpr]}, {\f2 [noexcept]}}}
+\par
+{\bkmkstart AAAAAAAATA}
+{\bkmkend AAAAAAAATA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 782                                                                                                 \{\par
+783         {\cf19 return} StringRef( rawChars, size );\par
+784     \}\par
+}
+}
+{\xe \v operator&\:Catch}
+{\xe \v Catch\:operator&}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+XmlFormatting Catch::operator& (XmlFormatting lhs, XmlFormatting rhs)}}
+\par
+{\bkmkstart AAAAAAAATB}
+{\bkmkend AAAAAAAATB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 7689                                                                     \{\par
+7690         {\cf19 return} {\cf17 static_cast<}XmlFormatting{\cf17 >}(\par
+7691             {\cf17 static_cast<}std::underlying_type_t<XmlFormatting>{\cf17 >}(lhs) &\par
+7692             {\cf17 static_cast<}std::underlying_type_t<XmlFormatting>{\cf17 >}(rhs)\par
+7693         );\par
+7694     \}\par
+}
+}
+{\xe \v operator+\:Catch}
+{\xe \v Catch\:operator+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::string Catch::operator+ ({\b StringRef} lhs, {\b StringRef} rhs)}}
+\par
+{\bkmkstart AAAAAAAATC}
+{\bkmkend AAAAAAAATC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6411                                                       \{\par
+6412         std::string ret;\par
+6413         ret.reserve(lhs.size() + rhs.size());\par
+6414         ret += lhs;\par
+6415         ret += rhs;\par
+6416         {\cf19 return} ret;\par
+6417     \}\par
+}
+}
+{\xe \v operator+=\:Catch}
+{\xe \v Catch\:operator+=}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+auto Catch::operator+= (std::string & lhs, {\b StringRef} rhs) -> std::string& }}
+\par
+{\bkmkstart AAAAAAAATD}
+{\bkmkend AAAAAAAATD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6419                                                                    \{\par
+6420         lhs.append(rhs.data(), rhs.size());\par
+6421         {\cf19 return} lhs;\par
+6422     \}\par
+}
+}
+{\xe \v operator<\:Catch}
+{\xe \v Catch\:operator<}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::operator< ({\b Tag} const & lhs, {\b Tag} const & rhs)}}
+\par
+{\bkmkstart AAAAAAAATE}
+{\bkmkend AAAAAAAATE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1607                                                       \{\par
+1608         Detail::CaseInsensitiveLess cmp;\par
+1609         {\cf19 return} cmp( lhs.original, rhs.original );\par
+1610     \}\par
+}
+}
+{\xe \v operator<\:Catch}
+{\xe \v Catch\:operator<}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::operator< ({\b TestCaseInfo} const & lhs, {\b TestCaseInfo} const & rhs)}}
+\par
+{\bkmkstart AAAAAAAATF}
+{\bkmkend AAAAAAAATF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1746                                                                        \{\par
+1747         {\cf20 // We want to avoid redoing the string comparisons multiple times,}\par
+1748         {\cf20 // so we store the result of a three-way comparison before using}\par
+1749         {\cf20 // it in the actual comparison logic.}\par
+1750         {\cf17 const} {\cf17 auto} cmpName = lhs.name.compare( rhs.name );\par
+1751         {\cf19 if} ( cmpName != 0 ) \{\par
+1752             {\cf19 return} cmpName < 0;\par
+1753         \}\par
+1754         {\cf17 const} {\cf17 auto} cmpClassName = lhs.className.compare( rhs.className );\par
+1755         {\cf19 if} ( cmpClassName != 0 ) \{\par
+1756             {\cf19 return} cmpClassName < 0;\par
+1757         \}\par
+1758         {\cf19 return} lhs.tags < rhs.tags;\par
+1759     \}\par
+}
+}
+{\xe \v operator<<\:Catch}
+{\xe \v Catch\:operator<<}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+auto Catch::operator<< (std::ostream & os, {\b LazyExpression} const & lazyExpr) -> std::ostream& }}
+\par
+{\bkmkstart AAAAAAAATG}
+{\bkmkend AAAAAAAATG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 4607                                                                                      \{\par
+4608         {\cf19 if} (lazyExpr.m_isNegated)\par
+4609             os << {\cf23 '!'};\par
+4610 \par
+4611         {\cf19 if} (lazyExpr) \{\par
+4612             {\cf19 if} (lazyExpr.m_isNegated && lazyExpr.m_transientExpression->isBinaryExpression())\par
+4613                 os << {\cf23 '('} << *lazyExpr.m_transientExpression << {\cf23 ')'};\par
+4614             {\cf19 else}\par
+4615                 os << *lazyExpr.m_transientExpression;\par
+4616         \} {\cf19 else} \{\par
+4617             os << {\cf22 "\{** error - unchecked empty expression requested **\}"};\par
+4618         \}\par
+4619         {\cf19 return} os;\par
+4620     \}\par
+}
+}
+{\xe \v operator<<\:Catch}
+{\xe \v Catch\:operator<<}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::ostream & Catch::operator<< (std::ostream & os, pluralise const & pluraliser)}}
+\par
+{\bkmkstart AAAAAAAATH}
+{\bkmkend AAAAAAAATH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6357                                                                             \{\par
+6358         os << pluraliser.m_count << {\cf23 ' '} << pluraliser.m_label;\par
+6359         {\cf19 if}( pluraliser.m_count != 1 )\par
+6360             os << {\cf23 's'};\par
+6361         {\cf19 return} os;\par
+6362     \}\par
+}
+}
+{\xe \v operator<<\:Catch}
+{\xe \v Catch\:operator<<}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::ostream & Catch::operator<< (std::ostream & os, {\b SourceLineInfo} const & info)}}
+\par
+{\bkmkstart AAAAAAAATI}
+{\bkmkend AAAAAAAATI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6209                                                                            \{\par
+6210 {\cf21 #ifndef __GNUG__}\par
+6211         os << info.file << {\cf23 '('} << info.line << {\cf23 ')'};\par
+6212 {\cf21 #else}\par
+6213         os << info.file << {\cf23 ':'} << info.line;\par
+6214 {\cf21 #endif}\par
+6215         {\cf19 return} os;\par
+6216     \}\par
+}
+}
+{\xe \v operator<<\:Catch}
+{\xe \v Catch\:operator<<}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+auto Catch::operator<< (std::ostream & os, {\b StringRef} str) -> std::ostream& }}
+\par
+{\bkmkstart AAAAAAAATJ}
+{\bkmkend AAAAAAAATJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6407                                                                       \{\par
+6408         {\cf19 return} os.write(str.data(), {\cf17 static_cast<}std::streamsize{\cf17 >}(str.size()));\par
+6409     \}\par
+}
+}
+{\xe \v operator<<\:Catch}
+{\xe \v Catch\:operator<<}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::ostream & Catch::operator<< (std::ostream & os, {\b Version} const & version)}}
+\par
+{\bkmkstart AAAAAAAATK}
+{\bkmkend AAAAAAAATK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 2263                                                                        \{\par
+2264         os  << version.majorVersion << {\cf23 '.'}\par
+2265             << version.minorVersion << {\cf23 '.'}\par
+2266             << version.patchNumber;\par
+2267         {\cf20 // branchName is never null -> 0th char is \\0 if it is empty}\par
+2268         {\cf19 if} (version.branchName[0]) \{\par
+2269             os << {\cf23 '-'} << version.branchName\par
+2270                << {\cf23 '.'} << version.buildNumber;\par
+2271         \}\par
+2272         {\cf19 return} os;\par
+2273     \}\par
+}
+}
+{\xe \v operator<<\:Catch}
+{\xe \v Catch\:operator<<}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::ostream & Catch::operator<< (std::ostream & os, XmlEncode const & xmlEncode)}}
+\par
+{\bkmkstart AAAAAAAATL}
+{\bkmkend AAAAAAAATL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 7796                                                                            \{\par
+7797         xmlEncode.encodeTo( os );\par
+7798         {\cf19 return} os;\par
+7799     \}\par
+}
+}
+{\xe \v operator<<\:Catch}
+{\xe \v Catch\:operator<<}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::ostream & Catch::operator<< (std::ostream & out, lineOfChars value)}}
+\par
+{\bkmkstart AAAAAAAATM}
+{\bkmkend AAAAAAAATM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 9659                                                                  \{\par
+9660         {\cf19 for} ( {\cf18 size_t} idx = 0; idx < CATCH_CONFIG_CONSOLE_WIDTH - 1; ++idx ) \{\par
+9661             out.put( value.c );\par
+9662         \}\par
+9663         {\cf19 return} out;\par
+9664     \}\par
+}
+}
+{\xe \v operator==\:Catch}
+{\xe \v Catch\:operator==}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::operator== ({\b ProcessedReporterSpec} const & lhs, {\b ProcessedReporterSpec} const & rhs)}}
+\par
+{\bkmkstart AAAAAAAATN}
+{\bkmkend AAAAAAAATN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 788                                                         \{\par
+789         {\cf19 return} lhs.name == rhs.name &&\par
+790                lhs.outputFilename == rhs.outputFilename &&\par
+791                lhs.colourMode == rhs.colourMode &&\par
+792                lhs.customOptions == rhs.customOptions;\par
+793     \}\par
+}
+}
+{\xe \v operator==\:Catch}
+{\xe \v Catch\:operator==}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::operator== ({\b ReporterSpec} const & lhs, {\b ReporterSpec} const & rhs)}}
+\par
+{\bkmkstart AAAAAAAATO}
+{\bkmkend AAAAAAAATO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 5275                                                                         \{\par
+5276         {\cf19 return} lhs.m_name == rhs.m_name &&\par
+5277                lhs.m_outputFileName == rhs.m_outputFileName &&\par
+5278                lhs.m_colourMode == rhs.m_colourMode &&\par
+5279                lhs.m_customOptions == rhs.m_customOptions;\par
+5280     \}\par
+}
+}
+{\xe \v operator==\:Catch}
+{\xe \v Catch\:operator==}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::operator== ({\b SimplePcg32} const & lhs, {\b SimplePcg32} const & rhs)}}
+\par
+{\bkmkstart AAAAAAAATP}
+{\bkmkend AAAAAAAATP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 5078                                                                     \{\par
+5079         {\cf19 return} lhs.m_state == rhs.m_state;\par
+5080     \}\par
+}
+}
+{\xe \v operator==\:Catch}
+{\xe \v Catch\:operator==}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::operator== ({\b Tag} const & lhs, {\b Tag} const & rhs)}}
+\par
+{\bkmkstart AAAAAAAATQ}
+{\bkmkend AAAAAAAATQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1611                                                       \{\par
+1612         Detail::CaseInsensitiveEqualTo cmp;\par
+1613         {\cf19 return} cmp( lhs.original, rhs.original );\par
+1614     \}\par
+}
+}
+{\xe \v operator|\:Catch}
+{\xe \v Catch\:operator|}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b ResultDisposition::Flags} Catch::operator| ({\b ResultDisposition::Flags} lhs, {\b ResultDisposition::Flags} rhs)}}
+\par
+{\bkmkstart AAAAAAAATR}
+{\bkmkend AAAAAAAATR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 5362                                                                                                  \{\par
+5363         {\cf19 return} {\cf17 static_cast<}ResultDisposition::Flags{\cf17 >}( {\cf17 static_cast<}{\cf18 int}{\cf17 >}( lhs ) | {\cf17 static_cast<}{\cf18 int}{\cf17 >}( rhs ) );\par
+5364     \}\par
+}
+}
+{\xe \v operator|\:Catch}
+{\xe \v Catch\:operator|}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+XmlFormatting Catch::operator| (XmlFormatting lhs, XmlFormatting rhs)}}
+\par
+{\bkmkstart AAAAAAAATS}
+{\bkmkend AAAAAAAATS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 7682                                                                     \{\par
+7683         {\cf19 return} {\cf17 static_cast<}XmlFormatting{\cf17 >}(\par
+7684             {\cf17 static_cast<}std::underlying_type_t<XmlFormatting>{\cf17 >}(lhs) |\par
+7685             {\cf17 static_cast<}std::underlying_type_t<XmlFormatting>{\cf17 >}(rhs)\par
+7686         );\par
+7687     \}\par
+}
+}
+{\xe \v parseReporterSpec\:Catch}
+{\xe \v Catch\:parseReporterSpec}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Optional}< {\b ReporterSpec} > Catch::parseReporterSpec ({\b StringRef} reporterSpec)}}
+\par
+{\bkmkstart AAAAAAAATT}
+{\bkmkend AAAAAAAATT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Parses provided reporter spec string into\par
+Returns empty optional on errors, e.g.{
+\par
+\pard\plain {\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af0\langfe2052\dbch\af0\afs24\lang1081\loch\f0\fs24\lang1033{\listtext\pard\plain \hich\af3\dbch\af3\loch\f8 \'01\u9702\tab}\ilvl1\ls1 \li0\ri0\lin0\rin0\fi-360\tx720\li720\ri0\lin720\rin0\fi-360\kerning1\hich\af4\dbch\af5\rtlch \ltrch\loch\fs20
+field that is not first and not a key+value pair\par
+\pard\plain {\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af0\langfe2052\dbch\af0\afs24\lang1081\loch\f0\fs24\lang1033{\listtext\pard\plain \hich\af3\dbch\af3\loch\f8 \'01\u9702\tab}\ilvl1\ls1 \li0\ri0\lin0\rin0\fi-360\tx720\li720\ri0\lin720\rin0\fi-360\kerning1\hich\af4\dbch\af5\rtlch \ltrch\loch\fs20
+duplicated keys in kv pair\par
+\pard\plain {\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af0\langfe2052\dbch\af0\afs24\lang1081\loch\f0\fs24\lang1033{\listtext\pard\plain \hich\af3\dbch\af3\loch\f8 \'01\u9702\tab}\ilvl1\ls1 \li0\ri0\lin0\rin0\fi-360\tx720\li720\ri0\lin720\rin0\fi-360\kerning1\hich\af4\dbch\af5\rtlch \ltrch\loch\fs20
+unknown catch reporter option\par
+\pard\plain {\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af0\langfe2052\dbch\af0\afs24\lang1081\loch\f0\fs24\lang1033{\listtext\pard\plain \hich\af3\dbch\af3\loch\f8 \'01\u9702\tab}\ilvl1\ls1 \li0\ri0\lin0\rin0\fi-360\tx720\li720\ri0\lin720\rin0\fi-360\kerning1\hich\af4\dbch\af5\rtlch \ltrch\loch\fs20
+empty key/value in an custom kv pair\par
+\pard\plain {\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\nowidctlpar\cf0\hich\af0\langfe2052\dbch\af0\afs24\lang1081\loch\f0\fs24\lang1033{\listtext\pard\plain \hich\af3\dbch\af3\loch\f8 \'01\u9702\tab}\ilvl1\ls1 \li0\ri0\lin0\rin0\fi-360\tx720\li720\ri0\lin720\rin0\fi-360\kerning1\hich\af4\dbch\af5\rtlch \ltrch\loch\fs20
+... \par}
+}{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 5282                                                                        \{\par
+5283         {\cf17 auto} parts = Detail::splitReporterSpec( reporterSpec );\par
+5284 \par
+5285         assert( parts.size() > 0 && {\cf22 "Split should never return empty vector"} );\par
+5286 \par
+5287         std::map<std::string, std::string> kvPairs;\par
+5288         Optional<std::string> outputFileName;\par
+5289         Optional<ColourMode> colourMode;\par
+5290 \par
+5291         {\cf20 // First part is always reporter name, so we skip it}\par
+5292         {\cf19 for} ( {\cf18 size_t} i = 1; i < parts.size(); ++i ) \{\par
+5293             {\cf17 auto} kv = splitKVPair( parts[i] );\par
+5294             {\cf17 auto} key = kv.key, value = kv.value;\par
+5295 \par
+5296             {\cf19 if} ( key.empty() || value.empty() ) \{ {\cf20 // NOLINT(bugprone-branch-clone)}\par
+5297                 {\cf19 return} \{\};\par
+5298             \} {\cf19 else} {\cf19 if} ( key[0] == {\cf23 'X'} ) \{\par
+5299                 {\cf20 // This is a reporter-specific option, we don't check these}\par
+5300                 {\cf20 // apart from basic sanity checks}\par
+5301                 {\cf19 if} ( key.size() == 1 ) \{\par
+5302                     {\cf19 return} \{\};\par
+5303                 \}\par
+5304 \par
+5305                 {\cf17 auto} ret = kvPairs.emplace( std::string(kv.key), std::string(kv.value) );\par
+5306                 {\cf19 if} ( !ret.second ) \{\par
+5307                     {\cf20 // Duplicated key. We might want to handle this differently,}\par
+5308                     {\cf20 // e.g. by overwriting the existing value?}\par
+5309                     {\cf19 return} \{\};\par
+5310                 \}\par
+5311             \} {\cf19 else} {\cf19 if} ( key == {\cf22 "out"} ) \{\par
+5312                 {\cf20 // Duplicated key}\par
+5313                 {\cf19 if} ( outputFileName ) \{\par
+5314                     {\cf19 return} \{\};\par
+5315                 \}\par
+5316                 outputFileName = {\cf17 static_cast<}std::string{\cf17 >}( value );\par
+5317             \} {\cf19 else} {\cf19 if} ( key == {\cf22 "colour-mode"} ) \{\par
+5318                 {\cf20 // Duplicated key}\par
+5319                 {\cf19 if} ( colourMode ) \{\par
+5320                     {\cf19 return} \{\};\par
+5321                 \}\par
+5322                 colourMode = Detail::stringToColourMode( value );\par
+5323                 {\cf20 // Parsing failed}\par
+5324                 {\cf19 if} ( !colourMode ) \{\par
+5325                     {\cf19 return} \{\};\par
+5326                 \}\par
+5327             \} {\cf19 else} \{\par
+5328                 {\cf20 // Unrecognized option}\par
+5329                 {\cf19 return} \{\};\par
+5330             \}\par
+5331         \}\par
+5332 \par
+5333         {\cf19 return} ReporterSpec\{ CATCH_MOVE( parts[0] ),\par
+5334                              CATCH_MOVE( outputFileName ),\par
+5335                              CATCH_MOVE( colourMode ),\par
+5336                              CATCH_MOVE( kvPairs ) \};\par
+5337     \}\par
+}
+}
+{\xe \v parseUInt\:Catch}
+{\xe \v Catch\:parseUInt}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Optional}< unsigned int > Catch::parseUInt (std::string const & input, int base)}}
+\par
+{\bkmkstart AAAAAAAATU}
+{\bkmkend AAAAAAAATU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 4953                                                                        \{\par
+4954         {\cf17 auto} trimmed = trim( input );\par
+4955         {\cf20 // std::stoull is annoying and accepts numbers starting with '-',}\par
+4956         {\cf20 // it just negates them into unsigned int}\par
+4957         {\cf19 if} ( trimmed.empty() || trimmed[0] == {\cf23 '-'} ) \{\par
+4958             {\cf19 return} \{\};\par
+4959         \}\par
+4960 \par
+4961         CATCH_TRY \{\par
+4962             {\cf18 size_t} pos = 0;\par
+4963             {\cf17 const} {\cf17 auto} ret = std::stoull( trimmed, &pos, base );\par
+4964 \par
+4965             {\cf20 // We did not consume the whole input, so there is an issue}\par
+4966             {\cf20 // This can be bunch of different stuff, like multiple numbers}\par
+4967             {\cf20 // in the input, or invalid digits/characters and so on. Either}\par
+4968             {\cf20 // way, we do not want to return the partially parsed result.}\par
+4969             {\cf19 if} ( pos != trimmed.size() ) \{\par
+4970                 {\cf19 return} \{\};\par
+4971             \}\par
+4972             {\cf20 // Too large}\par
+4973             {\cf19 if} ( ret > std::numeric_limits<unsigned int>::max() ) \{\par
+4974                 {\cf19 return} \{\};\par
+4975             \}\par
+4976             {\cf19 return} {\cf17 static_cast<}{\cf18 unsigned} {\cf18 int}{\cf17 >}(ret);\par
+4977         \}\par
+4978         CATCH_CATCH_ANON( std::invalid_argument {\cf17 const}& ) \{\par
+4979             {\cf20 // no conversion could be performed}\par
+4980         \}\par
+4981         CATCH_CATCH_ANON( std::out_of_range {\cf17 const}& ) \{\par
+4982             {\cf20 // the input does not fit into an unsigned long long}\par
+4983         \}\par
+4984         {\cf19 return} \{\};\par
+4985     \}\par
+}
+}
+{\xe \v printTestRunTotals\:Catch}
+{\xe \v Catch\:printTestRunTotals}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::printTestRunTotals (std::ostream & stream, ColourImpl & streamColour, {\b Totals} const & totals)}}
+\par
+{\bkmkstart AAAAAAAATV}
+{\bkmkend AAAAAAAATV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 9856                                                     \{\par
+9857         {\cf19 if} ( totals.testCases.total() == 0 ) \{\par
+9858             stream << streamColour.guardColour( Colour::Warning )\par
+9859                    << {\cf22 "No tests ran\\n"};\par
+9860             {\cf19 return};\par
+9861         \}\par
+9862 \par
+9863         {\cf19 if} ( totals.assertions.total() > 0 && totals.testCases.allPassed() ) \{\par
+9864             stream << streamColour.guardColour( Colour::ResultSuccess )\par
+9865                    << {\cf22 "All tests passed"};\par
+9866             stream << {\cf22 " ("}\par
+9867                    << pluralise( totals.assertions.passed, {\cf22 "assertion"}_sr )\par
+9868                    << {\cf22 " in "}\par
+9869                    << pluralise( totals.testCases.passed, {\cf22 "test case"}_sr )\par
+9870                    << {\cf23 ')'} << {\cf23 '\\n'};\par
+9871             {\cf19 return};\par
+9872         \}\par
+9873 \par
+9874         std::vector<SummaryColumn> columns;\par
+9875         {\cf20 // Don't include "skipped assertions" in total count}\par
+9876         {\cf17 const} {\cf17 auto} totalAssertionCount =\par
+9877             totals.assertions.total() - totals.assertions.skipped;\par
+9878         columns.push_back( SummaryColumn( {\cf22 ""}, Colour::None )\par
+9879                                .addRow( totals.testCases.total() )\par
+9880                                .addRow( totalAssertionCount ) );\par
+9881         columns.push_back( SummaryColumn( {\cf22 "passed"}, Colour::Success )\par
+9882                                .addRow( totals.testCases.passed )\par
+9883                                .addRow( totals.assertions.passed ) );\par
+9884         columns.push_back( SummaryColumn( {\cf22 "failed"}, Colour::ResultError )\par
+9885                                .addRow( totals.testCases.failed )\par
+9886                                .addRow( totals.assertions.failed ) );\par
+9887         columns.push_back( SummaryColumn( {\cf22 "skipped"}, Colour::Skip )\par
+9888                                .addRow( totals.testCases.skipped )\par
+9889                                {\cf20 // Don't print "skipped assertions"}\par
+9890                                .addRow( 0 ) );\par
+9891         columns.push_back(\par
+9892             SummaryColumn( {\cf22 "failed as expected"}, Colour::ResultExpectedFailure )\par
+9893                 .addRow( totals.testCases.failedButOk )\par
+9894                 .addRow( totals.assertions.failedButOk ) );\par
+9895         printSummaryRow( stream, streamColour, {\cf22 "test cases"}_sr, columns, 0 );\par
+9896         printSummaryRow( stream, streamColour, {\cf22 "assertions"}_sr, columns, 1 );\par
+9897     \}\par
+}
+}
+{\xe \v rangeToString\:Catch}
+{\xe \v Catch\:rangeToString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Range > std::string Catch::rangeToString (Range const & range)}}
+\par
+{\bkmkstart AAAAAAAATW}
+{\bkmkend AAAAAAAATW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 2924                                                   \{\par
+2925         return ::Catch::Detail::rangeToString( begin( range ), end( range ) );\par
+2926     \}\par
+}
+}
+{\xe \v rangeToString\:Catch}
+{\xe \v Catch\:rangeToString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Allocator > std::string Catch::rangeToString (std::vector< bool, Allocator > const & v)}}
+\par
+{\bkmkstart AAAAAAAATX}
+{\bkmkend AAAAAAAATX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 2930                                                                    \{\par
+2931         ReusableStringStream rss;\par
+2932         rss << {\cf22 "\{ "};\par
+2933         {\cf18 bool} first = {\cf17 true};\par
+2934         {\cf19 for}( {\cf18 bool} b : v ) \{\par
+2935             {\cf19 if}( first )\par
+2936                 first = {\cf17 false};\par
+2937             {\cf19 else}\par
+2938                 rss << {\cf22 ", "};\par
+2939             rss << ::Catch::Detail::stringify( b );\par
+2940         \}\par
+2941         rss << {\cf22 " \}"};\par
+2942         {\cf19 return} rss.str();\par
+2943     \}\par
+}
+}
+{\xe \v replaceInPlace\:Catch}
+{\xe \v Catch\:replaceInPlace}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::replaceInPlace (std::string & str, std::string const & replaceThis, std::string const & withThis)}}
+\par
+{\bkmkstart AAAAAAAATY}
+{\bkmkend AAAAAAAATY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6316                                                                                                    \{\par
+6317         std::size_t i = str.find( replaceThis );\par
+6318         {\cf19 if} (i == std::string::npos) \{\par
+6319             {\cf19 return} {\cf17 false};\par
+6320         \}\par
+6321         std::size_t copyBegin = 0;\par
+6322         std::string origStr = CATCH_MOVE(str);\par
+6323         str.clear();\par
+6324         {\cf20 // There is at least one replacement, so reserve with the best guess}\par
+6325         {\cf20 // we can make without actually counting the number of occurences.}\par
+6326         str.reserve(origStr.size() - replaceThis.size() + withThis.size());\par
+6327         {\cf19 do} \{\par
+6328             str.append(origStr, copyBegin, i-copyBegin );\par
+6329             str += withThis;\par
+6330             copyBegin = i + replaceThis.size();\par
+6331             {\cf19 if}( copyBegin < origStr.size() )\par
+6332                 i = origStr.find( replaceThis, copyBegin );\par
+6333             {\cf19 else}\par
+6334                 i = std::string::npos;\par
+6335         \} {\cf19 while}( i != std::string::npos );\par
+6336         {\cf19 if} ( copyBegin < origStr.size() ) \{\par
+6337             str.append(origStr, copyBegin, origStr.size() );\par
+6338         \}\par
+6339         {\cf19 return} {\cf17 true};\par
+6340     \}\par
+}
+}
+{\xe \v rngSeed\:Catch}
+{\xe \v Catch\:rngSeed}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+unsigned int Catch::rngSeed ()}}
+\par
+{\bkmkstart AAAAAAAATZ}
+{\bkmkend AAAAAAAATZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6106                            \{\par
+6107         {\cf19 return} getCurrentContext().getConfig()->rngSeed();\par
+6108     \}\par
+}
+}
+{\xe \v seedRng\:Catch}
+{\xe \v Catch\:seedRng}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::seedRng ({\b IConfig} const & config)}}
+\par
+{\bkmkstart AAAAAAAAUA}
+{\bkmkend AAAAAAAAUA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6102                                         \{\par
+6103         sharedRng().seed(config.rngSeed());\par
+6104     \}\par
+}
+}
+{\xe \v serializeFilters\:Catch}
+{\xe \v Catch\:serializeFilters}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::string Catch::serializeFilters (std::vector< std::string > const & filters)}}
+\par
+{\bkmkstart AAAAAAAAUB}
+{\bkmkend AAAAAAAAUB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 9637                                                                       \{\par
+9638         {\cf20 // We add a ' ' separator between each filter}\par
+9639         {\cf18 size_t} serialized_size = filters.size() - 1;\par
+9640         {\cf19 for} ({\cf17 auto} {\cf17 const}& filter : filters) \{\par
+9641             serialized_size += filter.size();\par
+9642         \}\par
+9643 \par
+9644         std::string serialized;\par
+9645         serialized.reserve(serialized_size);\par
+9646         {\cf18 bool} first = {\cf17 true};\par
+9647 \par
+9648         {\cf19 for} ({\cf17 auto} {\cf17 const}& filter : filters) \{\par
+9649             {\cf19 if} (!first) \{\par
+9650                 serialized.push_back({\cf23 ' '});\par
+9651             \}\par
+9652             first = {\cf17 false};\par
+9653             serialized.append(filter);\par
+9654         \}\par
+9655 \par
+9656         {\cf19 return} serialized;\par
+9657     \}\par
+}
+}
+{\xe \v sharedRng\:Catch}
+{\xe \v Catch\:sharedRng}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b SimplePcg32} & Catch::sharedRng ()}}
+\par
+{\bkmkstart AAAAAAAAUC}
+{\bkmkend AAAAAAAAUC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3658                              \{\par
+3659         {\cf17 static} SimplePcg32 s_rng;\par
+3660         {\cf19 return} s_rng;\par
+3661     \}\par
+}
+}
+{\xe \v shouldContinueOnFailure\:Catch}
+{\xe \v Catch\:shouldContinueOnFailure}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::shouldContinueOnFailure (int flags)}}
+\par
+{\bkmkstart AAAAAAAAUD}
+{\bkmkend AAAAAAAAUD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 5366 \{ {\cf19 return} ( flags & ResultDisposition::ContinueOnFailure ) != 0; \}\par
+}
+}
+{\xe \v shouldShowDuration\:Catch}
+{\xe \v Catch\:shouldShowDuration}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::shouldShowDuration ({\b IConfig} const & config, double duration)}}
+\par
+{\bkmkstart AAAAAAAAUE}
+{\bkmkend AAAAAAAAUE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 9626                                                                       \{\par
+9627         {\cf19 if} ( config.showDurations() == ShowDurations::Always ) \{\par
+9628             {\cf19 return} {\cf17 true};\par
+9629         \}\par
+9630         {\cf19 if} ( config.showDurations() == ShowDurations::Never ) \{\par
+9631             {\cf19 return} {\cf17 false};\par
+9632         \}\par
+9633         {\cf17 const} {\cf18 double} min = config.minDuration();\par
+9634         {\cf19 return} min >= 0 && duration >= min;\par
+9635     \}\par
+}
+}
+{\xe \v shouldSuppressFailure\:Catch}
+{\xe \v Catch\:shouldSuppressFailure}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::shouldSuppressFailure (int flags)}}
+\par
+{\bkmkstart AAAAAAAAUF}
+{\bkmkend AAAAAAAAUF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 5367 \{ {\cf19 return} ( flags & ResultDisposition::SuppressFail ) != 0; \}\par
+}
+}
+{\xe \v sortTests\:Catch}
+{\xe \v Catch\:sortTests}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::vector< {\b TestCaseHandle} > Catch::sortTests ({\b IConfig} const & config, std::vector< {\b TestCaseHandle} > const & unsortedTestCases)}}
+\par
+{\bkmkstart AAAAAAAAUG}
+{\bkmkend AAAAAAAAUG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6543                                                                                                                      \{\par
+6544         {\cf19 switch} (config.runOrder()) \{\par
+6545         {\cf19 case} TestRunOrder::Declared:\par
+6546             {\cf19 return} unsortedTestCases;\par
+6547 \par
+6548         {\cf19 case} TestRunOrder::LexicographicallySorted: \{\par
+6549             std::vector<TestCaseHandle> sorted = unsortedTestCases;\par
+6550             std::sort(\par
+6551                 sorted.begin(),\par
+6552                 sorted.end(),\par
+6553                 []( TestCaseHandle {\cf17 const}& lhs, TestCaseHandle {\cf17 const}& rhs ) \{\par
+6554                     return lhs.getTestCaseInfo() < rhs.getTestCaseInfo();\par
+6555                 \}\par
+6556             );\par
+6557             {\cf19 return} sorted;\par
+6558         \}\par
+6559         {\cf19 case} TestRunOrder::Randomized: \{\par
+6560             {\cf17 using }TestWithHash = std::pair<TestCaseInfoHasher::hash_t, TestCaseHandle>;\par
+6561 \par
+6562             TestCaseInfoHasher h\{ config.rngSeed() \};\par
+6563             std::vector<TestWithHash> indexed_tests;\par
+6564             indexed_tests.reserve(unsortedTestCases.size());\par
+6565 \par
+6566             {\cf19 for} ({\cf17 auto} {\cf17 const}& handle : unsortedTestCases) \{\par
+6567                 indexed_tests.emplace_back(h(handle.getTestCaseInfo()), handle);\par
+6568             \}\par
+6569 \par
+6570             std::sort( indexed_tests.begin(),\par
+6571                        indexed_tests.end(),\par
+6572                        []( TestWithHash {\cf17 const}& lhs, TestWithHash {\cf17 const}& rhs ) \{\par
+6573                            if ( lhs.first == rhs.first ) \{\par
+6574                                return lhs.second.getTestCaseInfo() <\par
+6575                                       rhs.second.getTestCaseInfo();\par
+6576                            \}\par
+6577                            {\cf19 return} lhs.first < rhs.first;\par
+6578                        \} );\par
+6579 \par
+6580             std::vector<TestCaseHandle> randomized;\par
+6581             randomized.reserve(indexed_tests.size());\par
+6582 \par
+6583             {\cf19 for} ({\cf17 auto} {\cf17 const}& indexed : indexed_tests) \{\par
+6584                 randomized.push_back(indexed.second);\par
+6585             \}\par
+6586 \par
+6587             {\cf19 return} randomized;\par
+6588         \}\par
+6589         \}\par
+6590 \par
+6591         CATCH_INTERNAL_ERROR({\cf22 "Unknown test order value!"});\par
+6592     \}\par
+}
+}
+{\xe \v splitStringRef\:Catch}
+{\xe \v Catch\:splitStringRef}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::vector< {\b StringRef} > Catch::splitStringRef ({\b StringRef} str, char delimiter)}}
+\par
+{\bkmkstart AAAAAAAAUH}
+{\bkmkend AAAAAAAAUH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6342                                                                          \{\par
+6343         std::vector<StringRef> subStrings;\par
+6344         std::size_t start = 0;\par
+6345         {\cf19 for}(std::size_t pos = 0; pos < str.size(); ++pos ) \{\par
+6346             {\cf19 if}( str[pos] == delimiter ) \{\par
+6347                 {\cf19 if}( pos - start > 1 )\par
+6348                     subStrings.push_back( str.substr( start, pos-start ) );\par
+6349                 start = pos+1;\par
+6350             \}\par
+6351         \}\par
+6352         {\cf19 if}( start < str.size() )\par
+6353             subStrings.push_back( str.substr( start, str.size()-start ) );\par
+6354         {\cf19 return} subStrings;\par
+6355     \}\par
+}
+}
+{\xe \v startsWith\:Catch}
+{\xe \v Catch\:startsWith}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::startsWith (std::string const & s, std::string const & prefix)}}
+\par
+{\bkmkstart AAAAAAAAUI}
+{\bkmkend AAAAAAAAUI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6267                                                                    \{\par
+6268         {\cf19 return} s.size() >= prefix.size() && std::equal(prefix.begin(), prefix.end(), s.begin());\par
+6269     \}\par
+}
+}
+{\xe \v startsWith\:Catch}
+{\xe \v Catch\:startsWith}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::startsWith ({\b StringRef} s, char prefix)}}
+\par
+{\bkmkstart AAAAAAAAUJ}
+{\bkmkend AAAAAAAAUJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6270                                                 \{\par
+6271         {\cf19 return} !s.empty() && s[0] == prefix;\par
+6272     \}\par
+}
+}
+{\xe \v throw_domain_error\:Catch}
+{\xe \v Catch\:throw_domain_error}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::throw_domain_error (std::string const & msg)}}
+\par
+{\bkmkstart AAAAAAAAUK}
+{\bkmkend AAAAAAAAUK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3853                                                   \{\par
+3854         throw_exception(std::domain_error(msg));\par
+3855     \}\par
+}
+}
+{\xe \v throw_exception\:Catch}
+{\xe \v Catch\:throw_exception}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::throw_exception (std::exception const & e)}}
+\par
+{\bkmkstart AAAAAAAAUL}
+{\bkmkend AAAAAAAAUL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3840                                                 \{\par
+3841         Catch::cerr() << {\cf22 "Catch will terminate because it needed to throw an exception.\\n"}\par
+3842                       << {\cf22 "The message was: "} << e.what() << {\cf23 '\\n'};\par
+3843         std::terminate();\par
+3844     \}\par
+}
+}
+{\xe \v throw_logic_error\:Catch}
+{\xe \v Catch\:throw_logic_error}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::throw_logic_error (std::string const & msg)}}
+\par
+{\bkmkstart AAAAAAAAUM}
+{\bkmkend AAAAAAAAUM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3848                                                  \{\par
+3849         throw_exception(std::logic_error(msg));\par
+3850     \}\par
+}
+}
+{\xe \v throw_runtime_error\:Catch}
+{\xe \v Catch\:throw_runtime_error}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::throw_runtime_error (std::string const & msg)}}
+\par
+{\bkmkstart AAAAAAAAUN}
+{\bkmkend AAAAAAAAUN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3858                                                    \{\par
+3859         throw_exception(std::runtime_error(msg));\par
+3860     \}\par
+}
+}
+{\xe \v throw_test_failure_exception\:Catch}
+{\xe \v Catch\:throw_test_failure_exception}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::throw_test_failure_exception ()}}
+\par
+{\bkmkstart AAAAAAAAUO}
+{\bkmkend AAAAAAAAUO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Outlines throwing of {\f2 {\b TestFailureException}}  into a single TU\par
+Also handles {\f2 CATCH_CONFIG_DISABLE_EXCEPTIONS}  for callers. \par
+}{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6877                                         \{\par
+6878 {\cf21 #if !defined( CATCH_CONFIG_DISABLE_EXCEPTIONS )}\par
+6879         {\cf19 throw} TestFailureException\{\};\par
+6880 {\cf21 #else}\par
+6881         CATCH_ERROR( {\cf22 "Test failure requires aborting test!"} );\par
+6882 {\cf21 #endif}\par
+6883     \}\par
+}
+}
+{\xe \v throw_test_skip_exception\:Catch}
+{\xe \v Catch\:throw_test_skip_exception}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::throw_test_skip_exception ()}}
+\par
+{\bkmkstart AAAAAAAAUP}
+{\bkmkend AAAAAAAAUP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Outlines throwing of {\f2 {\b TestSkipException}}  into a single TU\par
+Also handles {\f2 CATCH_CONFIG_DISABLE_EXCEPTIONS}  for callers. \par
+}{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6885                                      \{\par
+6886 {\cf21 #if !defined( CATCH_CONFIG_DISABLE_EXCEPTIONS )}\par
+6887         {\cf19 throw} Catch::TestSkipException();\par
+6888 {\cf21 #else}\par
+6889         CATCH_ERROR( {\cf22 "Explicitly skipping tests during runtime requires exceptions"} );\par
+6890 {\cf21 #endif}\par
+6891     \}\par
+}
+}
+{\xe \v toLower\:Catch}
+{\xe \v Catch\:toLower}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+char Catch::toLower (char c)}}
+\par
+{\bkmkstart AAAAAAAAUQ}
+{\bkmkend AAAAAAAAUQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6292                          \{\par
+6293         {\cf19 return} {\cf17 static_cast<}{\cf18 char}{\cf17 >}(std::tolower({\cf17 static_cast<}{\cf18 unsigned} {\cf18 char}{\cf17 >}(c)));\par
+6294     \}\par
+}
+}
+{\xe \v toLower\:Catch}
+{\xe \v Catch\:toLower}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::string Catch::toLower (std::string const & s)}}
+\par
+{\bkmkstart AAAAAAAAUR}
+{\bkmkend AAAAAAAAUR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6287                                             \{\par
+6288         std::string lc = s;\par
+6289         toLowerInPlace( lc );\par
+6290         {\cf19 return} lc;\par
+6291     \}\par
+}
+}
+{\xe \v toLowerInPlace\:Catch}
+{\xe \v Catch\:toLowerInPlace}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::toLowerInPlace (std::string & s)}}
+\par
+{\bkmkstart AAAAAAAAUS}
+{\bkmkend AAAAAAAAUS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6282                                         \{\par
+6283         {\cf19 for} ( {\cf18 char}& c : s ) \{\par
+6284             c = toLower( c );\par
+6285         \}\par
+6286     \}\par
+}
+}
+{\xe \v translateActiveException\:Catch}
+{\xe \v Catch\:translateActiveException}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::string Catch::translateActiveException ()}}
+\par
+{\bkmkstart AAAAAAAAUT}
+{\bkmkend AAAAAAAAUT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1148                                          \{\par
+1149         {\cf19 return} getRegistryHub().getExceptionTranslatorRegistry().translateActiveException();\par
+1150     \}\par
+}
+}
+{\xe \v trim\:Catch}
+{\xe \v Catch\:trim}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::string Catch::trim (std::string const & str)}}
+\par
+{\bkmkstart AAAAAAAAUU}
+{\bkmkend AAAAAAAAUU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6296                                            \{\par
+6297         {\cf17 static} {\cf18 char} {\cf17 const}* whitespaceChars = {\cf22 "\\n\\r\\t "};\par
+6298         std::string::size_type start = str.find_first_not_of( whitespaceChars );\par
+6299         std::string::size_type end = str.find_last_not_of( whitespaceChars );\par
+6300 \par
+6301         {\cf19 return} start != std::string::npos ? str.substr( start, 1+end-start ) : std::string();\par
+6302     \}\par
+}
+}
+{\xe \v trim\:Catch}
+{\xe \v Catch\:trim}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b StringRef} Catch::trim ({\b StringRef} ref)}}
+\par
+{\bkmkstart AAAAAAAAUV}
+{\bkmkend AAAAAAAAUV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 6304                                   \{\par
+6305         {\cf17 const} {\cf17 auto} is_ws = []({\cf18 char} c) \{\par
+6306             {\cf19 return} c == {\cf23 ' '} || c == {\cf23 '\\t'} || c == {\cf23 '\\n'} || c == {\cf23 '\\r'};\par
+6307         \};\par
+6308         {\cf18 size_t} real_begin = 0;\par
+6309         {\cf19 while} (real_begin < ref.size() && is_ws(ref[real_begin])) \{ ++real_begin; \}\par
+6310         {\cf18 size_t} real_end = ref.size();\par
+6311         {\cf19 while} (real_end > real_begin && is_ws(ref[real_end - 1])) \{ --real_end; \}\par
+6312 \par
+6313         {\cf19 return} ref.substr(real_begin, real_end - real_begin);\par
+6314     \}\par
+}
+}
+{\xe \v uncaught_exceptions\:Catch}
+{\xe \v Catch\:uncaught_exceptions}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::uncaught_exceptions ()}}
+\par
+{\bkmkstart AAAAAAAAUW}
+{\bkmkend AAAAAAAAUW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 7575                                \{\par
+7576 {\cf21 #if defined(CATCH_CONFIG_DISABLE_EXCEPTIONS)}\par
+7577         {\cf19 return} {\cf17 false};\par
+7578 {\cf21 #elif defined(CATCH_CONFIG_CPP17_UNCAUGHT_EXCEPTIONS)}\par
+7579         {\cf19 return} std::uncaught_exceptions() > 0;\par
+7580 {\cf21 #else}\par
+7581         {\cf19 return} std::uncaught_exception();\par
+7582 {\cf21 #endif}\par
+7583   \}\par
+}
+}
+{\xe \v writeToDebugConsole\:Catch}
+{\xe \v Catch\:writeToDebugConsole}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::writeToDebugConsole (std::string const & text)}}
+\par
+{\bkmkstart AAAAAAAAUX}
+{\bkmkend AAAAAAAAUX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3691                                                           \{\par
+3692             {\cf20 // !TBD: Need a version for Mac/ XCode and other IDEs}\par
+3693             Catch::cout() << text;\par
+3694         \}\par
+}
+}
+}

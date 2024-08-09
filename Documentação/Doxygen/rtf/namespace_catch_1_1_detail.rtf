@@ -1,0 +1,892 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s6\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs12\cgrid \sbasedon0 \snext0 heading 6;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\*\listtable
+{\list\listtemplateid1
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8662 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid1}
+{\list\listtemplateid2
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid2}
+{\list\listtemplateid3
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid3}
+}
+{\listoverridetable
+{\listoverride\listid1\listoverridecount0\ls1}
+{\listoverride\listid2\listoverridecount0\ls2}
+{\listoverride\listid3\listoverridecount0\ls3}
+}
+{\comment begin body}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refência do Namespace Catch::Detail\par \pard\plain 
+{\tc\tcl2 \v Catch::Detail}
+{\xe \v Catch::Detail}
+{\bkmkstart AAAAAAACHU}
+{\bkmkend AAAAAAACHU}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b conjunction}\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b conjunction< B1 >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b conjunction< B1, Bn... >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b disjunction}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b disjunction< B1 >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b disjunction< B1, Bn... >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b EnumInfo}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b is_range_impl}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b is_range_impl< T, void_t< decltype(begin(std::declval< T >()))> >}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b IsStreamInsertable}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b make_void}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b negation}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b NonCopyable}\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Deriving classes become noncopyable and nonmovable. }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b unique_ptr}}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Definições de Tipos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename... Ts> using {\b void_t} = typename {\b make_void}<Ts...>::type\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename T > using {\b RemoveCVRef_t} = std::remove_cv_t<std::remove_reference_t<T>>\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funções\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::string {\b convertIntoString} ({\b StringRef} string, bool escapeInvisibles)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Encases `string in quotes, and optionally escapes invisibles. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::string {\b convertIntoString} ({\b StringRef} string)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Encases {\f2 string}  in quotes, and escapes invisibles if user requested it via CLI. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::string {\b rawMemoryToString} (const void *object, std::size_t size)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b registerTranslatorImpl} ({\b Detail::unique_ptr}< {\b IExceptionTranslator} > &&translator)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::vector< {\b StringRef} > {\b parseEnums} ({\b StringRef} enums)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Catch::Detail::unique_ptr}< {\b EnumInfo} > {\b makeEnumInfo} ({\b StringRef} enumName, {\b StringRef} allValueNames, std::vector< int > const &values)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+uint32_t {\b convertToBits} (float f)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+uint64_t {\b convertToBits} (double d)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b directCompare} (float lhs, float rhs)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b directCompare} (double lhs, double rhs)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+char const * {\b getEnv} (char const *varName)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::vector< std::string > {\b splitReporterSpec} ({\b StringRef} reporterSpec)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Splits the reporter spec into reporter name and kv-pair options. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Optional}< {\b ColourMode} > {\b stringToColourMode} ({\b StringRef} colourMode)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b registerReporterImpl} (std::string const &name, {\b IReporterFactoryPtr} reporterPtr)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b registerListenerImpl} ({\b Detail::unique_ptr}< EventListenerFactory > listenerFactory)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename T , typename... Args> {\b unique_ptr}< T > {\b make_unique} (Args &&... args)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::size_t {\b catch_strnlen} (const char *str, std::size_t n)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename T > std::string {\b rawMemoryToString} (const T &object)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename E > std::string {\b convertUnknownEnumToString} (E e)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename T > std::enable_if_t< !std::is_enum< T >{\b ::value} &&!std::is_base_of< std::exception, T >{\b ::value}, std::string > {\b convertUnstreamable} (T const &)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename T > std::enable_if_t< !std::is_enum< T >{\b ::value} &&std::is_base_of< std::exception, T >{\b ::value}, std::string > {\b convertUnstreamable} (T const &ex)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename T > std::enable_if_t< std::is_enum< T >{\b ::value}, std::string > {\b convertUnstreamable} (T const &{\b value})\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename T > std::string {\b stringify} (const T &e)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename InputIterator , typename Sentinel  = InputIterator> std::string {\b rangeToString} (InputIterator first, Sentinel last)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Variáveis\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+constexpr {\b StringRef} {\b unprintableString} = "\{?\}"_sr\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Definições dos tipos\par
+\pard\plain 
+{\xe \v RemoveCVRef_t\:Catch::Detail}
+{\xe \v Catch::Detail\:RemoveCVRef_t}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > using {\b Catch::Detail::RemoveCVRef_t} = std::remove_cv_t<std::remove_reference_t<T>>}}
+\par
+{\bkmkstart AAAAAAACHV}
+{\bkmkend AAAAAAACHV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v void_t\:Catch::Detail}
+{\xe \v Catch::Detail\:void_t}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename... Ts> using {\b Catch::Detail::void_t} = typename {\b make_void}<Ts...>::type}}
+\par
+{\bkmkstart AAAAAAACHW}
+{\bkmkend AAAAAAACHW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funções\par
+\pard\plain 
+{\xe \v catch_strnlen\:Catch::Detail}
+{\xe \v Catch::Detail\:catch_strnlen}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::size_t Catch::Detail::catch_strnlen (const char * str, std::size_t n){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACHX}
+{\bkmkend AAAAAAACHX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 2463                                                                      \{\par
+2464             {\cf17 auto} ret = std::char_traits<char>::find(str, n, {\cf23 '\\0'});\par
+2465             {\cf19 if} (ret != {\cf17 nullptr}) \{\par
+2466                 {\cf19 return} {\cf17 static_cast<}std::size_t{\cf17 >}(ret - str);\par
+2467             \}\par
+2468             {\cf19 return} n;\par
+2469         \}\par
+}
+}
+{\xe \v convertIntoString\:Catch::Detail}
+{\xe \v Catch::Detail\:convertIntoString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::string Catch::Detail::convertIntoString ({\b StringRef} string)}}
+\par
+{\bkmkstart AAAAAAACHY}
+{\bkmkend AAAAAAACHY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Encases {\f2 string}  in quotes, and escapes invisibles if user requested it via CLI. }}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 2012                                                   \{\par
+2013         {\cf19 return} convertIntoString({\cf18 string}, getCurrentContext().getConfig()->showInvisibles());\par
+2014     \}\par
+}
+}
+{\xe \v convertIntoString\:Catch::Detail}
+{\xe \v Catch::Detail\:convertIntoString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::string Catch::Detail::convertIntoString ({\b StringRef} string, bool escapeInvisibles)}}
+\par
+{\bkmkstart AAAAAAACHZ}
+{\bkmkend AAAAAAACHZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Encases `string in quotes, and optionally escapes invisibles. }}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1974                                                                          \{\par
+1975         std::string ret;\par
+1976         {\cf20 // This is enough for the "don't escape invisibles" case, and a good}\par
+1977         {\cf20 // lower bound on the "escape invisibles" case.}\par
+1978         ret.reserve({\cf18 string}.size() + 2);\par
+1979 \par
+1980         {\cf19 if} (!escapeInvisibles) \{\par
+1981             ret += {\cf23 '"'};\par
+1982             ret += string;\par
+1983             ret += {\cf23 '"'};\par
+1984             {\cf19 return} ret;\par
+1985         \}\par
+1986 \par
+1987         ret += {\cf23 '"'};\par
+1988         {\cf19 for} ({\cf18 char} c : {\cf18 string}) \{\par
+1989             {\cf19 switch} (c) \{\par
+1990             {\cf19 case} {\cf23 '\\r'}:\par
+1991                 ret.append({\cf22 "\\\\r"});\par
+1992                 {\cf19 break};\par
+1993             {\cf19 case} {\cf23 '\\n'}:\par
+1994                 ret.append({\cf22 "\\\\n"});\par
+1995                 {\cf19 break};\par
+1996             {\cf19 case} {\cf23 '\\t'}:\par
+1997                 ret.append({\cf22 "\\\\t"});\par
+1998                 {\cf19 break};\par
+1999             {\cf19 case} {\cf23 '\\f'}:\par
+2000                 ret.append({\cf22 "\\\\f"});\par
+2001                 {\cf19 break};\par
+2002             {\cf19 default}:\par
+2003                 ret.push_back(c);\par
+2004                 {\cf19 break};\par
+2005             \}\par
+2006         \}\par
+2007         ret += {\cf23 '"'};\par
+2008 \par
+2009         {\cf19 return} ret;\par
+2010     \}\par
+}
+}
+{\xe \v convertToBits\:Catch::Detail}
+{\xe \v Catch::Detail\:convertToBits}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint64_t Catch::Detail::convertToBits (double d)}}
+\par
+{\bkmkstart AAAAAAACIA}
+{\bkmkend AAAAAAACIA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 4266                                          \{\par
+4267             {\cf17 static_assert}({\cf17 sizeof}(double) == {\cf17 sizeof}(uint64_t), {\cf22 "Important ULP matcher assumption violated"});\par
+4268             uint64_t i;\par
+4269             std::memcpy(&i, &d, {\cf17 sizeof}(d));\par
+4270             {\cf19 return} i;\par
+4271         \}\par
+}
+}
+{\xe \v convertToBits\:Catch::Detail}
+{\xe \v Catch::Detail\:convertToBits}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint32_t Catch::Detail::convertToBits (float f)}}
+\par
+{\bkmkstart AAAAAAACIB}
+{\bkmkend AAAAAAACIB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 4259                                         \{\par
+4260             {\cf17 static_assert}({\cf17 sizeof}(float) == {\cf17 sizeof}(uint32_t), {\cf22 "Important ULP matcher assumption violated"});\par
+4261             uint32_t i;\par
+4262             std::memcpy(&i, &f, {\cf17 sizeof}(f));\par
+4263             {\cf19 return} i;\par
+4264         \}\par
+}
+}
+{\xe \v convertUnknownEnumToString\:Catch::Detail}
+{\xe \v Catch::Detail\:convertUnknownEnumToString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename E > std::string Catch::Detail::convertUnknownEnumToString (E e)}}
+\par
+{\bkmkstart AAAAAAACIC}
+{\bkmkend AAAAAAACIC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 2574                                                     \{\par
+2575             return ::Catch::Detail::stringify({\cf17 static_cast<}std::underlying_type_t<E>{\cf17 >}(e));\par
+2576         \}\par
+}
+}
+{\xe \v convertUnstreamable\:Catch::Detail}
+{\xe \v Catch::Detail\:convertUnstreamable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > std::enable_if_t< !std::is_enum< T >{\b ::value} &&!std::is_base_of< std::exception, T >{\b ::value}, std::string > Catch::Detail::convertUnstreamable (T const & )}}
+\par
+{\bkmkstart AAAAAAACID}
+{\bkmkend AAAAAAACID}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 2506                                                    \{\par
+2507             {\cf19 return} std::string(Detail::unprintableString);\par
+2508         \}\par
+}
+}
+{\xe \v convertUnstreamable\:Catch::Detail}
+{\xe \v Catch::Detail\:convertUnstreamable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > std::enable_if_t< !std::is_enum< T >{\b ::value} &&std::is_base_of< std::exception, T >{\b ::value}, std::string > Catch::Detail::convertUnstreamable (T const & ex)}}
+\par
+{\bkmkstart AAAAAAACIE}
+{\bkmkend AAAAAAACIE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 2512                                                      \{\par
+2513             {\cf19 return} ex.what();\par
+2514         \}\par
+}
+}
+{\xe \v convertUnstreamable\:Catch::Detail}
+{\xe \v Catch::Detail\:convertUnstreamable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > std::enable_if_t< std::is_enum< T >{\b ::value}, std::string > Catch::Detail::convertUnstreamable (T const & value)}}
+\par
+{\bkmkstart AAAAAAACIF}
+{\bkmkend AAAAAAACIF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 2520                                                          \{\par
+2521             {\cf19 return} convertUnknownEnumToString( value );\par
+2522         \}\par
+}
+}
+{\xe \v directCompare\:Catch::Detail}
+{\xe \v Catch::Detail\:directCompare}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::Detail::directCompare (double lhs, double rhs)}}
+\par
+{\bkmkstart AAAAAAACIG}
+{\bkmkend AAAAAAACIG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 4278 \{ {\cf19 return} lhs == rhs; \}\par
+}
+}
+{\xe \v directCompare\:Catch::Detail}
+{\xe \v Catch::Detail\:directCompare}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Catch::Detail::directCompare (float lhs, float rhs)}}
+\par
+{\bkmkstart AAAAAAACIH}
+{\bkmkend AAAAAAACIH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 4277 \{ {\cf19 return} lhs == rhs; \}\par
+}
+}
+{\xe \v getEnv\:Catch::Detail}
+{\xe \v Catch::Detail\:getEnv}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+char const  * Catch::Detail::getEnv (char const * varName)}}
+\par
+{\bkmkstart AAAAAAACII}
+{\bkmkend AAAAAAACII}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 4301                                                   \{\par
+4302 {\cf21 #    if defined( _MSC_VER )}\par
+4303 {\cf21 #        pragma warning( push )}\par
+4304 {\cf21 #        pragma warning( disable : 4996 ) }{\cf20 // use getenv_s instead of getenv}\par
+4305 {\cf21 #    endif}\par
+4306 \par
+4307             {\cf19 return} std::getenv( varName );\par
+4308 \par
+4309 {\cf21 #    if defined( _MSC_VER )}\par
+4310 {\cf21 #        pragma warning( pop )}\par
+4311 {\cf21 #    endif}\par
+4312         \}\par
+}
+}
+{\xe \v make_unique\:Catch::Detail}
+{\xe \v Catch::Detail\:make_unique}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T , typename... Args> {\b unique_ptr}< T > Catch::Detail::make_unique (Args &&... args)}}
+\par
+{\bkmkstart AAAAAAACIJ}
+{\bkmkend AAAAAAACIJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 947                                               \{\par
+948         {\cf19 return} unique_ptr<T>({\cf17 new} T(CATCH_FORWARD(args)...));\par
+949     \}\par
+}
+}
+{\xe \v makeEnumInfo\:Catch::Detail}
+{\xe \v Catch::Detail\:makeEnumInfo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Catch::Detail::unique_ptr}< {\b EnumInfo} > Catch::Detail::makeEnumInfo ({\b StringRef} enumName, {\b StringRef} allValueNames, std::vector< int > const & values)}}
+\par
+{\bkmkstart AAAAAAACIK}
+{\bkmkend AAAAAAACIK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3909                                                                                                                                   \{\par
+3910             {\cf17 auto} enumInfo = Catch::Detail::make_unique<EnumInfo>();\par
+3911             enumInfo->m_name = enumName;\par
+3912             enumInfo->m_values.reserve( values.size() );\par
+3913 \par
+3914             {\cf17 const} {\cf17 auto} valueNames = Catch::Detail::parseEnums( allValueNames );\par
+3915             assert( valueNames.size() == values.size() );\par
+3916             std::size_t i = 0;\par
+3917             {\cf19 for}( {\cf17 auto} value : values )\par
+3918                 enumInfo->m_values.emplace_back(value, valueNames[i++]);\par
+3919 \par
+3920             {\cf19 return} enumInfo;\par
+3921         \}\par
+}
+}
+{\xe \v parseEnums\:Catch::Detail}
+{\xe \v Catch::Detail\:parseEnums}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::vector< {\b StringRef} > Catch::Detail::parseEnums ({\b StringRef} enums)}}
+\par
+{\bkmkstart AAAAAAACIL}
+{\bkmkend AAAAAAACIL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 3889                                                            \{\par
+3890             {\cf17 auto} enumValues = splitStringRef( enums, {\cf23 ','} );\par
+3891             std::vector<StringRef> parsed;\par
+3892             parsed.reserve( enumValues.size() );\par
+3893             {\cf19 for}( {\cf17 auto} {\cf17 const}& enumValue : enumValues ) \{\par
+3894                 parsed.push_back(trim(extractInstanceName(enumValue)));\par
+3895             \}\par
+3896             {\cf19 return} parsed;\par
+3897         \}\par
+}
+}
+{\xe \v rangeToString\:Catch::Detail}
+{\xe \v Catch::Detail\:rangeToString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename InputIterator , typename Sentinel  = InputIterator> std::string Catch::Detail::rangeToString (InputIterator first, Sentinel last)}}
+\par
+{\bkmkstart AAAAAAACIM}
+{\bkmkend AAAAAAACIM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 2763                                                                     \{\par
+2764             ReusableStringStream rss;\par
+2765             rss << {\cf22 "\{ "};\par
+2766             {\cf19 if} (first != last) \{\par
+2767                 rss << ::Catch::Detail::stringify(*first);\par
+2768                 {\cf19 for} (++first; first != last; ++first)\par
+2769                     rss << {\cf22 ", "} << ::Catch::Detail::stringify(*first);\par
+2770             \}\par
+2771             rss << {\cf22 " \}"};\par
+2772             {\cf19 return} rss.str();\par
+2773         \}\par
+}
+}
+{\xe \v rawMemoryToString\:Catch::Detail}
+{\xe \v Catch::Detail\:rawMemoryToString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > std::string Catch::Detail::rawMemoryToString (const T & object)}}
+\par
+{\bkmkstart AAAAAAACIN}
+{\bkmkend AAAAAAACIN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 2483                                                        \{\par
+2484           {\cf19 return} rawMemoryToString( &{\cf18 object}, {\cf17 sizeof}({\cf18 object}) );\par
+2485         \}\par
+}
+}
+{\xe \v rawMemoryToString\:Catch::Detail}
+{\xe \v Catch::Detail\:rawMemoryToString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::string Catch::Detail::rawMemoryToString (const void * object, std::size_t size)}}
+\par
+{\bkmkstart AAAAAAACIO}
+{\bkmkend AAAAAAACIO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 2016                                                                       \{\par
+2017         {\cf20 // Reverse order for little endian architectures}\par
+2018         {\cf18 int} i = 0, end = {\cf17 static_cast<}{\cf18 int}{\cf17 >}( size ), inc = 1;\par
+2019         {\cf19 if}( Endianness::which() == Endianness::Little ) \{\par
+2020             i = end-1;\par
+2021             end = inc = -1;\par
+2022         \}\par
+2023 \par
+2024         {\cf18 unsigned} {\cf18 char} {\cf17 const} *bytes = {\cf17 static_cast<}{\cf18 unsigned} {\cf18 char} {\cf17 const }*{\cf17 >}(object);\par
+2025         ReusableStringStream rss;\par
+2026         rss << {\cf22 "0x"} << std::setfill({\cf23 '0'}) << std::hex;\par
+2027         {\cf19 for}( ; i != end; i += inc )\par
+2028              rss << std::setw(2) << {\cf17 static_cast<}{\cf18 unsigned}{\cf17 >}(bytes[i]);\par
+2029        {\cf19 return} rss.str();\par
+2030     \}\par
+}
+}
+{\xe \v registerListenerImpl\:Catch::Detail}
+{\xe \v Catch::Detail\:registerListenerImpl}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::Detail::registerListenerImpl ({\b Detail::unique_ptr}< EventListenerFactory > listenerFactory)}}
+\par
+{\bkmkstart AAAAAAACIP}
+{\bkmkend AAAAAAACIP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10764                                                                                             \{\par
+10765             getMutableRegistryHub().registerListener( CATCH_MOVE(listenerFactory) );\par
+10766         \}\par
+}
+}
+{\xe \v registerReporterImpl\:Catch::Detail}
+{\xe \v Catch::Detail\:registerReporterImpl}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::Detail::registerReporterImpl (std::string const & name, {\b IReporterFactoryPtr} reporterPtr)}}
+\par
+{\bkmkstart AAAAAAACIQ}
+{\bkmkend AAAAAAACIQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10752                                                                      \{\par
+10753             CATCH_TRY \{\par
+10754                 getMutableRegistryHub().registerReporter(\par
+10755                     name, CATCH_MOVE( reporterPtr ) );\par
+10756             \}\par
+10757             CATCH_CATCH_ALL \{\par
+10758                 {\cf20 // Do not throw when constructing global objects, instead}\par
+10759                 {\cf20 // register the exception to be processed later}\par
+10760                 getMutableRegistryHub().registerStartupException();\par
+10761             \}\par
+10762         \}\par
+}
+}
+{\xe \v registerTranslatorImpl\:Catch::Detail}
+{\xe \v Catch::Detail\:registerTranslatorImpl}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Catch::Detail::registerTranslatorImpl ({\b Detail::unique_ptr}< {\b IExceptionTranslator} > && translator)}}
+\par
+{\bkmkstart AAAAAAACIR}
+{\bkmkend AAAAAAACIR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 2238                                                                   \{\par
+2239             getMutableRegistryHub().registerTranslator(\par
+2240                 CATCH_MOVE( translator ) );\par
+2241         \}\par
+}
+}
+{\xe \v splitReporterSpec\:Catch::Detail}
+{\xe \v Catch::Detail\:splitReporterSpec}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::vector< std::string > Catch::Detail::splitReporterSpec ({\b StringRef} reporterSpec)}}
+\par
+{\bkmkstart AAAAAAACIS}
+{\bkmkend AAAAAAACIS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Splits the reporter spec into reporter name and kv-pair options. }}\par
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 5210                                                                          \{\par
+5211             {\cf17 static} {\cf17 constexpr} {\cf17 auto} separator = {\cf22 "::"};\par
+5212             {\cf17 static} {\cf17 constexpr} {\cf18 size_t} separatorSize = 2;\par
+5213 \par
+5214             {\cf18 size_t} separatorPos = 0;\par
+5215             {\cf17 auto} findNextSeparator = [&reporterSpec]( {\cf18 size_t} startPos ) \{\par
+5216                 {\cf17 static_assert}(\par
+5217                     separatorSize == 2,\par
+5218                     {\cf22 "The code below currently assumes 2 char separator"} );\par
+5219 \par
+5220                 {\cf17 auto} currentPos = startPos;\par
+5221                 {\cf19 do} \{\par
+5222                     {\cf19 while} ( currentPos < reporterSpec.size() &&\par
+5223                             reporterSpec[currentPos] != separator[0] ) \{\par
+5224                         ++currentPos;\par
+5225                     \}\par
+5226                     {\cf19 if} ( currentPos + 1 < reporterSpec.size() &&\par
+5227                          reporterSpec[currentPos + 1] == separator[1] ) \{\par
+5228                         {\cf19 return} currentPos;\par
+5229                     \}\par
+5230                     ++currentPos;\par
+5231                 \} {\cf19 while} ( currentPos < reporterSpec.size() );\par
+5232 \par
+5233                 {\cf19 return} {\cf17 static_cast<}{\cf18 size_t}{\cf17 >}( -1 );\par
+5234             \};\par
+5235 \par
+5236             std::vector<std::string> parts;\par
+5237 \par
+5238             {\cf19 while} ( separatorPos < reporterSpec.size() ) \{\par
+5239                 {\cf17 const} {\cf17 auto} nextSeparator = findNextSeparator( separatorPos );\par
+5240                 parts.push_back( {\cf17 static_cast<}std::string{\cf17 >}( reporterSpec.substr(\par
+5241                     separatorPos, nextSeparator - separatorPos ) ) );\par
+5242 \par
+5243                 {\cf19 if} ( nextSeparator == {\cf17 static_cast<}{\cf18 size_t}{\cf17 >}( -1 ) ) \{\par
+5244                     {\cf19 break};\par
+5245                 \}\par
+5246                 separatorPos = nextSeparator + separatorSize;\par
+5247             \}\par
+5248 \par
+5249             {\cf20 // Handle a separator at the end.}\par
+5250             {\cf20 // This is not a valid spec, but we want to do validation in a}\par
+5251             {\cf20 // centralized place}\par
+5252             {\cf19 if} ( separatorPos == reporterSpec.size() ) \{\par
+5253                 parts.emplace_back();\par
+5254             \}\par
+5255 \par
+5256             {\cf19 return} parts;\par
+5257         \}\par
+}
+}
+{\xe \v stringify\:Catch::Detail}
+{\xe \v Catch::Detail\:stringify}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T > std::string Catch::Detail::stringify (const T & e)}}
+\par
+{\bkmkstart AAAAAAACIT}
+{\bkmkend AAAAAAACIT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 2569                                         \{\par
+2570             return ::Catch::StringMaker<std::remove_cv_t<std::remove_reference_t<T>>>::convert(e);\par
+2571         \}\par
+}
+}
+{\xe \v stringToColourMode\:Catch::Detail}
+{\xe \v Catch::Detail\:stringToColourMode}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Optional}< {\b ColourMode} > Catch::Detail::stringToColourMode ({\b StringRef} colourMode)}}
+\par
+{\bkmkstart AAAAAAACIU}
+{\bkmkend AAAAAAACIU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 5259                                                                         \{\par
+5260             {\cf19 if} ( colourMode == {\cf22 "default"} ) \{\par
+5261                 {\cf19 return} ColourMode::PlatformDefault;\par
+5262             \} {\cf19 else} {\cf19 if} ( colourMode == {\cf22 "ansi"} ) \{\par
+5263                 {\cf19 return} ColourMode::ANSI;\par
+5264             \} {\cf19 else} {\cf19 if} ( colourMode == {\cf22 "win32"} ) \{\par
+5265                 {\cf19 return} ColourMode::Win32;\par
+5266             \} {\cf19 else} {\cf19 if} ( colourMode == {\cf22 "none"} ) \{\par
+5267                 {\cf19 return} ColourMode::None;\par
+5268             \} {\cf19 else} \{\par
+5269                 {\cf19 return} \{\};\par
+5270             \}\par
+5271         \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Variáveis\par
+\pard\plain 
+{\xe \v unprintableString\:Catch::Detail}
+{\xe \v Catch::Detail\:unprintableString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b StringRef} Catch::Detail::unprintableString = "\{?\}"_sr{\f2 [constexpr]}}}
+\par
+{\bkmkstart AAAAAAACIV}
+{\bkmkend AAAAAAACIV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+}

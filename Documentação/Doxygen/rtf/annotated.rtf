@@ -1,0 +1,578 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s6\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs12\cgrid \sbasedon0 \snext0 heading 6;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\*\listtable
+{\list\listtemplateid1
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8662 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid1}
+{\list\listtemplateid2
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid2}
+{\list\listtemplateid3
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid3}
+}
+{\listoverridetable
+{\listoverride\listid1\listoverridecount0\ls1}
+{\listoverride\listid2\listoverridecount0\ls2}
+{\listoverride\listid3\listoverridecount0\ls3}
+}
+{\comment begin body}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista de Classes\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Aqui estão as classes, estruturas, uniões e interfaces e suas respectivas descrições:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b Catch::Clara::accept_many_t} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACAL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::always_false< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAUY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Approx} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAUZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Arg} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACAM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Args} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACAP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Generators::as< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACLC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::AssertionHandler} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAVR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::AssertionInfo} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAWE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::AssertionReaction} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAWJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::AssertionResult} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAWN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::AssertionResultData} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAXE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::AutoReg} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAXM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::BasicResult< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACCV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::Benchmark} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABVK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::Detail::BenchmarkFunction} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABYM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::BenchmarkInfo} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAXO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::BenchmarkStats< Dummy >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAXW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::BinaryExpr< LhsT, RhsT >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAYD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::Detail::bootstrap_analysis} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABYU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::BoundFlagLambda< L >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACDJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::BoundFlagRef} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACDO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::BoundFlagRefBase} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACDS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::BoundLambda< L >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACDV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::BoundManyLambda< L >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACEA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::BoundRef} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACEE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::BoundValueRef< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACEH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::BoundValueRef< std::vector< T > >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACEL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::BoundValueRefBase} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACEP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::capture_by_value< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAYN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Capturer} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAYO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch_global_namespace_dummy} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAOB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::Chronometer} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABVR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::Detail::ChronometerConcept} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABYY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::Detail::ChronometerModel< Clock >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABZH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Generators::ChunkGenerator< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACLD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ColumnInfo} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAYW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::Detail::CompleteInvoker< Result >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABZL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::Detail::CompleteInvoker< void >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABZN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::Detail::CompleteType< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABZP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::Detail::CompleteType< void >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABZR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::ComposableParserImpl< DerivedT >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACEQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Config} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAZA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ConfigData} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABBN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Detail::conjunction<... >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACIW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Detail::conjunction< B1 >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACIX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Detail::conjunction< B1, Bn... >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACIY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Context} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABCX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Counts} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABDF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Decomposer} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABDP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Detail::disjunction<... >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACIZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Detail::disjunction< B1 >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACJA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Detail::disjunction< B1, Bn... >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACJB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Emprestimo} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAOC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b EmprestimoLivros} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAOM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Detail::EnumInfo} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACJC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::Environment} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABVV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::EnvironmentEstimate} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABVY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::Estimate< Type >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABWB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ExceptionTranslatorRegistrar} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABDS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::ExecutionPlan} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABWG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::ExeName} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACAT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ExprLhs< LhsT >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABDU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::fake_arg} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACET \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Generators::FilterGenerator< T, Predicate >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACLJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::TestSpec::FilterMatch} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABTJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Generators::FixedValuesGenerator< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACLN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::GeneratorException} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABDZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Generators::Generators< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACLR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Generators::GeneratorUntypedBase} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACLI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Generators::GeneratorWrapper< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACMC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b GerenciamentoLivros} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAOR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b GerenciamentoUsuario} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAOX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Help} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACBA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::HelpColumns} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACEV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::IConfig} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABEC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::IExceptionTranslator} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABEE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::IExceptionTranslatorRegistry} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABEH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Generators::IGenerator< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACMH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::IGeneratorTracker} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABEK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::IMutableEnumValuesRegistry} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABEP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::IMutableRegistryHub} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABET \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::IRegistryHub} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABFC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::IResultCapture} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABFJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::is_callable< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABGK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::is_callable< Fun(Args...)>} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABGL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::is_callable_tester} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABGM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::is_range< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABGP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Detail::is_range_impl< T, typename >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACJH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Detail::is_range_impl< T, void_t< decltype(begin(std::declval< T >()))> >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACJI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::Detail::is_related< T, U >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABZT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::is_unary_function< F, typename >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACEY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::is_unary_function< F, Catch::Detail::void_t< decltype(std::declval< F >()(fake_arg())) > >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACEZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Detail::IsStreamInsertable< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACJJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ITestInvoker} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABGQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ITransientExpression} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABGU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::LambdaInvoker< ReturnType >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACFA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::LambdaInvoker< void >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACFC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::LazyExpression} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABHE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Livro} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAPC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Detail::make_void<... >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACJL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Generators::MapGenerator< T, U, Func >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACMN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::MessageBuilder} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABHN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::MessageInfo} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABHR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::MessageStream} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABIA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::NameAndTags} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABID \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Detail::negation< B >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACJN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Detail::NonCopyable} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Deriving classes become noncopyable and nonmovable })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACJO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::Detail::ObjectStorage< T, Destruct >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABZU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Opt} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACBC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Optional< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABIH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::OutlierClassification} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABWN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Parser} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACBQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::ParserBase} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACFE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::ParserRefImpl< DerivedT >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACFJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::ParseState} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACFY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Generators::RandomFloatingGenerator::PImpl} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACND \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ProcessedReporterSpec} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABJE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ratio_string< Ratio >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABJL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ratio_string< std::atto >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABJN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ratio_string< std::femto >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABJP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ratio_string< std::micro >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABJR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ratio_string< std::milli >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABJT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ratio_string< std::nano >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABJV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ratio_string< std::pico >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABJX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::RegistrarForTagAliases} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABJZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::Detail::repeater< Fun >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACAB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Generators::RepeatGenerator< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACMQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ReporterRegistry::ReporterRegistryImpl} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACOJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ReporterSpec} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABKB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::ResultBase} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACGD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ResultDisposition} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABKJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::ResultValueBase< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACGL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::ResultValueBase< void >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACGY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ResultWas} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABKP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ReusableStringStream} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABLD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::SampleAnalysis} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABWU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::ScopedMessage} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABLK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Section} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABLR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::SectionEndInfo} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABLW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::SectionInfo} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABMA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Session} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABME \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::SignalDefs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABMR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::SimplePcg32} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABMU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Generators::SingleValueGenerator< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACMT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::SourceLineInfo} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABNF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StreamEndStop} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABNN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< T, typename >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABNQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< bool >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABNT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< Catch::Approx >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABNV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< char * >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABNX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< char >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABNZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< char const * >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABOB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< char[SZ]>} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABOD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< double >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABOF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< float >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABOI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< int >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABOL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< long >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABON \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< long long >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABOP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< R C::* >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABOR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< R, std::enable_if_t< is_range< R >::value &&!::Catch::Detail::IsStreamInsertable< R >::value > >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABOT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< signed char >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABOV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< signed char[SZ]>} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABOX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< std::chrono::duration< Value, Ratio > >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABOZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< std::chrono::duration< Value, std::ratio< 1 > > >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABPB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< std::chrono::duration< Value, std::ratio< 3600 > > >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABPD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< std::chrono::duration< Value, std::ratio< 60 > > >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABPF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< std::chrono::time_point< Clock, Duration > >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABPH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< std::chrono::time_point< std::chrono::system_clock, Duration > >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABPJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< std::nullptr_t >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABPL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< std::string >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABPN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< std::wstring >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABPP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< T * >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABPR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< T[SZ]>} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABPT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< unsigned char >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABPV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< unsigned char[SZ]>} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABPX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< unsigned int >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABPZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< unsigned long >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABQB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< unsigned long long >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABQD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< wchar_t * >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABQF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringMaker< wchar_t const * >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABQH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringRef} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABQJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::StringStreams} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABRG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::TablePrinter} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABRM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Tag} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABRV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::TagAlias} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABSA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Generators::TakeGenerator< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACMX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::TestCaseHandle} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABSE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::TestCaseInfo} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABSI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::TestFailureException} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Used to signal that an assertion macro failed })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABSW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::TestInvokerAsMethod< C >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABSX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::TestSkipException} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Used to signal that the remainder of a test should be skipped })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABSZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::TestSpec} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABTA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Timer} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABTM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::Timing< Result >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABXA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::Token} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACHC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::TokenStream} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACHF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Totals} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABTS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::true_given< typename >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABTY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Benchmark::Detail::CompleteType< void >::type} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABZS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::UnaryExpr< LhsT >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABTZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::UnaryLambdaTraits< L >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACHN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::UnaryLambdaTraits< ReturnT(ClassT::*)(Args...) const >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACHO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Clara::Detail::UnaryLambdaTraits< ReturnT(ClassT::*)(ArgT) const >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACHQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Detail::unique_ptr< T >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAACJQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Usuario} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAPK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::Version} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABUB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::WaitForKeypress} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABUL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::WarnAbout} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABUR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Catch::WildcardPattern} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAABUW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}}

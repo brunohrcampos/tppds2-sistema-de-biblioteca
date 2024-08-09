@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['elapsed_0',['elapsed',['../struct_catch_1_1_benchmark_1_1_detail_1_1_chronometer_model.html#a888ac0188449f74cb7c5ffb1a9e918c8',1,'Catch::Benchmark::Detail::ChronometerModel']]],
+  ['emplaceunscopedmessage_1',['emplaceUnscopedMessage',['../class_catch_1_1_i_result_capture.html#a1aa4505b96a637a44b5d3580cd90f18b',1,'Catch::IResultCapture']]],
+  ['emprestimo_2',['Emprestimo',['../class_emprestimo.html#a2578195c956b2c3cd80ba0a610281c49',1,'Emprestimo']]],
+  ['empty_3',['empty',['../class_catch_1_1_string_ref.html#a0b4841c28cbb14ba07296964a0187023',1,'Catch::StringRef']]],
+  ['end_4',['end',['../class_catch_1_1_string_ref.html#a3ce9afc711b559d6cc59666898fc0828',1,'Catch::StringRef']]],
+  ['endswith_5',['EndsWith',['../namespace_catch_1_1_matchers.html#a12b1480cb0af61579e8776cf538d0069',1,'Catch::Matchers']]],
+  ['endswith_6',['endsWith',['../namespace_catch.html#ada025504f627feaf9ac68ca391515dff',1,'Catch::endsWith(std::string const &amp;s, std::string const &amp;suffix)'],['../namespace_catch.html#afd801a3e33fd7a8b91ded0d02747a93f',1,'Catch::endsWith(std::string const &amp;s, char suffix)']]],
+  ['enforceok_7',['enforceOk',['../class_catch_1_1_clara_1_1_detail_1_1_result_base.html#aa745dfcd5ea1c94e93b57e5434a34177',1,'Catch::Clara::Detail::ResultBase::enforceOk()'],['../class_catch_1_1_clara_1_1_detail_1_1_basic_result.html#a87690846616d49ba834603770909055d',1,'Catch::Clara::Detail::BasicResult::enforceOk()']]],
+  ['epsilon_8',['epsilon',['../class_catch_1_1_approx.html#ab9b569c030c0399a187f96e7d95e501f',1,'Catch::Approx']]],
+  ['equals_9',['Equals',['../namespace_catch_1_1_matchers.html#ae584743abef84739c036faf46eef53b7',1,'Catch::Matchers']]],
+  ['erfc_5finv_10',['erfc_inv',['../namespace_catch_1_1_benchmark_1_1_detail.html#a62d6c634e2c8901d02ffe8718817f1b4',1,'Catch::Benchmark::Detail']]],
+  ['errormessage_11',['errorMessage',['../class_catch_1_1_clara_1_1_detail_1_1_basic_result.html#a72212341d12d38b9ef6f8c3ecaae3d66',1,'Catch::Clara::Detail::BasicResult']]],
+  ['estimate_5fclock_5fcost_12',['estimate_clock_cost',['../namespace_catch_1_1_benchmark_1_1_detail.html#ac10ce6a746501524891ce359e61f3e43',1,'Catch::Benchmark::Detail']]],
+  ['estimate_5fclock_5fresolution_13',['estimate_clock_resolution',['../namespace_catch_1_1_benchmark_1_1_detail.html#a5c57c45d75d53880caaf8c422aa1a5ab',1,'Catch::Benchmark::Detail']]],
+  ['exceptionearlyreported_14',['exceptionEarlyReported',['../class_catch_1_1_i_result_capture.html#ae63ecec95db4c236c63ecf616f483810',1,'Catch::IResultCapture']]],
+  ['exceptiontranslatorregistrar_15',['ExceptionTranslatorRegistrar',['../class_catch_1_1_exception_translator_registrar.html#a641142ed5d0f3c6608f496a9b9c4b38b',1,'Catch::ExceptionTranslatorRegistrar']]],
+  ['exename_16',['ExeName',['../class_catch_1_1_clara_1_1_exe_name.html#a1ac750117e67530dfcfe30463fc293c7',1,'Catch::Clara::ExeName::ExeName()'],['../class_catch_1_1_clara_1_1_exe_name.html#afca75aeb9679dffe95232d3ee19e9a9b',1,'Catch::Clara::ExeName::ExeName(std::string &amp;ref)'],['../class_catch_1_1_clara_1_1_exe_name.html#abd67f80f71ef0e4148856ba62fa8832b',1,'Catch::Clara::ExeName::ExeName(LambdaT const &amp;lambda)']]],
+  ['exename_17',['exeName',['../class_catch_1_1_clara_1_1_args.html#a6f03913f5e23a45f5a6a1ac5fb119ed1',1,'Catch::Clara::Args']]],
+  ['exibirmenu_18',['exibirMenu',['../main_8cpp.html#a41e28bb4d9d18b22673799874520024e',1,'main.cpp']]],
+  ['exibirrelatorioemprestimos_19',['exibirRelatorioEmprestimos',['../class_emprestimo_livros.html#a801ce41d4fe601000649577b5ffafab4',1,'EmprestimoLivros']]],
+  ['exibirrelatoriolivros_20',['exibirRelatorioLivros',['../class_gerenciamento_livros.html#a5f22ad25dabeef7870e2d3b50cd27871',1,'GerenciamentoLivros']]],
+  ['exibirrelatoriousuarios_21',['exibirRelatorioUsuarios',['../class_gerenciamento_usuario.html#aebfef98f56b1b6e6fb4d2cae7006127b',1,'GerenciamentoUsuario']]],
+  ['expectedtofail_22',['expectedToFail',['../struct_catch_1_1_test_case_info.html#abe33d81233230cdae8afa714688e905b',1,'Catch::TestCaseInfo']]],
+  ['exprlhs_23',['ExprLhs',['../class_catch_1_1_expr_lhs.html#aa05660c1ebe53b4989d4459c89ee6e46',1,'Catch::ExprLhs']]]
+];
